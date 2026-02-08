@@ -1,0 +1,1001 @@
+Age,,,,,,,Purchase_Category,Purchase_Amount,Frequency_of_Purchase,,,Product_Rating,,,,,Customer_Satisfaction,,,,,,,,Shipping_Preference
+22,,,,,,,Gardening & Outdoors,333.80,4,,,5,,,,,7,,,,,,,,No Preference
+49,,,,,,,Food & Beverages,222.22,11,,,1,,,,,5,,,,,,,,Standard
+24,,,,,,,Office Supplies,426.22,2,,,5,,,,,7,,,,,,,,No Preference
+29,,,,,,,Home Appliances,101.31,6,,,1,,,,,1,,,,,,,,Express
+33,,,,,,,Furniture,211.70,6,,,4,,,,,10,,,,,,,,No Preference
+45,,,,,,,Office Supplies,487.95,8,,,3,,,,,3,,,,,,,,No Preference
+21,,,,,,,Furniture,486.40,12,,,5,,,,,9,,,,,,,,Express
+39,,,,,,,Books,218.06,6,,,4,,,,,9,,,,,,,,No Preference
+24,,,,,,,Office Supplies,201.96,8,,,5,,,,,2,,,,,,,,Standard
+25,,,,,,,Sports & Outdoors,418.83,7,,,5,,,,,5,,,,,,,,No Preference
+33,,,,,,,Mobile Accessories,389.70,12,,,4,,,,,4,,,,,,,,Express
+38,,,,,,,Sports & Outdoors,238.93,5,,,3,,,,,10,,,,,,,,No Preference
+34,,,,,,,Luxury Goods,61.22,7,,,2,,,,,7,,,,,,,,No Preference
+32,,,,,,,Animal Feed,79.81,4,,,5,,,,,9,,,,,,,,Standard
+30,,,,,,,Health Care,58.51,2,,,4,,,,,4,,,,,,,,No Preference
+40,,,,,,,Hotels,109.29,3,,,4,,,,,2,,,,,,,,Express
+37,,,,,,,Furniture,356.45,6,,,5,,,,,7,,,,,,,,Standard
+38,,,,,,,Mobile Accessories,236.99,10,,,4,,,,,8,,,,,,,,No Preference
+36,,,,,,,Packages),454.39,10,,,4,,,,,3,,,,,,,,Standard
+29,,,,,,,Electronics,490.75,10,,,4,,,,,4,,,,,,,,Standard
+21,,,,,,,Software & Apps,463.07,7,,,2,,,,,2,,,,,,,,No Preference
+36,,,,,,,Baby Products,56.74,5,,,1,,,,,6,,,,,,,,Express
+38,,,,,,,Toys & Games,371.32,7,,,4,,,,,1,,,,,,,,Standard
+37,,,,,,,Software & Apps,461.00,7,,,4,,,,,8,,,,,,,,Standard
+33,,,,,,,Food & Beverages,253.37,6,,,1,,,,,10,,,,,,,,Standard
+37,,,,,,,Packages),136.53,3,,,4,,,,,3,,,,,,,,Standard
+31,,,,,,,Arts & Crafts,489.05,10,,,3,,,,,2,,,,,,,,Standard
+50,,,,,,,Electronics,81.91,10,,,4,,,,,4,,,,,,,,Express
+50,,,,,,,Arts & Crafts,135.80,2,,,5,,,,,2,,,,,,,,No Preference
+45,,,,,,,Health Supplements,382.24,12,,,5,,,,,4,,,,,,,,Standard
+33,,,,,,,Gardening & Outdoors,354.70,5,,,2,,,,,7,,,,,,,,Express
+24,,,,,,,Mobile Accessories,433.82,6,,,2,,,,,8,,,,,,,,Express
+39,,,,,,,Mobile Accessories,282.13,5,,,5,,,,,2,,,,,,,,Standard
+48,,,,,,,Mobile Accessories,454.38,10,,,4,,,,,10,,,,,,,,No Preference
+25,,,,,,,Mobile Accessories,138.88,7,,,4,,,,,3,,,,,,,,No Preference
+30,,,,,,,Books,52.34,6,,,4,,,,,5,,,,,,,,Express
+34,,,,,,,Groceries,338.20,7,,,5,,,,,9,,,,,,,,Standard
+21,,,,,,,Toys & Games,263.15,3,,,5,,,,,10,,,,,,,,Express
+36,,,,,,,Software & Apps,371.58,2,,,1,,,,,10,,,,,,,,No Preference
+30,,,,,,,Health Care,353.40,2,,,3,,,,,1,,,,,,,,No Preference
+46,,,,,,,Software & Apps,329.41,5,,,3,,,,,1,,,,,,,,No Preference
+46,,,,,,,Food & Beverages,54.46,5,,,5,,,,,1,,,,,,,,Standard
+43,,,,,,,Books,257.12,8,,,1,,,,,1,,,,,,,,No Preference
+43,,,,,,,Arts & Crafts,293.04,11,,,2,,,,,3,,,,,,,,Standard
+34,,,,,,,Books,110.40,12,,,1,,,,,3,,,,,,,,Standard
+42,,,,,,,Mobile Accessories,76.27,4,,,3,,,,,8,,,,,,,,Standard
+40,,,,,,,Toys & Games,392.08,6,,,5,,,,,7,,,,,,,,Express
+25,,,,,,,Toys & Games,51.22,6,,,1,,,,,5,,,,,,,,Standard
+38,,,,,,,Clothing,227.57,2,,,2,,,,,6,,,,,,,,No Preference
+46,,,,,,,Groceries,378.87,7,,,2,,,,,2,,,,,,,,No Preference
+24,,,,,,,Beauty & Personal Care,423.92,8,,,1,,,,,9,,,,,,,,Standard
+43,,,,,,,Arts & Crafts,111.24,9,,,2,,,,,2,,,,,,,,No Preference
+37,,,,,,,Travel & Leisure (Flights,299.31,7,,,4,,,,,3,,,,,,,,Express
+42,,,,,,,Animal Feed,169.28,7,,,4,,,,,1,,,,,,,,No Preference
+29,,,,,,,Office Supplies,449.13,9,,,1,,,,,2,,,,,,,,No Preference
+35,,,,,,,Animal Feed,427.48,6,,,2,,,,,1,,,,,,,,Standard
+27,,,,,,,Sports & Outdoors,171.61,3,,,1,,,,,6,,,,,,,,Express
+40,,,,,,,Books,240.28,3,,,5,,,,,7,,,,,,,,Standard
+34,,,,,,,Furniture,310.17,6,,,3,,,,,10,,,,,,,,No Preference
+25,,,,,,,Hotels,166.00,10,,,3,,,,,10,,,,,,,,Express
+38,,,,,,,Baby Products,362.01,2,,,4,,,,,1,,,,,,,,Express
+33,,,,,,,Travel & Leisure (Flights,348.50,3,,,3,,,,,6,,,,,,,,No Preference
+32,,,,,,,Animal Feed,395.97,9,,,4,,,,,6,,,,,,,,Standard
+50,,,,,,,Sports & Outdoors,474.99,9,,,4,,,,,8,,,,,,,,Standard
+35,,,,,,,Luxury Goods,286.43,4,,,3,,,,,3,,,,,,,,Express
+19,,,,,,,Health Care,333.32,8,,,5,,,,,3,,,,,,,,No Preference
+46,,,,,,,Electronics,223.47,9,,,1,,,,,2,,,,,,,,Standard
+23,,,,,,,Sports & Outdoors,414.83,2,,,4,,,,,4,,,,,,,,Express
+34,,,,,,,Books,391.38,5,,,2,,,,,7,,,,,,,,No Preference
+48,,,,,,,Furniture,368.40,11,,,5,,,,,3,,,,,,,,No Preference
+27,,,,,,,Furniture,328.36,11,,,4,,,,,4,,,,,,,,Express
+37,,,,,,,Home Appliances,424.39,9,,,1,,,,,7,,,,,,,,No Preference
+47,,,,,,,Health Supplements,197.12,10,,,4,,,,,1,,,,,,,,Standard
+45,,,,,,,Books,454.57,9,,,5,,,,,1,,,,,,,,Express
+37,,,,,,,Electronics,298.38,4,,,4,,,,,2,,,,,,,,Standard
+36,,,,,,,Clothing,111.70,6,,,5,,,,,5,,,,,,,,Standard
+34,,,,,,,Clothing,373.69,10,,,2,,,,,8,,,,,,,,Express
+37,,,,,,,Jewelry & Accessories,354.87,5,,,1,,,,,4,,,,,,,,Express
+18,,,,,,,Mobile Accessories,214.48,2,,,2,,,,,3,,,,,,,,Express
+20,,,,,,,Software & Apps,399.58,6,,,4,,,,,8,,,,,,,,Standard
+27,,,,,,,Luxury Goods,380.99,7,,,2,,,,,1,,,,,,,,No Preference
+36,,,,,,,Food & Beverages,79.00,10,,,2,,,,,6,,,,,,,,Standard
+46,,,,,,,Groceries,113.88,2,,,2,,,,,4,,,,,,,,Express
+26,,,,,,,Travel & Leisure (Flights,121.57,4,,,5,,,,,4,,,,,,,,No Preference
+21,,,,,,,Health Supplements,215.54,11,,,1,,,,,6,,,,,,,,No Preference
+43,,,,,,,Furniture,87.03,10,,,1,,,,,5,,,,,,,,No Preference
+19,,,,,,,Travel & Leisure (Flights,111.75,4,,,4,,,,,6,,,,,,,,Standard
+41,,,,,,,Office Supplies,136.20,2,,,2,,,,,1,,,,,,,,Express
+48,,,,,,,Food & Beverages,439.31,4,,,2,,,,,6,,,,,,,,No Preference
+19,,,,,,,Health Care,194.93,9,,,4,,,,,4,,,,,,,,No Preference
+29,,,,,,,Food & Beverages,377.67,8,,,3,,,,,1,,,,,,,,No Preference
+26,,,,,,,Beauty & Personal Care,108.61,10,,,2,,,,,3,,,,,,,,No Preference
+20,,,,,,,Health Care,366.77,7,,,3,,,,,9,,,,,,,,Standard
+31,,,,,,,Jewelry & Accessories,178.04,5,,,1,,,,,5,,,,,,,,No Preference
+23,,,,,,,Toys & Games,461.09,8,,,1,,,,,4,,,,,,,,No Preference
+19,,,,,,,Hotels,211.16,5,,,3,,,,,3,,,,,,,,Standard
+23,,,,,,,Animal Feed,421.95,8,,,5,,,,,1,,,,,,,,No Preference
+49,,,,,,,Furniture,378.59,5,,,1,,,,,4,,,,,,,,No Preference
+23,,,,,,,Office Supplies,268.93,2,,,5,,,,,3,,,,,,,,Express
+42,,,,,,,Health Care,444.87,11,,,4,,,,,8,,,,,,,,No Preference
+18,,,,,,,Beauty & Personal Care,160.82,7,,,1,,,,,1,,,,,,,,No Preference
+35,,,,,,,Hotels,494.18,6,,,5,,,,,2,,,,,,,,Standard
+22,,,,,,,Home Appliances,177.05,5,,,1,,,,,1,,,,,,,,Standard
+28,,,,,,,Food & Beverages,450.66,7,,,5,,,,,4,,,,,,,,No Preference
+42,,,,,,,Arts & Crafts,164.27,6,,,3,,,,,7,,,,,,,,No Preference
+37,,,,,,,Food & Beverages,346.36,12,,,5,,,,,7,,,,,,,,Standard
+33,,,,,,,Animal Feed,377.77,9,,,2,,,,,5,,,,,,,,Standard
+46,,,,,,,Travel & Leisure (Flights,163.41,2,,,5,,,,,8,,,,,,,,Express
+30,,,,,,,Hotels,467.58,10,,,2,,,,,6,,,,,,,,Standard
+39,,,,,,,Books,247.51,10,,,1,,,,,8,,,,,,,,Standard
+25,,,,,,,Office Supplies,365.10,3,,,3,,,,,3,,,,,,,,No Preference
+38,,,,,,,Health Care,485.42,5,,,2,,,,,6,,,,,,,,No Preference
+41,,,,,,,Health Care,250.54,4,,,3,,,,,10,,,,,,,,No Preference
+49,,,,,,,Jewelry & Accessories,163.14,5,,,4,,,,,2,,,,,,,,No Preference
+21,,,,,,,Gardening & Outdoors,162.31,8,,,1,,,,,2,,,,,,,,No Preference
+37,,,,,,,Office Supplies,328.21,7,,,5,,,,,2,,,,,,,,No Preference
+30,,,,,,,Sports & Outdoors,268.59,4,,,3,,,,,1,,,,,,,,Standard
+18,,,,,,,Electronics,257.37,7,,,3,,,,,5,,,,,,,,Express
+41,,,,,,,Office Supplies,205.49,4,,,3,,,,,2,,,,,,,,Express
+40,,,,,,,Mobile Accessories,407.91,7,,,5,,,,,5,,,,,,,,Standard
+33,,,,,,,Food & Beverages,254.73,6,,,3,,,,,3,,,,,,,,Express
+30,,,,,,,Clothing,397.78,12,,,3,,,,,7,,,,,,,,No Preference
+33,,,,,,,Electronics,305.29,3,,,3,,,,,8,,,,,,,,Standard
+45,,,,,,,Food & Beverages,257.86,6,,,2,,,,,4,,,,,,,,Express
+42,,,,,,,Jewelry & Accessories,393.45,12,,,1,,,,,10,,,,,,,,Express
+30,,,,,,,Health Supplements,58.49,6,,,2,,,,,8,,,,,,,,Express
+42,,,,,,,Beauty & Personal Care,226.48,11,,,3,,,,,7,,,,,,,,Express
+26,,,,,,,Health Care,469.22,6,,,1,,,,,1,,,,,,,,No Preference
+42,,,,,,,Jewelry & Accessories,335.32,6,,,3,,,,,1,,,,,,,,No Preference
+31,,,,,,,Animal Feed,184.74,5,,,4,,,,,5,,,,,,,,No Preference
+37,,,,,,,Travel & Leisure (Flights,442.18,5,,,3,,,,,10,,,,,,,,Express
+49,,,,,,,Health Supplements,427.10,8,,,2,,,,,2,,,,,,,,No Preference
+34,,,,,,,Home Appliances,326.82,4,,,2,,,,,5,,,,,,,,Standard
+41,,,,,,,Hotels,98.97,12,,,5,,,,,7,,,,,,,,No Preference
+33,,,,,,,Health Care,77.65,6,,,4,,,,,3,,,,,,,,No Preference
+47,,,,,,,Electronics,85.61,2,,,2,,,,,3,,,,,,,,Standard
+47,,,,,,,Food & Beverages,164.79,4,,,2,,,,,5,,,,,,,,No Preference
+29,,,,,,,Health Supplements,235.46,10,,,4,,,,,7,,,,,,,,No Preference
+36,,,,,,,Books,245.14,4,,,5,,,,,4,,,,,,,,Standard
+43,,,,,,,Toys & Games,439.91,5,,,4,,,,,9,,,,,,,,Express
+31,,,,,,,Home Appliances,309.22,5,,,5,,,,,4,,,,,,,,Standard
+27,,,,,,,Groceries,146.59,10,,,1,,,,,2,,,,,,,,No Preference
+48,,,,,,,Hotels,298.73,4,,,5,,,,,2,,,,,,,,No Preference
+19,,,,,,,Food & Beverages,395.01,2,,,2,,,,,6,,,,,,,,Standard
+41,,,,,,,Electronics,371.19,10,,,2,,,,,8,,,,,,,,Express
+33,,,,,,,Electronics,193.76,10,,,3,,,,,2,,,,,,,,No Preference
+43,,,,,,,Baby Products,424.27,6,,,4,,,,,8,,,,,,,,Standard
+38,,,,,,,Jewelry & Accessories,496.11,2,,,3,,,,,8,,,,,,,,Standard
+41,,,,,,,Baby Products,341.91,3,,,4,,,,,9,,,,,,,,Express
+40,,,,,,,Gardening & Outdoors,127.66,11,,,2,,,,,7,,,,,,,,Standard
+47,,,,,,,Software & Apps,227.47,2,,,2,,,,,4,,,,,,,,Express
+35,,,,,,,Health Supplements,342.99,3,,,2,,,,,6,,,,,,,,Express
+49,,,,,,,Packages),306.48,5,,,3,,,,,9,,,,,,,,Standard
+22,,,,,,,Home Appliances,308.54,3,,,3,,,,,5,,,,,,,,Standard
+49,,,,,,,Travel & Leisure (Flights,124.17,12,,,2,,,,,4,,,,,,,,Standard
+27,,,,,,,Travel & Leisure (Flights,78.00,5,,,5,,,,,1,,,,,,,,No Preference
+27,,,,,,,Health Care,393.03,4,,,4,,,,,3,,,,,,,,Standard
+37,,,,,,,Hotels,102.09,3,,,4,,,,,9,,,,,,,,Express
+32,,,,,,,Health Care,426.21,3,,,4,,,,,5,,,,,,,,Standard
+42,,,,,,,Arts & Crafts,140.31,2,,,4,,,,,5,,,,,,,,Express
+18,,,,,,,Software & Apps,413.70,8,,,3,,,,,9,,,,,,,,No Preference
+49,,,,,,,Arts & Crafts,348.63,4,,,2,,,,,7,,,,,,,,No Preference
+23,,,,,,,Animal Feed,91.27,7,,,1,,,,,6,,,,,,,,Express
+29,,,,,,,Luxury Goods,359.94,11,,,5,,,,,8,,,,,,,,Express
+25,,,,,,,Gardening & Outdoors,138.20,8,,,2,,,,,6,,,,,,,,No Preference
+38,,,,,,,Home Appliances,196.33,11,,,3,,,,,5,,,,,,,,Standard
+32,,,,,,,Packages),249.24,8,,,3,,,,,3,,,,,,,,Standard
+45,,,,,,,Furniture,129.10,12,,,3,,,,,8,,,,,,,,No Preference
+45,,,,,,,Baby Products,112.69,10,,,4,,,,,7,,,,,,,,Standard
+46,,,,,,,Beauty & Personal Care,267.85,5,,,2,,,,,5,,,,,,,,Standard
+24,,,,,,,Home Appliances,205.36,12,,,5,,,,,1,,,,,,,,Express
+48,,,,,,,Health Supplements,79.10,10,,,3,,,,,9,,,,,,,,Express
+35,,,,,,,Health Care,256.63,12,,,4,,,,,2,,,,,,,,Standard
+50,,,,,,,Books,409.98,12,,,4,,,,,1,,,,,,,,Express
+34,,,,,,,Sports & Outdoors,291.60,2,,,3,,,,,7,,,,,,,,Standard
+50,,,,,,,Home Appliances,101.70,7,,,4,,,,,2,,,,,,,,Standard
+50,,,,,,,Health Care,369.73,2,,,2,,,,,3,,,,,,,,No Preference
+46,,,,,,,Baby Products,71.00,12,,,5,,,,,9,,,,,,,,No Preference
+47,,,,,,,Packages),280.05,10,,,1,,,,,2,,,,,,,,No Preference
+35,,,,,,,Jewelry & Accessories,54.71,4,,,2,,,,,3,,,,,,,,Express
+27,,,,,,,Packages),119.51,11,,,5,,,,,8,,,,,,,,No Preference
+37,,,,,,,Arts & Crafts,57.50,12,,,1,,,,,3,,,,,,,,No Preference
+38,,,,,,,Books,225.05,5,,,1,,,,,1,,,,,,,,No Preference
+41,,,,,,,Food & Beverages,441.15,7,,,1,,,,,1,,,,,,,,No Preference
+48,,,,,,,Animal Feed,481.21,3,,,2,,,,,1,,,,,,,,No Preference
+48,,,,,,,Arts & Crafts,102.96,3,,,1,,,,,7,,,,,,,,Standard
+45,,,,,,,Electronics,331.57,11,,,1,,,,,6,,,,,,,,Express
+26,,,,,,,Electronics,101.29,11,,,1,,,,,7,,,,,,,,No Preference
+50,,,,,,,Packages),143.52,9,,,5,,,,,3,,,,,,,,Express
+39,,,,,,,Sports & Outdoors,276.48,3,,,2,,,,,4,,,,,,,,Express
+20,,,,,,,Toys & Games,352.87,11,,,3,,,,,6,,,,,,,,Standard
+48,,,,,,,Mobile Accessories,228.68,3,,,1,,,,,4,,,,,,,,Standard
+31,,,,,,,Food & Beverages,301.39,6,,,1,,,,,4,,,,,,,,No Preference
+25,,,,,,,Books,473.50,11,,,4,,,,,3,,,,,,,,Express
+18,,,,,,,Home Appliances,72.80,11,,,4,,,,,10,,,,,,,,Express
+18,,,,,,,Packages),171.72,3,,,3,,,,,2,,,,,,,,Standard
+31,,,,,,,Software & Apps,467.50,6,,,1,,,,,1,,,,,,,,No Preference
+43,,,,,,,Furniture,209.79,6,,,1,,,,,9,,,,,,,,Standard
+23,,,,,,,Office Supplies,150.33,9,,,4,,,,,9,,,,,,,,Express
+29,,,,,,,Luxury Goods,98.63,7,,,5,,,,,3,,,,,,,,Standard
+21,,,,,,,Beauty & Personal Care,193.30,11,,,2,,,,,1,,,,,,,,No Preference
+49,,,,,,,Luxury Goods,145.02,7,,,2,,,,,1,,,,,,,,Express
+30,,,,,,,Health Supplements,294.99,4,,,5,,,,,4,,,,,,,,Standard
+31,,,,,,,Office Supplies,305.45,2,,,5,,,,,1,,,,,,,,Express
+50,,,,,,,Toys & Games,432.42,2,,,4,,,,,8,,,,,,,,Express
+35,,,,,,,Gardening & Outdoors,227.58,11,,,1,,,,,8,,,,,,,,Express
+36,,,,,,,Toys & Games,160.89,10,,,5,,,,,6,,,,,,,,No Preference
+24,,,,,,,Luxury Goods,139.10,7,,,5,,,,,3,,,,,,,,No Preference
+36,,,,,,,Furniture,268.28,9,,,2,,,,,2,,,,,,,,Standard
+45,,,,,,,Sports & Outdoors,64.49,6,,,1,,,,,10,,,,,,,,Express
+44,,,,,,,Arts & Crafts,80.17,10,,,1,,,,,8,,,,,,,,No Preference
+28,,,,,,,Groceries,277.52,11,,,1,,,,,7,,,,,,,,Standard
+40,,,,,,,Health Supplements,53.67,7,,,5,,,,,2,,,,,,,,Express
+49,,,,,,,Office Supplies,323.39,10,,,3,,,,,7,,,,,,,,No Preference
+50,,,,,,,Sports & Outdoors,98.02,5,,,3,,,,,3,,,,,,,,No Preference
+24,,,,,,,Travel & Leisure (Flights,231.26,10,,,1,,,,,5,,,,,,,,No Preference
+26,,,,,,,Food & Beverages,382.49,6,,,2,,,,,3,,,,,,,,No Preference
+28,,,,,,,Travel & Leisure (Flights,255.42,9,,,5,,,,,9,,,,,,,,Standard
+48,,,,,,,Toys & Games,423.23,12,,,3,,,,,7,,,,,,,,Standard
+47,,,,,,,Beauty & Personal Care,276.08,4,,,5,,,,,10,,,,,,,,No Preference
+25,,,,,,,Books,333.56,3,,,5,,,,,2,,,,,,,,No Preference
+39,,,,,,,Groceries,129.82,12,,,2,,,,,1,,,,,,,,Standard
+41,,,,,,,Clothing,278.78,3,,,2,,,,,1,,,,,,,,Standard
+37,,,,,,,Gardening & Outdoors,112.55,5,,,4,,,,,1,,,,,,,,Standard
+50,,,,,,,Toys & Games,142.02,7,,,5,,,,,9,,,,,,,,Standard
+33,,,,,,,Packages),481.84,10,,,4,,,,,1,,,,,,,,Express
+50,,,,,,,Packages),165.01,10,,,2,,,,,5,,,,,,,,No Preference
+25,,,,,,,Baby Products,56.85,5,,,1,,,,,1,,,,,,,,Standard
+34,,,,,,,Hotels,182.89,2,,,3,,,,,9,,,,,,,,Express
+39,,,,,,,Books,373.01,5,,,5,,,,,4,,,,,,,,Express
+41,,,,,,,Home Appliances,220.77,7,,,2,,,,,1,,,,,,,,Standard
+27,,,,,,,Hotels,291.09,11,,,2,,,,,9,,,,,,,,No Preference
+23,,,,,,,Software & Apps,414.06,9,,,4,,,,,4,,,,,,,,Express
+37,,,,,,,Animal Feed,408.51,9,,,1,,,,,7,,,,,,,,Express
+21,,,,,,,Furniture,103.40,9,,,1,,,,,9,,,,,,,,Standard
+47,,,,,,,Furniture,67.92,3,,,3,,,,,8,,,,,,,,Express
+42,,,,,,,Health Supplements,354.16,8,,,1,,,,,3,,,,,,,,Express
+30,,,,,,,Books,276.77,2,,,1,,,,,2,,,,,,,,No Preference
+49,,,,,,,Health Care,190.25,6,,,2,,,,,9,,,,,,,,Express
+28,,,,,,,Animal Feed,203.49,7,,,1,,,,,8,,,,,,,,Express
+24,,,,,,,Health Supplements,263.50,6,,,2,,,,,8,,,,,,,,Standard
+40,,,,,,,Arts & Crafts,247.30,2,,,4,,,,,1,,,,,,,,No Preference
+18,,,,,,,Toys & Games,50.71,12,,,3,,,,,9,,,,,,,,No Preference
+42,,,,,,,Office Supplies,131.85,4,,,4,,,,,5,,,,,,,,No Preference
+19,,,,,,,Beauty & Personal Care,459.39,6,,,2,,,,,4,,,,,,,,No Preference
+36,,,,,,,Office Supplies,383.33,6,,,4,,,,,3,,,,,,,,Standard
+26,,,,,,,Toys & Games,212.08,8,,,5,,,,,9,,,,,,,,Standard
+35,,,,,,,Arts & Crafts,370.73,7,,,2,,,,,9,,,,,,,,No Preference
+39,,,,,,,Clothing,319.66,7,,,2,,,,,10,,,,,,,,Express
+44,,,,,,,Jewelry & Accessories,373.05,3,,,4,,,,,10,,,,,,,,Standard
+19,,,,,,,Sports & Outdoors,393.78,6,,,4,,,,,5,,,,,,,,No Preference
+27,,,,,,,Clothing,245.04,4,,,2,,,,,6,,,,,,,,Standard
+26,,,,,,,Beauty & Personal Care,111.27,3,,,3,,,,,10,,,,,,,,No Preference
+26,,,,,,,Baby Products,93.29,11,,,2,,,,,7,,,,,,,,No Preference
+27,,,,,,,Hotels,156.50,5,,,1,,,,,3,,,,,,,,Standard
+37,,,,,,,Packages),290.11,8,,,4,,,,,4,,,,,,,,No Preference
+23,,,,,,,Software & Apps,355.28,3,,,5,,,,,4,,,,,,,,No Preference
+31,,,,,,,Gardening & Outdoors,73.74,7,,,2,,,,,3,,,,,,,,Standard
+21,,,,,,,Sports & Outdoors,170.35,10,,,1,,,,,10,,,,,,,,Standard
+36,,,,,,,Home Appliances,123.70,6,,,5,,,,,5,,,,,,,,Express
+21,,,,,,,Gardening & Outdoors,201.60,9,,,4,,,,,4,,,,,,,,Express
+27,,,,,,,Furniture,116.14,11,,,4,,,,,8,,,,,,,,Express
+29,,,,,,,Jewelry & Accessories,483.38,9,,,1,,,,,3,,,,,,,,Standard
+24,,,,,,,Health Supplements,418.62,9,,,2,,,,,9,,,,,,,,Standard
+33,,,,,,,Books,139.83,12,,,4,,,,,1,,,,,,,,Express
+38,,,,,,,Arts & Crafts,54.17,4,,,5,,,,,2,,,,,,,,No Preference
+47,,,,,,,Jewelry & Accessories,437.59,10,,,4,,,,,4,,,,,,,,Express
+32,,,,,,,Hotels,113.57,5,,,4,,,,,1,,,,,,,,Standard
+21,,,,,,,Packages),305.54,6,,,5,,,,,5,,,,,,,,No Preference
+23,,,,,,,Food & Beverages,339.12,2,,,4,,,,,5,,,,,,,,No Preference
+45,,,,,,,Jewelry & Accessories,323.40,11,,,3,,,,,8,,,,,,,,Standard
+24,,,,,,,Clothing,472.61,9,,,5,,,,,4,,,,,,,,Express
+20,,,,,,,Furniture,68.02,10,,,2,,,,,6,,,,,,,,Express
+27,,,,,,,Toys & Games,199.44,7,,,1,,,,,3,,,,,,,,Standard
+47,,,,,,,Sports & Outdoors,250.73,4,,,2,,,,,10,,,,,,,,No Preference
+34,,,,,,,Clothing,372.49,12,,,3,,,,,5,,,,,,,,No Preference
+41,,,,,,,Books,186.85,2,,,1,,,,,8,,,,,,,,Express
+26,,,,,,,Sports & Outdoors,73.32,10,,,1,,,,,1,,,,,,,,Standard
+49,,,,,,,Clothing,214.59,6,,,1,,,,,8,,,,,,,,Standard
+47,,,,,,,Furniture,467.32,12,,,4,,,,,4,,,,,,,,No Preference
+18,,,,,,,Travel & Leisure (Flights,475.65,4,,,5,,,,,6,,,,,,,,Express
+48,,,,,,,Animal Feed,161.38,11,,,3,,,,,10,,,,,,,,Standard
+19,,,,,,,Baby Products,249.78,4,,,4,,,,,1,,,,,,,,No Preference
+39,,,,,,,Clothing,149.88,9,,,2,,,,,10,,,,,,,,Standard
+48,,,,,,,Jewelry & Accessories,347.09,5,,,2,,,,,1,,,,,,,,No Preference
+43,,,,,,,Health Care,345.49,9,,,1,,,,,10,,,,,,,,Express
+31,,,,,,,Health Care,297.24,2,,,4,,,,,9,,,,,,,,Express
+28,,,,,,,Home Appliances,494.34,12,,,3,,,,,8,,,,,,,,Express
+29,,,,,,,Animal Feed,443.52,5,,,3,,,,,7,,,,,,,,Standard
+45,,,,,,,Jewelry & Accessories,457.18,7,,,3,,,,,6,,,,,,,,Express
+38,,,,,,,Books,407.88,4,,,3,,,,,10,,,,,,,,Standard
+30,,,,,,,Books,448.68,8,,,4,,,,,3,,,,,,,,Express
+40,,,,,,,Electronics,255.96,7,,,1,,,,,10,,,,,,,,No Preference
+45,,,,,,,Luxury Goods,146.07,7,,,2,,,,,6,,,,,,,,Standard
+44,,,,,,,Health Supplements,311.90,4,,,4,,,,,6,,,,,,,,No Preference
+38,,,,,,,Gardening & Outdoors,301.60,4,,,5,,,,,10,,,,,,,,Standard
+23,,,,,,,Software & Apps,297.45,3,,,5,,,,,7,,,,,,,,No Preference
+30,,,,,,,Sports & Outdoors,157.26,3,,,3,,,,,1,,,,,,,,Standard
+42,,,,,,,Health Supplements,239.46,3,,,1,,,,,8,,,,,,,,Standard
+28,,,,,,,Gardening & Outdoors,240.82,10,,,3,,,,,3,,,,,,,,No Preference
+44,,,,,,,Sports & Outdoors,302.07,6,,,5,,,,,5,,,,,,,,Express
+45,,,,,,,Software & Apps,367.99,2,,,5,,,,,2,,,,,,,,Express
+46,,,,,,,Groceries,359.75,7,,,1,,,,,6,,,,,,,,Standard
+28,,,,,,,Packages),204.44,2,,,3,,,,,3,,,,,,,,Standard
+27,,,,,,,Gardening & Outdoors,228.93,7,,,1,,,,,2,,,,,,,,Express
+20,,,,,,,Office Supplies,355.31,11,,,1,,,,,2,,,,,,,,Express
+40,,,,,,,Animal Feed,334.67,12,,,1,,,,,5,,,,,,,,Standard
+36,,,,,,,Books,182.72,5,,,1,,,,,7,,,,,,,,No Preference
+43,,,,,,,Jewelry & Accessories,260.22,11,,,3,,,,,5,,,,,,,,Express
+26,,,,,,,Food & Beverages,454.93,8,,,5,,,,,7,,,,,,,,No Preference
+29,,,,,,,Beauty & Personal Care,325.42,11,,,4,,,,,1,,,,,,,,Express
+34,,,,,,,Jewelry & Accessories,351.36,2,,,3,,,,,6,,,,,,,,Standard
+40,,,,,,,Baby Products,333.63,8,,,5,,,,,2,,,,,,,,Express
+42,,,,,,,Beauty & Personal Care,469.90,4,,,5,,,,,7,,,,,,,,No Preference
+28,,,,,,,Mobile Accessories,207.52,4,,,4,,,,,8,,,,,,,,No Preference
+49,,,,,,,Toys & Games,125.89,7,,,3,,,,,6,,,,,,,,No Preference
+46,,,,,,,Electronics,170.77,9,,,2,,,,,1,,,,,,,,No Preference
+44,,,,,,,Electronics,63.91,2,,,4,,,,,6,,,,,,,,No Preference
+29,,,,,,,Clothing,340.55,7,,,5,,,,,7,,,,,,,,Express
+47,,,,,,,Software & Apps,378.14,6,,,2,,,,,6,,,,,,,,Standard
+37,,,,,,,Toys & Games,235.84,9,,,2,,,,,3,,,,,,,,No Preference
+47,,,,,,,Arts & Crafts,164.44,5,,,1,,,,,10,,,,,,,,No Preference
+24,,,,,,,Sports & Outdoors,455.81,3,,,3,,,,,6,,,,,,,,Express
+36,,,,,,,Health Care,298.32,7,,,5,,,,,8,,,,,,,,Standard
+36,,,,,,,Hotels,351.71,7,,,2,,,,,6,,,,,,,,Standard
+49,,,,,,,Toys & Games,393.48,11,,,2,,,,,10,,,,,,,,Standard
+19,,,,,,,Office Supplies,241.72,6,,,2,,,,,8,,,,,,,,Express
+27,,,,,,,Software & Apps,280.20,3,,,2,,,,,7,,,,,,,,No Preference
+36,,,,,,,Health Supplements,178.04,5,,,1,,,,,10,,,,,,,,Express
+37,,,,,,,Packages),347.99,5,,,4,,,,,1,,,,,,,,Standard
+45,,,,,,,Office Supplies,343.81,3,,,5,,,,,7,,,,,,,,Standard
+47,,,,,,,Animal Feed,105.29,7,,,5,,,,,1,,,,,,,,Express
+32,,,,,,,Hotels,483.66,3,,,4,,,,,1,,,,,,,,Standard
+48,,,,,,,Home Appliances,69.41,8,,,3,,,,,9,,,,,,,,Standard
+20,,,,,,,Toys & Games,207.18,11,,,3,,,,,5,,,,,,,,Standard
+32,,,,,,,Health Supplements,454.15,11,,,1,,,,,8,,,,,,,,Express
+25,,,,,,,Groceries,113.01,11,,,2,,,,,1,,,,,,,,Express
+42,,,,,,,Packages),419.13,4,,,5,,,,,1,,,,,,,,Express
+37,,,,,,,Jewelry & Accessories,183.86,5,,,1,,,,,4,,,,,,,,Standard
+21,,,,,,,Packages),53.87,10,,,3,,,,,10,,,,,,,,No Preference
+43,,,,,,,Food & Beverages,427.82,9,,,5,,,,,2,,,,,,,,No Preference
+29,,,,,,,Packages),282.82,6,,,3,,,,,7,,,,,,,,Standard
+28,,,,,,,Electronics,215.31,7,,,5,,,,,8,,,,,,,,No Preference
+43,,,,,,,Furniture,183.66,11,,,1,,,,,10,,,,,,,,No Preference
+48,,,,,,,Baby Products,198.73,10,,,5,,,,,5,,,,,,,,Standard
+26,,,,,,,Travel & Leisure (Flights,265.72,5,,,4,,,,,9,,,,,,,,Express
+42,,,,,,,Software & Apps,138.35,2,,,5,,,,,2,,,,,,,,No Preference
+27,,,,,,,Groceries,441.87,3,,,2,,,,,10,,,,,,,,No Preference
+40,,,,,,,Clothing,178.29,4,,,3,,,,,10,,,,,,,,No Preference
+23,,,,,,,Sports & Outdoors,77.08,10,,,1,,,,,8,,,,,,,,Standard
+46,,,,,,,Office Supplies,266.90,11,,,2,,,,,8,,,,,,,,Express
+38,,,,,,,Electronics,269.84,4,,,4,,,,,9,,,,,,,,No Preference
+23,,,,,,,Home Appliances,334.22,8,,,2,,,,,8,,,,,,,,Standard
+40,,,,,,,Travel & Leisure (Flights,474.56,8,,,5,,,,,6,,,,,,,,Standard
+34,,,,,,,Electronics,360.91,4,,,5,,,,,8,,,,,,,,No Preference
+44,,,,,,,Groceries,373.49,6,,,1,,,,,10,,,,,,,,Standard
+32,,,,,,,Sports & Outdoors,462.30,5,,,3,,,,,4,,,,,,,,Standard
+42,,,,,,,Toys & Games,332.67,8,,,4,,,,,2,,,,,,,,Express
+22,,,,,,,Home Appliances,235.39,9,,,4,,,,,6,,,,,,,,No Preference
+44,,,,,,,Packages),269.78,7,,,3,,,,,7,,,,,,,,No Preference
+29,,,,,,,Gardening & Outdoors,498.33,2,,,5,,,,,9,,,,,,,,Express
+30,,,,,,,Health Supplements,182.94,7,,,5,,,,,7,,,,,,,,Express
+19,,,,,,,Health Supplements,121.70,7,,,3,,,,,5,,,,,,,,Standard
+45,,,,,,,Software & Apps,489.27,4,,,4,,,,,3,,,,,,,,Standard
+38,,,,,,,Software & Apps,303.93,6,,,2,,,,,10,,,,,,,,No Preference
+24,,,,,,,Food & Beverages,302.74,11,,,5,,,,,6,,,,,,,,Express
+42,,,,,,,Beauty & Personal Care,157.21,11,,,3,,,,,3,,,,,,,,Express
+46,,,,,,,Sports & Outdoors,159.45,2,,,2,,,,,5,,,,,,,,Standard
+44,,,,,,,Luxury Goods,312.93,2,,,2,,,,,7,,,,,,,,No Preference
+38,,,,,,,Hotels,65.68,4,,,4,,,,,8,,,,,,,,Standard
+44,,,,,,,Software & Apps,61.86,5,,,5,,,,,8,,,,,,,,Standard
+18,,,,,,,Electronics,343.77,6,,,4,,,,,4,,,,,,,,No Preference
+37,,,,,,,Home Appliances,107.21,2,,,2,,,,,9,,,,,,,,Standard
+31,,,,,,,Home Appliances,148.98,12,,,1,,,,,8,,,,,,,,Standard
+22,,,,,,,Health Care,490.41,4,,,4,,,,,2,,,,,,,,Express
+33,,,,,,,Groceries,461.34,4,,,1,,,,,9,,,,,,,,Express
+20,,,,,,,Office Supplies,338.89,7,,,2,,,,,6,,,,,,,,Express
+26,,,,,,,Gardening & Outdoors,222.63,3,,,1,,,,,2,,,,,,,,Express
+26,,,,,,,Toys & Games,71.95,2,,,5,,,,,10,,,,,,,,No Preference
+21,,,,,,,Software & Apps,264.52,9,,,3,,,,,10,,,,,,,,No Preference
+43,,,,,,,Food & Beverages,414.80,9,,,3,,,,,9,,,,,,,,No Preference
+50,,,,,,,Groceries,50.79,12,,,1,,,,,2,,,,,,,,Standard
+42,,,,,,,Hotels,264.30,10,,,4,,,,,2,,,,,,,,No Preference
+29,,,,,,,Animal Feed,122.46,12,,,3,,,,,3,,,,,,,,Standard
+20,,,,,,,Software & Apps,238.01,8,,,2,,,,,9,,,,,,,,Standard
+40,,,,,,,Home Appliances,490.34,4,,,2,,,,,7,,,,,,,,No Preference
+38,,,,,,,Jewelry & Accessories,245.98,4,,,1,,,,,1,,,,,,,,Standard
+45,,,,,,,Hotels,390.83,9,,,5,,,,,5,,,,,,,,No Preference
+49,,,,,,,Jewelry & Accessories,158.84,6,,,1,,,,,8,,,,,,,,Express
+37,,,,,,,Baby Products,439.24,8,,,3,,,,,9,,,,,,,,Standard
+23,,,,,,,Toys & Games,92.43,12,,,1,,,,,9,,,,,,,,Standard
+48,,,,,,,Clothing,333.15,9,,,5,,,,,8,,,,,,,,Standard
+19,,,,,,,Luxury Goods,64.22,9,,,1,,,,,9,,,,,,,,No Preference
+46,,,,,,,Home Appliances,290.53,3,,,2,,,,,6,,,,,,,,No Preference
+39,,,,,,,Baby Products,251.80,6,,,1,,,,,8,,,,,,,,No Preference
+27,,,,,,,Sports & Outdoors,480.52,3,,,4,,,,,5,,,,,,,,No Preference
+28,,,,,,,Packages),461.71,10,,,1,,,,,9,,,,,,,,Standard
+50,,,,,,,Software & Apps,288.34,12,,,2,,,,,8,,,,,,,,Express
+19,,,,,,,Gardening & Outdoors,194.08,3,,,5,,,,,2,,,,,,,,Standard
+27,,,,,,,Travel & Leisure (Flights,198.45,11,,,5,,,,,8,,,,,,,,No Preference
+23,,,,,,,Baby Products,216.45,5,,,2,,,,,7,,,,,,,,No Preference
+19,,,,,,,Baby Products,358.72,5,,,5,,,,,8,,,,,,,,Standard
+22,,,,,,,Luxury Goods,367.56,9,,,5,,,,,8,,,,,,,,Standard
+40,,,,,,,Clothing,88.78,10,,,3,,,,,7,,,,,,,,Standard
+48,,,,,,,Food & Beverages,465.85,10,,,3,,,,,10,,,,,,,,Standard
+49,,,,,,,Clothing,262.61,3,,,5,,,,,10,,,,,,,,Standard
+45,,,,,,,Home Appliances,91.24,8,,,3,,,,,4,,,,,,,,Standard
+42,,,,,,,Luxury Goods,425.69,5,,,5,,,,,4,,,,,,,,No Preference
+41,,,,,,,Packages),446.11,9,,,1,,,,,10,,,,,,,,Express
+23,,,,,,,Software & Apps,490.11,8,,,4,,,,,1,,,,,,,,Standard
+44,,,,,,,Sports & Outdoors,403.57,6,,,2,,,,,2,,,,,,,,Express
+42,,,,,,,Packages),442.15,10,,,3,,,,,1,,,,,,,,No Preference
+49,,,,,,,Sports & Outdoors,78.71,5,,,3,,,,,10,,,,,,,,No Preference
+45,,,,,,,Furniture,491.51,2,,,5,,,,,1,,,,,,,,No Preference
+36,,,,,,,Furniture,457.39,12,,,1,,,,,5,,,,,,,,Standard
+38,,,,,,,Food & Beverages,178.61,12,,,1,,,,,3,,,,,,,,No Preference
+44,,,,,,,Health Care,492.51,7,,,4,,,,,2,,,,,,,,Standard
+37,,,,,,,Home Appliances,411.40,3,,,3,,,,,9,,,,,,,,Standard
+36,,,,,,,Clothing,96.52,11,,,3,,,,,3,,,,,,,,Standard
+34,,,,,,,Mobile Accessories,65.45,6,,,4,,,,,2,,,,,,,,No Preference
+23,,,,,,,Health Care,255.86,3,,,5,,,,,1,,,,,,,,No Preference
+35,,,,,,,Furniture,74.69,10,,,3,,,,,6,,,,,,,,No Preference
+45,,,,,,,Home Appliances,430.75,8,,,4,,,,,5,,,,,,,,No Preference
+38,,,,,,,Software & Apps,370.17,2,,,4,,,,,9,,,,,,,,Express
+25,,,,,,,Electronics,384.26,6,,,2,,,,,9,,,,,,,,No Preference
+26,,,,,,,Home Appliances,128.01,2,,,2,,,,,1,,,,,,,,No Preference
+46,,,,,,,Luxury Goods,301.40,4,,,3,,,,,5,,,,,,,,Standard
+18,,,,,,,Health Supplements,397.25,6,,,2,,,,,10,,,,,,,,No Preference
+46,,,,,,,Gardening & Outdoors,96.18,3,,,4,,,,,9,,,,,,,,Express
+19,,,,,,,Baby Products,390.44,4,,,1,,,,,4,,,,,,,,Standard
+37,,,,,,,Health Care,61.50,11,,,2,,,,,1,,,,,,,,Express
+35,,,,,,,Office Supplies,234.44,6,,,5,,,,,1,,,,,,,,Express
+43,,,,,,,Toys & Games,318.84,6,,,1,,,,,4,,,,,,,,Standard
+28,,,,,,,Toys & Games,327.32,6,,,5,,,,,4,,,,,,,,Express
+25,,,,,,,Books,475.64,3,,,4,,,,,2,,,,,,,,Standard
+47,,,,,,,Hotels,68.59,9,,,4,,,,,5,,,,,,,,Standard
+45,,,,,,,Health Care,133.04,12,,,3,,,,,6,,,,,,,,Standard
+24,,,,,,,Luxury Goods,196.63,9,,,2,,,,,6,,,,,,,,No Preference
+30,,,,,,,Home Appliances,473.96,12,,,1,,,,,9,,,,,,,,Express
+24,,,,,,,Luxury Goods,472.52,8,,,4,,,,,8,,,,,,,,No Preference
+27,,,,,,,Baby Products,335.80,9,,,5,,,,,7,,,,,,,,Standard
+25,,,,,,,Luxury Goods,85.57,12,,,1,,,,,4,,,,,,,,No Preference
+44,,,,,,,Beauty & Personal Care,108.50,11,,,5,,,,,2,,,,,,,,No Preference
+26,,,,,,,Food & Beverages,172.50,8,,,3,,,,,8,,,,,,,,No Preference
+18,,,,,,,Electronics,212.80,6,,,2,,,,,7,,,,,,,,Standard
+47,,,,,,,Baby Products,324.41,7,,,4,,,,,5,,,,,,,,No Preference
+36,,,,,,,Travel & Leisure (Flights,342.39,8,,,5,,,,,3,,,,,,,,Standard
+23,,,,,,,Health Care,446.86,9,,,1,,,,,2,,,,,,,,No Preference
+49,,,,,,,Electronics,463.15,3,,,1,,,,,9,,,,,,,,Standard
+27,,,,,,,Groceries,122.99,12,,,5,,,,,8,,,,,,,,No Preference
+43,,,,,,,Beauty & Personal Care,322.40,7,,,2,,,,,3,,,,,,,,Express
+19,,,,,,,Health Care,73.19,5,,,5,,,,,8,,,,,,,,No Preference
+41,,,,,,,Toys & Games,279.08,10,,,2,,,,,7,,,,,,,,No Preference
+29,,,,,,,Travel & Leisure (Flights,478.85,10,,,2,,,,,2,,,,,,,,No Preference
+25,,,,,,,Food & Beverages,86.39,5,,,5,,,,,1,,,,,,,,Standard
+45,,,,,,,Baby Products,192.35,11,,,5,,,,,1,,,,,,,,Express
+36,,,,,,,Beauty & Personal Care,235.32,7,,,1,,,,,10,,,,,,,,Express
+21,,,,,,,Electronics,212.63,8,,,2,,,,,4,,,,,,,,No Preference
+47,,,,,,,Food & Beverages,246.63,8,,,3,,,,,3,,,,,,,,Express
+26,,,,,,,Toys & Games,228.47,9,,,3,,,,,7,,,,,,,,Express
+25,,,,,,,Gardening & Outdoors,343.77,6,,,3,,,,,9,,,,,,,,Express
+26,,,,,,,Groceries,339.32,9,,,4,,,,,4,,,,,,,,No Preference
+34,,,,,,,Clothing,327.05,9,,,4,,,,,3,,,,,,,,No Preference
+48,,,,,,,Toys & Games,334.45,2,,,5,,,,,9,,,,,,,,No Preference
+19,,,,,,,Food & Beverages,366.16,12,,,4,,,,,5,,,,,,,,No Preference
+37,,,,,,,Groceries,481.78,8,,,2,,,,,4,,,,,,,,Express
+23,,,,,,,Gardening & Outdoors,131.48,8,,,5,,,,,1,,,,,,,,No Preference
+34,,,,,,,Health Care,402.86,11,,,5,,,,,2,,,,,,,,Standard
+42,,,,,,,Gardening & Outdoors,333.18,6,,,1,,,,,5,,,,,,,,Express
+28,,,,,,,Arts & Crafts,73.23,8,,,2,,,,,2,,,,,,,,No Preference
+28,,,,,,,Furniture,450.47,11,,,2,,,,,3,,,,,,,,Express
+33,,,,,,,Food & Beverages,175.74,5,,,4,,,,,6,,,,,,,,No Preference
+31,,,,,,,Hotels,182.60,4,,,2,,,,,9,,,,,,,,Express
+20,,,,,,,Jewelry & Accessories,497.80,2,,,5,,,,,2,,,,,,,,No Preference
+32,,,,,,,Food & Beverages,171.17,4,,,3,,,,,4,,,,,,,,Standard
+27,,,,,,,Jewelry & Accessories,425.82,3,,,5,,,,,6,,,,,,,,Standard
+19,,,,,,,Sports & Outdoors,210.58,10,,,1,,,,,3,,,,,,,,No Preference
+50,,,,,,,Beauty & Personal Care,199.64,11,,,4,,,,,5,,,,,,,,Express
+40,,,,,,,Packages),162.22,10,,,5,,,,,1,,,,,,,,No Preference
+20,,,,,,,Sports & Outdoors,401.75,8,,,4,,,,,8,,,,,,,,Standard
+24,,,,,,,Luxury Goods,365.88,12,,,3,,,,,9,,,,,,,,Express
+46,,,,,,,Beauty & Personal Care,58.29,6,,,3,,,,,7,,,,,,,,Standard
+50,,,,,,,Health Supplements,66.86,3,,,1,,,,,10,,,,,,,,Express
+29,,,,,,,Groceries,279.34,5,,,1,,,,,6,,,,,,,,No Preference
+34,,,,,,,Electronics,358.50,3,,,4,,,,,3,,,,,,,,Standard
+44,,,,,,,Jewelry & Accessories,360.92,7,,,1,,,,,9,,,,,,,,Standard
+38,,,,,,,Groceries,374.36,4,,,2,,,,,9,,,,,,,,Standard
+22,,,,,,,Baby Products,435.37,11,,,2,,,,,3,,,,,,,,Standard
+44,,,,,,,Home Appliances,459.30,9,,,4,,,,,5,,,,,,,,No Preference
+43,,,,,,,Jewelry & Accessories,426.89,2,,,1,,,,,3,,,,,,,,Express
+25,,,,,,,Animal Feed,365.37,6,,,2,,,,,5,,,,,,,,Express
+21,,,,,,,Mobile Accessories,487.25,4,,,2,,,,,4,,,,,,,,Standard
+29,,,,,,,Baby Products,187.22,10,,,3,,,,,4,,,,,,,,Standard
+41,,,,,,,Toys & Games,396.82,7,,,4,,,,,9,,,,,,,,No Preference
+38,,,,,,,Travel & Leisure (Flights,246.74,10,,,3,,,,,6,,,,,,,,Express
+26,,,,,,,Luxury Goods,128.74,12,,,1,,,,,8,,,,,,,,Standard
+41,,,,,,,Toys & Games,339.63,2,,,3,,,,,1,,,,,,,,No Preference
+46,,,,,,,Sports & Outdoors,223.58,11,,,3,,,,,6,,,,,,,,No Preference
+39,,,,,,,Gardening & Outdoors,446.92,5,,,1,,,,,6,,,,,,,,Express
+43,,,,,,,Electronics,175.65,11,,,3,,,,,7,,,,,,,,Express
+44,,,,,,,Clothing,491.49,10,,,1,,,,,7,,,,,,,,Standard
+26,,,,,,,Beauty & Personal Care,88.40,5,,,2,,,,,4,,,,,,,,No Preference
+29,,,,,,,Office Supplies,430.90,8,,,5,,,,,6,,,,,,,,Standard
+50,,,,,,,Mobile Accessories,435.23,2,,,4,,,,,2,,,,,,,,Express
+19,,,,,,,Toys & Games,218.65,3,,,2,,,,,9,,,,,,,,Standard
+27,,,,,,,Health Supplements,207.66,10,,,3,,,,,2,,,,,,,,Standard
+34,,,,,,,Arts & Crafts,141.09,7,,,4,,,,,3,,,,,,,,Express
+39,,,,,,,Packages),142.70,6,,,2,,,,,4,,,,,,,,No Preference
+44,,,,,,,Animal Feed,64.09,10,,,5,,,,,6,,,,,,,,Express
+20,,,,,,,Toys & Games,126.26,2,,,5,,,,,6,,,,,,,,Standard
+42,,,,,,,Hotels,195.05,5,,,1,,,,,10,,,,,,,,No Preference
+22,,,,,,,Groceries,432.84,7,,,5,,,,,1,,,,,,,,No Preference
+30,,,,,,,Jewelry & Accessories,404.12,6,,,3,,,,,4,,,,,,,,Express
+39,,,,,,,Groceries,438.26,10,,,4,,,,,3,,,,,,,,Express
+19,,,,,,,Jewelry & Accessories,233.02,4,,,3,,,,,3,,,,,,,,Standard
+26,,,,,,,Packages),273.41,7,,,5,,,,,9,,,,,,,,Standard
+21,,,,,,,Furniture,338.96,10,,,4,,,,,9,,,,,,,,Standard
+37,,,,,,,Luxury Goods,75.91,12,,,5,,,,,6,,,,,,,,No Preference
+23,,,,,,,Mobile Accessories,425.21,12,,,4,,,,,4,,,,,,,,Express
+46,,,,,,,Software & Apps,268.80,2,,,3,,,,,7,,,,,,,,Standard
+35,,,,,,,Health Care,170.71,10,,,3,,,,,9,,,,,,,,No Preference
+33,,,,,,,Animal Feed,444.05,10,,,4,,,,,8,,,,,,,,Standard
+47,,,,,,,Gardening & Outdoors,255.10,5,,,1,,,,,1,,,,,,,,No Preference
+32,,,,,,,Health Supplements,236.44,6,,,4,,,,,2,,,,,,,,Standard
+20,,,,,,,Furniture,201.69,11,,,5,,,,,8,,,,,,,,No Preference
+37,,,,,,,Arts & Crafts,390.51,6,,,2,,,,,2,,,,,,,,Express
+35,,,,,,,Clothing,442.29,9,,,2,,,,,2,,,,,,,,Express
+18,,,,,,,Furniture,89.60,7,,,3,,,,,5,,,,,,,,Standard
+27,,,,,,,Sports & Outdoors,166.74,6,,,5,,,,,6,,,,,,,,No Preference
+29,,,,,,,Mobile Accessories,299.28,12,,,5,,,,,9,,,,,,,,Standard
+24,,,,,,,Sports & Outdoors,404.57,5,,,3,,,,,7,,,,,,,,Express
+27,,,,,,,Software & Apps,344.81,10,,,1,,,,,9,,,,,,,,Express
+34,,,,,,,Health Care,217.84,10,,,2,,,,,8,,,,,,,,Standard
+21,,,,,,,Sports & Outdoors,445.34,9,,,2,,,,,3,,,,,,,,No Preference
+18,,,,,,,Home Appliances,151.73,3,,,4,,,,,3,,,,,,,,Express
+50,,,,,,,Electronics,123.73,9,,,4,,,,,5,,,,,,,,No Preference
+31,,,,,,,Travel & Leisure (Flights,370.54,2,,,3,,,,,9,,,,,,,,No Preference
+45,,,,,,,Baby Products,152.87,3,,,5,,,,,8,,,,,,,,Express
+29,,,,,,,Health Supplements,295.75,4,,,1,,,,,10,,,,,,,,Standard
+36,,,,,,,Office Supplies,358.11,11,,,1,,,,,3,,,,,,,,Standard
+27,,,,,,,Jewelry & Accessories,63.60,12,,,1,,,,,1,,,,,,,,No Preference
+24,,,,,,,Books,419.53,3,,,5,,,,,10,,,,,,,,Express
+49,,,,,,,Groceries,491.92,10,,,3,,,,,1,,,,,,,,Standard
+21,,,,,,,Sports & Outdoors,114.44,4,,,3,,,,,9,,,,,,,,Express
+19,,,,,,,Mobile Accessories,388.82,10,,,3,,,,,8,,,,,,,,No Preference
+23,,,,,,,Mobile Accessories,58.32,7,,,5,,,,,6,,,,,,,,Standard
+28,,,,,,,Groceries,464.76,2,,,1,,,,,3,,,,,,,,No Preference
+27,,,,,,,Home Appliances,116.92,7,,,3,,,,,3,,,,,,,,No Preference
+47,,,,,,,Jewelry & Accessories,396.76,8,,,3,,,,,4,,,,,,,,Express
+20,,,,,,,Packages),393.35,7,,,4,,,,,4,,,,,,,,No Preference
+26,,,,,,,Electronics,114.03,7,,,3,,,,,10,,,,,,,,No Preference
+49,,,,,,,Health Supplements,109.97,4,,,4,,,,,5,,,,,,,,No Preference
+39,,,,,,,Beauty & Personal Care,310.23,12,,,4,,,,,6,,,,,,,,Express
+22,,,,,,,Travel & Leisure (Flights,383.13,3,,,5,,,,,6,,,,,,,,No Preference
+25,,,,,,,Health Supplements,434.86,11,,,5,,,,,4,,,,,,,,Express
+30,,,,,,,Office Supplies,489.10,9,,,4,,,,,4,,,,,,,,Standard
+19,,,,,,,Jewelry & Accessories,288.15,3,,,4,,,,,4,,,,,,,,Standard
+35,,,,,,,Clothing,105.87,12,,,2,,,,,1,,,,,,,,Express
+45,,,,,,,Luxury Goods,163.40,3,,,5,,,,,10,,,,,,,,Standard
+20,,,,,,,Gardening & Outdoors,422.92,6,,,1,,,,,6,,,,,,,,No Preference
+48,,,,,,,Gardening & Outdoors,361.48,10,,,4,,,,,9,,,,,,,,Express
+23,,,,,,,Hotels,270.82,2,,,2,,,,,8,,,,,,,,Standard
+49,,,,,,,Toys & Games,372.26,11,,,5,,,,,8,,,,,,,,Express
+23,,,,,,,Electronics,208.59,3,,,1,,,,,4,,,,,,,,Express
+39,,,,,,,Gardening & Outdoors,163.22,8,,,3,,,,,3,,,,,,,,No Preference
+45,,,,,,,Animal Feed,364.98,7,,,1,,,,,1,,,,,,,,Standard
+31,,,,,,,Groceries,142.43,3,,,5,,,,,9,,,,,,,,Express
+19,,,,,,,Electronics,449.72,3,,,3,,,,,9,,,,,,,,Express
+27,,,,,,,Gardening & Outdoors,241.56,12,,,2,,,,,5,,,,,,,,Express
+32,,,,,,,Clothing,249.73,5,,,4,,,,,4,,,,,,,,No Preference
+24,,,,,,,Home Appliances,437.30,7,,,4,,,,,7,,,,,,,,No Preference
+22,,,,,,,Groceries,277.29,4,,,4,,,,,8,,,,,,,,No Preference
+46,,,,,,,Electronics,445.93,6,,,5,,,,,4,,,,,,,,No Preference
+37,,,,,,,Software & Apps,242.79,6,,,4,,,,,7,,,,,,,,Express
+34,,,,,,,Travel & Leisure (Flights,393.09,8,,,3,,,,,3,,,,,,,,Standard
+32,,,,,,,Groceries,167.61,2,,,5,,,,,2,,,,,,,,No Preference
+44,,,,,,,Gardening & Outdoors,324.22,2,,,2,,,,,6,,,,,,,,Express
+24,,,,,,,Mobile Accessories,159.30,11,,,4,,,,,6,,,,,,,,Express
+22,,,,,,,Luxury Goods,324.39,5,,,2,,,,,6,,,,,,,,Express
+37,,,,,,,Clothing,198.89,2,,,2,,,,,4,,,,,,,,Standard
+41,,,,,,,Clothing,287.18,7,,,5,,,,,1,,,,,,,,No Preference
+32,,,,,,,Office Supplies,162.24,7,,,3,,,,,6,,,,,,,,Express
+37,,,,,,,Arts & Crafts,92.97,6,,,5,,,,,7,,,,,,,,Standard
+41,,,,,,,Food & Beverages,144.39,12,,,3,,,,,4,,,,,,,,Standard
+37,,,,,,,Books,253.37,12,,,5,,,,,9,,,,,,,,Express
+43,,,,,,,Animal Feed,209.62,12,,,2,,,,,7,,,,,,,,Standard
+49,,,,,,,Baby Products,411.62,6,,,1,,,,,7,,,,,,,,Express
+27,,,,,,,Food & Beverages,388.01,2,,,5,,,,,2,,,,,,,,Standard
+41,,,,,,,Health Care,50.78,6,,,1,,,,,8,,,,,,,,Standard
+33,,,,,,,Packages),159.82,2,,,1,,,,,8,,,,,,,,No Preference
+46,,,,,,,Travel & Leisure (Flights,79.43,3,,,5,,,,,7,,,,,,,,No Preference
+42,,,,,,,Travel & Leisure (Flights,131.36,4,,,4,,,,,6,,,,,,,,Express
+27,,,,,,,Beauty & Personal Care,299.75,12,,,5,,,,,4,,,,,,,,No Preference
+29,,,,,,,Animal Feed,319.38,9,,,1,,,,,6,,,,,,,,No Preference
+38,,,,,,,Electronics,476.48,8,,,2,,,,,10,,,,,,,,Express
+21,,,,,,,Gardening & Outdoors,301.01,9,,,1,,,,,8,,,,,,,,Express
+18,,,,,,,Electronics,378.71,5,,,1,,,,,5,,,,,,,,Express
+44,,,,,,,Mobile Accessories,314.32,6,,,4,,,,,5,,,,,,,,Standard
+22,,,,,,,Office Supplies,210.90,12,,,1,,,,,1,,,,,,,,Standard
+18,,,,,,,Food & Beverages,218.26,4,,,1,,,,,8,,,,,,,,Standard
+24,,,,,,,Animal Feed,424.18,5,,,4,,,,,4,,,,,,,,Express
+28,,,,,,,Luxury Goods,430.75,11,,,3,,,,,8,,,,,,,,No Preference
+24,,,,,,,Mobile Accessories,162.95,11,,,2,,,,,8,,,,,,,,Express
+40,,,,,,,Health Supplements,209.68,2,,,1,,,,,1,,,,,,,,Express
+50,,,,,,,Beauty & Personal Care,97.97,2,,,5,,,,,10,,,,,,,,No Preference
+49,,,,,,,Books,192.51,9,,,5,,,,,2,,,,,,,,Standard
+35,,,,,,,Electronics,151.81,8,,,4,,,,,10,,,,,,,,No Preference
+25,,,,,,,Furniture,239.28,8,,,4,,,,,5,,,,,,,,No Preference
+40,,,,,,,Mobile Accessories,306.17,4,,,5,,,,,6,,,,,,,,Express
+40,,,,,,,Electronics,370.38,11,,,2,,,,,1,,,,,,,,No Preference
+50,,,,,,,Arts & Crafts,346.58,6,,,1,,,,,9,,,,,,,,Express
+24,,,,,,,Software & Apps,292.64,5,,,1,,,,,10,,,,,,,,Standard
+30,,,,,,,Travel & Leisure (Flights,102.91,12,,,1,,,,,10,,,,,,,,Express
+32,,,,,,,Home Appliances,283.78,4,,,4,,,,,6,,,,,,,,Express
+48,,,,,,,Beauty & Personal Care,51.44,2,,,3,,,,,1,,,,,,,,No Preference
+44,,,,,,,Luxury Goods,405.70,12,,,3,,,,,10,,,,,,,,Standard
+19,,,,,,,Groceries,311.74,11,,,4,,,,,10,,,,,,,,Express
+39,,,,,,,Clothing,293.43,9,,,4,,,,,5,,,,,,,,Standard
+35,,,,,,,Baby Products,418.51,6,,,4,,,,,2,,,,,,,,Standard
+39,,,,,,,Health Care,85.03,9,,,4,,,,,9,,,,,,,,Express
+31,,,,,,,Mobile Accessories,164.94,4,,,4,,,,,2,,,,,,,,Express
+38,,,,,,,Groceries,89.32,11,,,1,,,,,3,,,,,,,,No Preference
+33,,,,,,,Clothing,388.26,2,,,1,,,,,7,,,,,,,,No Preference
+33,,,,,,,Jewelry & Accessories,106.69,5,,,4,,,,,10,,,,,,,,Standard
+42,,,,,,,Packages),301.16,10,,,3,,,,,9,,,,,,,,Standard
+49,,,,,,,Hotels,61.71,6,,,5,,,,,7,,,,,,,,No Preference
+46,,,,,,,Sports & Outdoors,83.33,11,,,5,,,,,6,,,,,,,,Express
+42,,,,,,,Books,411.81,4,,,3,,,,,1,,,,,,,,Standard
+44,,,,,,,Luxury Goods,114.93,3,,,3,,,,,4,,,,,,,,Standard
+33,,,,,,,Jewelry & Accessories,438.42,11,,,2,,,,,4,,,,,,,,Express
+36,,,,,,,Luxury Goods,189.97,2,,,3,,,,,3,,,,,,,,Standard
+35,,,,,,,Health Supplements,227.03,12,,,2,,,,,10,,,,,,,,Standard
+26,,,,,,,Home Appliances,278.49,4,,,5,,,,,5,,,,,,,,Express
+43,,,,,,,Animal Feed,120.56,5,,,3,,,,,7,,,,,,,,Express
+25,,,,,,,Gardening & Outdoors,320.94,11,,,3,,,,,10,,,,,,,,No Preference
+37,,,,,,,Jewelry & Accessories,217.72,3,,,4,,,,,4,,,,,,,,No Preference
+25,,,,,,,Home Appliances,222.61,3,,,2,,,,,1,,,,,,,,Standard
+40,,,,,,,Beauty & Personal Care,102.73,3,,,5,,,,,5,,,,,,,,Express
+40,,,,,,,Sports & Outdoors,426.87,2,,,2,,,,,4,,,,,,,,No Preference
+20,,,,,,,Jewelry & Accessories,473.28,5,,,5,,,,,9,,,,,,,,Standard
+39,,,,,,,Jewelry & Accessories,446.03,9,,,1,,,,,7,,,,,,,,Express
+19,,,,,,,Arts & Crafts,287.95,3,,,3,,,,,7,,,,,,,,Standard
+31,,,,,,,Luxury Goods,132.52,6,,,2,,,,,10,,,,,,,,Express
+36,,,,,,,Sports & Outdoors,379.20,7,,,1,,,,,2,,,,,,,,No Preference
+31,,,,,,,Groceries,447.53,4,,,1,,,,,6,,,,,,,,No Preference
+45,,,,,,,Office Supplies,138.44,4,,,1,,,,,2,,,,,,,,Express
+45,,,,,,,Home Appliances,440.62,8,,,2,,,,,3,,,,,,,,Express
+23,,,,,,,Sports & Outdoors,145.98,4,,,2,,,,,5,,,,,,,,No Preference
+28,,,,,,,Software & Apps,405.66,11,,,2,,,,,3,,,,,,,,Express
+26,,,,,,,Clothing,419.98,7,,,4,,,,,10,,,,,,,,No Preference
+50,,,,,,,Arts & Crafts,260.14,5,,,2,,,,,7,,,,,,,,Standard
+36,,,,,,,Arts & Crafts,368.91,10,,,3,,,,,10,,,,,,,,No Preference
+32,,,,,,,Home Appliances,100.32,2,,,1,,,,,1,,,,,,,,Express
+34,,,,,,,Food & Beverages,107.82,7,,,3,,,,,10,,,,,,,,No Preference
+50,,,,,,,Baby Products,83.88,11,,,2,,,,,6,,,,,,,,Express
+24,,,,,,,Travel & Leisure (Flights,81.25,9,,,2,,,,,8,,,,,,,,No Preference
+49,,,,,,,Home Appliances,125.80,12,,,4,,,,,8,,,,,,,,No Preference
+18,,,,,,,Health Supplements,197.90,11,,,4,,,,,4,,,,,,,,Standard
+44,,,,,,,Travel & Leisure (Flights,299.09,8,,,1,,,,,7,,,,,,,,Standard
+41,,,,,,,Travel & Leisure (Flights,79.30,10,,,2,,,,,4,,,,,,,,No Preference
+33,,,,,,,Books,55.73,12,,,3,,,,,3,,,,,,,,Express
+46,,,,,,,Software & Apps,256.44,8,,,1,,,,,6,,,,,,,,Express
+23,,,,,,,Toys & Games,337.21,12,,,5,,,,,9,,,,,,,,Express
+35,,,,,,,Software & Apps,494.97,12,,,4,,,,,5,,,,,,,,No Preference
+31,,,,,,,Arts & Crafts,238.58,6,,,2,,,,,9,,,,,,,,Standard
+20,,,,,,,Sports & Outdoors,131.90,8,,,5,,,,,4,,,,,,,,No Preference
+49,,,,,,,Food & Beverages,403.03,12,,,5,,,,,1,,,,,,,,Standard
+26,,,,,,,Health Supplements,338.60,10,,,3,,,,,3,,,,,,,,No Preference
+36,,,,,,,Furniture,365.38,11,,,4,,,,,9,,,,,,,,Express
+21,,,,,,,Sports & Outdoors,433.99,11,,,2,,,,,2,,,,,,,,No Preference
+35,,,,,,,Health Care,495.95,5,,,2,,,,,7,,,,,,,,No Preference
+41,,,,,,,Baby Products,356.22,7,,,5,,,,,7,,,,,,,,Express
+22,,,,,,,Health Supplements,156.40,7,,,5,,,,,7,,,,,,,,Standard
+42,,,,,,,Sports & Outdoors,454.36,3,,,5,,,,,8,,,,,,,,No Preference
+50,,,,,,,Software & Apps,486.07,11,,,1,,,,,6,,,,,,,,Standard
+30,,,,,,,Packages),427.86,11,,,3,,,,,6,,,,,,,,Express
+49,,,,,,,Beauty & Personal Care,235.13,10,,,4,,,,,3,,,,,,,,No Preference
+40,,,,,,,Groceries,361.27,4,,,3,,,,,5,,,,,,,,Standard
+38,,,,,,,Furniture,195.83,10,,,2,,,,,7,,,,,,,,No Preference
+21,,,,,,,Sports & Outdoors,340.31,10,,,1,,,,,5,,,,,,,,No Preference
+40,,,,,,,Animal Feed,489.67,5,,,5,,,,,5,,,,,,,,Standard
+26,,,,,,,Mobile Accessories,482.50,11,,,1,,,,,1,,,,,,,,No Preference
+32,,,,,,,Jewelry & Accessories,433.14,10,,,1,,,,,3,,,,,,,,No Preference
+47,,,,,,,Jewelry & Accessories,375.70,6,,,1,,,,,10,,,,,,,,No Preference
+21,,,,,,,Travel & Leisure (Flights,381.30,12,,,1,,,,,4,,,,,,,,Express
+34,,,,,,,Electronics,210.21,4,,,1,,,,,10,,,,,,,,No Preference
+29,,,,,,,Health Supplements,408.81,8,,,4,,,,,3,,,,,,,,Express
+20,,,,,,,Jewelry & Accessories,118.65,10,,,3,,,,,2,,,,,,,,Standard
+50,,,,,,,Software & Apps,166.45,7,,,2,,,,,1,,,,,,,,Express
+29,,,,,,,Travel & Leisure (Flights,385.32,10,,,1,,,,,1,,,,,,,,Standard
+25,,,,,,,Mobile Accessories,293.99,10,,,4,,,,,7,,,,,,,,No Preference
+37,,,,,,,Toys & Games,161.41,9,,,4,,,,,8,,,,,,,,Standard
+39,,,,,,,Groceries,130.92,2,,,2,,,,,2,,,,,,,,No Preference
+48,,,,,,,Toys & Games,468.60,4,,,4,,,,,6,,,,,,,,No Preference
+47,,,,,,,Toys & Games,237.57,5,,,3,,,,,3,,,,,,,,No Preference
+50,,,,,,,Furniture,395.18,5,,,2,,,,,5,,,,,,,,Standard
+42,,,,,,,Electronics,427.94,12,,,4,,,,,2,,,,,,,,No Preference
+28,,,,,,,Hotels,81.23,9,,,5,,,,,10,,,,,,,,Standard
+23,,,,,,,Hotels,257.43,5,,,2,,,,,7,,,,,,,,Standard
+42,,,,,,,Arts & Crafts,305.73,7,,,5,,,,,8,,,,,,,,Express
+32,,,,,,,Toys & Games,249.82,10,,,3,,,,,6,,,,,,,,No Preference
+33,,,,,,,Animal Feed,332.79,11,,,5,,,,,1,,,,,,,,No Preference
+32,,,,,,,Arts & Crafts,78.90,3,,,1,,,,,1,,,,,,,,Standard
+29,,,,,,,Health Care,122.55,9,,,4,,,,,3,,,,,,,,Express
+25,,,,,,,Mobile Accessories,307.61,6,,,1,,,,,9,,,,,,,,No Preference
+41,,,,,,,Software & Apps,152.33,2,,,5,,,,,6,,,,,,,,No Preference
+24,,,,,,,Mobile Accessories,465.07,8,,,4,,,,,2,,,,,,,,No Preference
+32,,,,,,,Sports & Outdoors,498.23,10,,,2,,,,,7,,,,,,,,No Preference
+41,,,,,,,Luxury Goods,491.18,3,,,4,,,,,6,,,,,,,,No Preference
+18,,,,,,,Health Care,149.42,3,,,1,,,,,6,,,,,,,,Express
+25,,,,,,,Furniture,82.13,9,,,1,,,,,6,,,,,,,,Express
+49,,,,,,,Sports & Outdoors,425.18,4,,,1,,,,,8,,,,,,,,Standard
+39,,,,,,,Arts & Crafts,176.12,8,,,3,,,,,10,,,,,,,,Standard
+47,,,,,,,Jewelry & Accessories,70.30,6,,,5,,,,,8,,,,,,,,Standard
+43,,,,,,,Luxury Goods,319.39,7,,,5,,,,,10,,,,,,,,Standard
+38,,,,,,,Home Appliances,113.51,11,,,1,,,,,2,,,,,,,,Express
+40,,,,,,,Animal Feed,492.74,2,,,5,,,,,3,,,,,,,,Express
+33,,,,,,,Furniture,143.80,9,,,2,,,,,7,,,,,,,,No Preference
+18,,,,,,,Arts & Crafts,158.54,5,,,1,,,,,7,,,,,,,,Express
+39,,,,,,,Furniture,213.39,6,,,4,,,,,5,,,,,,,,Standard
+31,,,,,,,Health Supplements,127.18,2,,,5,,,,,2,,,,,,,,Standard
+27,,,,,,,Luxury Goods,476.63,9,,,5,,,,,2,,,,,,,,No Preference
+31,,,,,,,Animal Feed,56.02,3,,,3,,,,,6,,,,,,,,Standard
+36,,,,,,,Electronics,398.97,3,,,3,,,,,3,,,,,,,,No Preference
+27,,,,,,,Groceries,53.45,6,,,3,,,,,9,,,,,,,,Standard
+21,,,,,,,Groceries,61.19,2,,,5,,,,,6,,,,,,,,No Preference
+50,,,,,,,Luxury Goods,471.31,4,,,5,,,,,8,,,,,,,,Express
+49,,,,,,,Health Care,179.19,10,,,1,,,,,7,,,,,,,,Express
+43,,,,,,,Food & Beverages,294.61,6,,,1,,,,,2,,,,,,,,Express
+35,,,,,,,Health Care,375.45,6,,,4,,,,,8,,,,,,,,Express
+21,,,,,,,Electronics,83.50,12,,,4,,,,,7,,,,,,,,Standard
+34,,,,,,,Home Appliances,109.88,7,,,4,,,,,3,,,,,,,,Standard
+21,,,,,,,Office Supplies,182.54,11,,,5,,,,,1,,,,,,,,Standard
+23,,,,,,,Furniture,465.48,3,,,3,,,,,8,,,,,,,,No Preference
+31,,,,,,,Health Care,224.52,8,,,3,,,,,5,,,,,,,,Express
+21,,,,,,,Beauty & Personal Care,281.37,12,,,3,,,,,2,,,,,,,,Express
+22,,,,,,,Office Supplies,125.68,2,,,4,,,,,8,,,,,,,,Express
+38,,,,,,,Beauty & Personal Care,178.21,7,,,5,,,,,8,,,,,,,,No Preference
+27,,,,,,,Health Care,483.23,7,,,4,,,,,5,,,,,,,,Express
+18,,,,,,,Home Appliances,415.30,11,,,2,,,,,9,,,,,,,,Standard
+36,,,,,,,Electronics,85.52,7,,,5,,,,,3,,,,,,,,No Preference
+44,,,,,,,Packages),422.31,2,,,4,,,,,6,,,,,,,,No Preference
+48,,,,,,,Arts & Crafts,70.42,11,,,5,,,,,7,,,,,,,,Express
+23,,,,,,,Toys & Games,437.40,6,,,4,,,,,5,,,,,,,,Express
+35,,,,,,,Jewelry & Accessories,207.11,4,,,4,,,,,1,,,,,,,,No Preference
+50,,,,,,,Animal Feed,378.87,2,,,2,,,,,2,,,,,,,,No Preference
+30,,,,,,,Baby Products,349.00,10,,,5,,,,,5,,,,,,,,No Preference
+38,,,,,,,Hotels,330.27,3,,,2,,,,,9,,,,,,,,No Preference
+42,,,,,,,Health Supplements,410.29,10,,,4,,,,,4,,,,,,,,Express
+24,,,,,,,Hotels,400.86,7,,,3,,,,,7,,,,,,,,No Preference
+27,,,,,,,Beauty & Personal Care,225.12,11,,,2,,,,,1,,,,,,,,Express
+36,,,,,,,Beauty & Personal Care,273.48,12,,,3,,,,,5,,,,,,,,Express
+19,,,,,,,Furniture,363.84,11,,,2,,,,,3,,,,,,,,Express
+24,,,,,,,Packages),302.60,9,,,4,,,,,10,,,,,,,,Standard
+35,,,,,,,Animal Feed,317.09,6,,,1,,,,,2,,,,,,,,Standard
+38,,,,,,,Beauty & Personal Care,193.32,9,,,3,,,,,8,,,,,,,,Express
+34,,,,,,,Software & Apps,282.24,6,,,3,,,,,7,,,,,,,,No Preference
+29,,,,,,,Hotels,154.19,6,,,4,,,,,1,,,,,,,,No Preference
+41,,,,,,,Furniture,84.15,10,,,3,,,,,1,,,,,,,,Standard
+41,,,,,,,Health Supplements,214.69,7,,,4,,,,,7,,,,,,,,Standard
+32,,,,,,,Animal Feed,61.21,12,,,5,,,,,5,,,,,,,,Standard
+36,,,,,,,Packages),462.48,11,,,3,,,,,2,,,,,,,,Express
+33,,,,,,,Software & Apps,449.18,3,,,3,,,,,8,,,,,,,,Standard
+25,,,,,,,Mobile Accessories,314.36,7,,,5,,,,,4,,,,,,,,Express
+46,,,,,,,Jewelry & Accessories,367.70,3,,,5,,,,,3,,,,,,,,No Preference
+41,,,,,,,Sports & Outdoors,229.97,7,,,4,,,,,9,,,,,,,,Standard
+28,,,,,,,Home Appliances,226.53,3,,,1,,,,,10,,,,,,,,No Preference
+23,,,,,,,Software & Apps,218.32,2,,,3,,,,,7,,,,,,,,Express
+48,,,,,,,Furniture,132.67,7,,,5,,,,,3,,,,,,,,Express
+26,,,,,,,Arts & Crafts,416.96,7,,,1,,,,,1,,,,,,,,Express
+39,,,,,,,Arts & Crafts,459.51,7,,,2,,,,,5,,,,,,,,No Preference
+45,,,,,,,Sports & Outdoors,487.96,2,,,3,,,,,2,,,,,,,,No Preference
+22,,,,,,,Toys & Games,150.11,7,,,4,,,,,3,,,,,,,,Standard
+36,,,,,,,Hotels,218.87,5,,,3,,,,,4,,,,,,,,No Preference
+29,,,,,,,Mobile Accessories,437.06,7,,,5,,,,,6,,,,,,,,Express
+33,,,,,,,Beauty & Personal Care,122.58,2,,,4,,,,,5,,,,,,,,Express
+35,,,,,,,Food & Beverages,195.07,8,,,1,,,,,6,,,,,,,,No Preference
+39,,,,,,,Books,190.06,9,,,1,,,,,2,,,,,,,,Standard
+38,,,,,,,Groceries,485.76,10,,,4,,,,,4,,,,,,,,No Preference
+27,,,,,,,Books,242.57,7,,,1,,,,,10,,,,,,,,No Preference
+35,,,,,,,Arts & Crafts,303.13,2,,,1,,,,,7,,,,,,,,Standard
+43,,,,,,,Toys & Games,136.10,5,,,5,,,,,2,,,,,,,,Express
+40,,,,,,,Electronics,249.02,11,,,2,,,,,1,,,,,,,,Express
+19,,,,,,,Office Supplies,466.74,7,,,4,,,,,3,,,,,,,,Express
+46,,,,,,,Animal Feed,229.30,6,,,5,,,,,6,,,,,,,,Express
+30,,,,,,,Packages),450.52,8,,,2,,,,,6,,,,,,,,No Preference
+35,,,,,,,Groceries,246.44,4,,,1,,,,,3,,,,,,,,No Preference
+34,,,,,,,Home Appliances,93.52,2,,,5,,,,,2,,,,,,,,No Preference
+28,,,,,,,Groceries,137.75,6,,,3,,,,,1,,,,,,,,No Preference
+44,,,,,,,Home Appliances,78.64,5,,,4,,,,,3,,,,,,,,Standard
+25,,,,,,,Software & Apps,214.82,9,,,4,,,,,9,,,,,,,,No Preference
+45,,,,,,,Mobile Accessories,57.39,3,,,5,,,,,10,,,,,,,,Standard
+47,,,,,,,Beauty & Personal Care,363.91,10,,,1,,,,,2,,,,,,,,Standard
+39,,,,,,,Travel & Leisure (Flights,304.79,12,,,4,,,,,9,,,,,,,,Standard
+32,,,,,,,Jewelry & Accessories,363.98,4,,,4,,,,,7,,,,,,,,Express
+47,,,,,,,Books,249.60,7,,,1,,,,,7,,,,,,,,Standard
+19,,,,,,,Electronics,345.04,12,,,5,,,,,8,,,,,,,,Express
+48,,,,,,,Arts & Crafts,59.15,3,,,2,,,,,1,,,,,,,,Standard
+27,,,,,,,Home Appliances,461.81,12,,,3,,,,,8,,,,,,,,No Preference
+31,,,,,,,Health Care,280.88,4,,,4,,,,,2,,,,,,,,No Preference
+44,,,,,,,Luxury Goods,283.70,8,,,5,,,,,3,,,,,,,,Express
+24,,,,,,,Luxury Goods,411.95,10,,,3,,,,,4,,,,,,,,Standard
+32,,,,,,,Gardening & Outdoors,476.11,5,,,4,,,,,10,,,,,,,,Standard
+28,,,,,,,Gardening & Outdoors,399.24,7,,,2,,,,,2,,,,,,,,Standard
+26,,,,,,,Jewelry & Accessories,90.79,12,,,1,,,,,2,,,,,,,,No Preference
+38,,,,,,,Animal Feed,229.56,9,,,2,,,,,9,,,,,,,,No Preference
+28,,,,,,,Sports & Outdoors,160.47,7,,,5,,,,,3,,,,,,,,No Preference
+30,,,,,,,Software & Apps,104.74,6,,,4,,,,,4,,,,,,,,No Preference
+37,,,,,,,Food & Beverages,399.95,10,,,1,,,,,2,,,,,,,,Express
+47,,,,,,,Baby Products,337.33,8,,,4,,,,,5,,,,,,,,Express
+41,,,,,,,Jewelry & Accessories,204.83,6,,,1,,,,,5,,,,,,,,Standard
+22,,,,,,,Packages),193.94,11,,,1,,,,,3,,,,,,,,Standard
+46,,,,,,,Mobile Accessories,460.37,10,,,4,,,,,7,,,,,,,,Express
+34,,,,,,,Arts & Crafts,297.29,9,,,4,,,,,9,,,,,,,,Standard
+31,,,,,,,Books,389.47,4,,,3,,,,,9,,,,,,,,Standard
+38,,,,,,,Home Appliances,370.05,11,,,3,,,,,10,,,,,,,,No Preference
+45,,,,,,,Jewelry & Accessories,462.24,2,,,5,,,,,1,,,,,,,,Express
+30,,,,,,,Food & Beverages,472.53,11,,,1,,,,,7,,,,,,,,Express
+45,,,,,,,Home Appliances,407.29,3,,,5,,,,,5,,,,,,,,Express
+18,,,,,,,Mobile Accessories,135.65,8,,,1,,,,,9,,,,,,,,Standard
+36,,,,,,,Animal Feed,352.35,4,,,2,,,,,1,,,,,,,,Express
+25,,,,,,,Books,441.73,12,,,4,,,,,8,,,,,,,,Standard
+21,,,,,,,Luxury Goods,105.95,12,,,4,,,,,7,,,,,,,,Standard
+26,,,,,,,Groceries,351.54,11,,,3,,,,,8,,,,,,,,Express
+40,,,,,,,Home Appliances,321.26,12,,,1,,,,,6,,,,,,,,Standard
+47,,,,,,,Animal Feed,421.50,11,,,1,,,,,8,,,,,,,,Express
+27,,,,,,,Food & Beverages,253.29,6,,,2,,,,,4,,,,,,,,Standard
+29,,,,,,,Jewelry & Accessories,217.62,3,,,2,,,,,3,,,,,,,,No Preference
+21,,,,,,,Books,226.04,11,,,1,,,,,9,,,,,,,,Express
+41,,,,,,,Packages),52.79,4,,,2,,,,,7,,,,,,,,Express
+43,,,,,,,Jewelry & Accessories,385.08,7,,,4,,,,,1,,,,,,,,No Preference
+33,,,,,,,Hotels,181.10,2,,,5,,,,,7,,,,,,,,No Preference
+23,,,,,,,Office Supplies,246.41,7,,,4,,,,,8,,,,,,,,Standard
+37,,,,,,,Baby Products,140.87,8,,,3,,,,,7,,,,,,,,No Preference
+34,,,,,,,Software & Apps,151.25,2,,,5,,,,,8,,,,,,,,No Preference
+27,,,,,,,Hotels,171.52,3,,,5,,,,,9,,,,,,,,Standard
+40,,,,,,,Sports & Outdoors,399.56,10,,,2,,,,,4,,,,,,,,No Preference
+40,,,,,,,Sports & Outdoors,173.46,4,,,3,,,,,9,,,,,,,,No Preference
+43,,,,,,,Toys & Games,332.14,10,,,4,,,,,2,,,,,,,,No Preference
+37,,,,,,,Food & Beverages,247.05,8,,,2,,,,,8,,,,,,,,Standard
+49,,,,,,,Office Supplies,365.88,10,,,5,,,,,1,,,,,,,,Express
+27,,,,,,,Toys & Games,354.92,8,,,4,,,,,1,,,,,,,,Express
+19,,,,,,,Jewelry & Accessories,195.46,10,,,3,,,,,10,,,,,,,,Standard
+40,,,,,,,Books,474.03,7,,,1,,,,,6,,,,,,,,Standard
+27,,,,,,,Animal Feed,106.96,6,,,1,,,,,7,,,,,,,,Standard
+29,,,,,,,Electronics,371.84,9,,,4,,,,,6,,,,,,,,Standard
+45,,,,,,,Health Supplements,461.16,8,,,4,,,,,3,,,,,,,,Express
+24,,,,,,,Books,497.75,11,,,1,,,,,1,,,,,,,,Express
+45,,,,,,,Health Care,492.83,5,,,1,,,,,4,,,,,,,,No Preference
+39,,,,,,,Groceries,295.54,8,,,3,,,,,4,,,,,,,,Express
+40,,,,,,,Furniture,494.81,9,,,4,,,,,7,,,,,,,,Standard
+21,,,,,,,Mobile Accessories,160.25,7,,,3,,,,,5,,,,,,,,No Preference
+42,,,,,,,Gardening & Outdoors,198.36,4,,,1,,,,,9,,,,,,,,Standard
+44,,,,,,,Furniture,82.39,12,,,1,,,,,8,,,,,,,,Express
+46,,,,,,,Hotels,290.56,3,,,1,,,,,1,,,,,,,,No Preference
+29,,,,,,,Animal Feed,206.79,5,,,3,,,,,2,,,,,,,,Standard
+19,,,,,,,Baby Products,401.43,8,,,2,,,,,6,,,,,,,,No Preference
+21,,,,,,,Sports & Outdoors,188.17,9,,,5,,,,,5,,,,,,,,Standard
+38,,,,,,,Gardening & Outdoors,83.21,10,,,3,,,,,4,,,,,,,,Standard
+41,,,,,,,Gardening & Outdoors,54.74,4,,,2,,,,,4,,,,,,,,No Preference
+49,,,,,,,Office Supplies,371.12,8,,,1,,,,,7,,,,,,,,No Preference
+32,,,,,,,Packages),293.64,3,,,1,,,,,8,,,,,,,,Express
+24,,,,,,,Books,185.83,11,,,2,,,,,9,,,,,,,,Standard
+27,,,,,,,Office Supplies,117.13,7,,,1,,,,,10,,,,,,,,Express
+44,,,,,,,Office Supplies,52.24,11,,,1,,,,,4,,,,,,,,Standard
+28,,,,,,,Baby Products,446.69,7,,,5,,,,,5,,,,,,,,No Preference
+23,,,,,,,Packages),216.84,5,,,3,,,,,1,,,,,,,,Express
+42,,,,,,,Electronics,75.27,7,,,4,,,,,3,,,,,,,,Express
+20,,,,,,,Office Supplies,308.87,2,,,4,,,,,2,,,,,,,,Express
+49,,,,,,,Travel & Leisure (Flights,169.77,5,,,4,,,,,9,,,,,,,,Standard
+19,,,,,,,Toys & Games,289.08,12,,,1,,,,,10,,,,,,,,Standard
+38,,,,,,,Travel & Leisure (Flights,74.09,10,,,4,,,,,9,,,,,,,,Standard
+43,,,,,,,Travel & Leisure (Flights,201.53,5,,,3,,,,,6,,,,,,,,No Preference
+38,,,,,,,Arts & Crafts,244.60,12,,,4,,,,,6,,,,,,,,Standard
+21,,,,,,,Software & Apps,320.50,10,,,4,,,,,9,,,,,,,,Express
+27,,,,,,,Jewelry & Accessories,91.63,3,,,2,,,,,10,,,,,,,,Standard
+35,,,,,,,Sports & Outdoors,251.93,8,,,2,,,,,3,,,,,,,,Standard
+30,,,,,,,Luxury Goods,477.35,4,,,5,,,,,2,,,,,,,,No Preference
+31,,,,,,,Baby Products,86.63,10,,,1,,,,,2,,,,,,,,Express
+50,,,,,,,Health Care,474.42,4,,,3,,,,,9,,,,,,,,No Preference
+34,,,,,,,Gardening & Outdoors,429.24,7,,,5,,,,,1,,,,,,,,No Preference
+24,,,,,,,Home Appliances,470.38,8,,,4,,,,,3,,,,,,,,Standard
+32,,,,,,,Gardening & Outdoors,495.80,4,,,2,,,,,7,,,,,,,,Standard
+21,,,,,,,Electronics,129.64,4,,,1,,,,,3,,,,,,,,Express
+41,,,,,,,Mobile Accessories,473.77,9,,,1,,,,,9,,,,,,,,No Preference
+40,,,,,,,Electronics,130.84,4,,,5,,,,,10,,,,,,,,Standard
+48,,,,,,,Groceries,436.54,12,,,3,,,,,8,,,,,,,,No Preference
+25,,,,,,,Animal Feed,264.01,4,,,4,,,,,5,,,,,,,,No Preference
+30,,,,,,,Travel & Leisure (Flights,58.27,2,,,4,,,,,4,,,,,,,,No Preference
+25,,,,,,,Sports & Outdoors,190.76,10,,,5,,,,,3,,,,,,,,Express
+40,,,,,,,Animal Feed,105.76,8,,,4,,,,,8,,,,,,,,Express
+24,,,,,,,Hotels,254.29,9,,,4,,,,,7,,,,,,,,Express
+49,,,,,,,Sports & Outdoors,435.52,9,,,3,,,,,2,,,,,,,,No Preference
+50,,,,,,,Office Supplies,235.49,5,,,3,,,,,6,,,,,,,,Express
+45,,,,,,,Mobile Accessories,161.34,3,,,3,,,,,8,,,,,,,,No Preference
+19,,,,,,,Mobile Accessories,167.67,11,,,2,,,,,6,,,,,,,,Express
+50,,,,,,,Food & Beverages,96.68,10,,,2,,,,,3,,,,,,,,No Preference
+32,,,,,,,Gardening & Outdoors,234.58,3,,,5,,,,,6,,,,,,,,Standard
+21,,,,,,,Furniture,156.48,7,,,1,,,,,5,,,,,,,,No Preference
+27,,,,,,,Jewelry & Accessories,489.66,11,,,1,,,,,6,,,,,,,,Standard
+39,,,,,,,Packages),161.85,9,,,3,,,,,4,,,,,,,,No Preference
+34,,,,,,,Electronics,204.47,7,,,1,,,,,9,,,,,,,,No Preference
+34,,,,,,,Hotels,315.03,4,,,5,,,,,6,,,,,,,,Express
+42,,,,,,,Furniture,330.36,12,,,5,,,,,4,,,,,,,,No Preference
+42,,,,,,,Toys & Games,456.83,5,,,5,,,,,9,,,,,,,,No Preference
+31,,,,,,,Jewelry & Accessories,236.05,6,,,3,,,,,4,,,,,,,,No Preference
+35,,,,,,,Home Appliances,289.28,9,,,5,,,,,7,,,,,,,,Express
+27,,,,,,,Packages),483.77,5,,,2,,,,,5,,,,,,,,No Preference
+45,,,,,,,Furniture,64.50,7,,,4,,,,,7,,,,,,,,No Preference
+43,,,,,,,Groceries,436.57,4,,,3,,,,,10,,,,,,,,Standard
+35,,,,,,,Food & Beverages,364.48,2,,,3,,,,,5,,,,,,,,No Preference
+33,,,,,,,Beauty & Personal Care,221.88,12,,,4,,,,,6,,,,,,,,Express
+31,,,,,,,Clothing,278.21,3,,,1,,,,,7,,,,,,,,No Preference
+31,,,,,,,Health Supplements,344.43,7,,,5,,,,,4,,,,,,,,Standard
+26,,,,,,,Baby Products,326.08,11,,,3,,,,,6,,,,,,,,Express
+49,,,,,,,Gardening & Outdoors,437.97,8,,,2,,,,,7,,,,,,,,Express
+23,,,,,,,Packages),391.87,3,,,4,,,,,2,,,,,,,,Standard
+42,,,,,,,Travel & Leisure (Flights,333.41,3,,,5,,,,,6,,,,,,,,Standard
+32,,,,,,,Groceries,251.54,9,,,1,,,,,10,,,,,,,,No Preference
+37,,,,,,,Electronics,292.08,7,,,2,,,,,9,,,,,,,,Standard
+25,,,,,,,Travel & Leisure (Flights,204.29,11,,,4,,,,,1,,,,,,,,Express
+49,,,,,,,Packages),258.68,4,,,2,,,,,9,,,,,,,,No Preference
+26,,,,,,,Gardening & Outdoors,258.02,2,,,2,,,,,4,,,,,,,,Express
+29,,,,,,,Gardening & Outdoors,181.87,12,,,1,,,,,4,,,,,,,,No Preference
+26,,,,,,,Groceries,81.18,8,,,5,,,,,3,,,,,,,,Express
+23,,,,,,,Books,382.94,8,,,3,,,,,6,,,,,,,,Standard
+47,,,,,,,Beauty & Personal Care,402.82,7,,,5,,,,,2,,,,,,,,No Preference
+30,,,,,,,Gardening & Outdoors,497.76,2,,,2,,,,,3,,,,,,,,No Preference
+26,,,,,,,Furniture,227.58,5,,,2,,,,,1,,,,,,,,No Preference
+35,,,,,,,Electronics,263.57,2,,,3,,,,,9,,,,,,,,Express
+40,,,,,,,Baby Products,422.09,3,,,1,,,,,9,,,,,,,,Standard
+35,,,,,,,Gardening & Outdoors,411.83,2,,,3,,,,,3,,,,,,,,Standard
+21,,,,,,,Software & Apps,242.65,3,,,3,,,,,8,,,,,,,,No Preference
+41,,,,,,,Sports & Outdoors,298.93,6,,,2,,,,,1,,,,,,,,Express
+44,,,,,,,Mobile Accessories,191.21,7,,,4,,,,,6,,,,,,,,No Preference
+44,,,,,,,Electronics,136.67,3,,,1,,,,,2,,,,,,,,Standard
+37,,,,,,,Sports & Outdoors,324.11,11,,,3,,,,,2,,,,,,,,No Preference
+40,,,,,,,Animal Feed,105.64,6,,,3,,,,,1,,,,,,,,No Preference
+43,,,,,,,Electronics,295.60,10,,,2,,,,,9,,,,,,,,Standard
+48,,,,,,,Animal Feed,227.03,9,,,4,,,,,7,,,,,,,,No Preference
+32,,,,,,,Hotels,485.77,10,,,2,,,,,6,,,,,,,,No Preference
+37,,,,,,,Animal Feed,173.43,4,,,3,,,,,1,,,,,,,,No Preference
+29,,,,,,,Baby Products,462.96,2,,,2,,,,,6,,,,,,,,No Preference
+36,,,,,,,Mobile Accessories,203.13,10,,,3,,,,,5,,,,,,,,Standard
+50,,,,,,,Toys & Games,443.11,9,,,2,,,,,10,,,,,,,,No Preference
+31,,,,,,,Health Supplements,254.83,2,,,2,,,,,2,,,,,,,,Standard
+29,,,,,,,Luxury Goods,336.89,4,,,1,,,,,7,,,,,,,,Express
+26,,,,,,,Baby Products,337.17,8,,,5,,,,,6,,,,,,,,No Preference
+22,,,,,,,Food & Beverages,429.24,2,,,2,,,,,3,,,,,,,,No Preference
+35,,,,,,,Electronics,197.70,7,,,5,,,,,6,,,,,,,,Standard
+23,,,,,,,Home Appliances,336.96,2,,,2,,,,,7,,,,,,,,No Preference
+40,,,,,,,Packages),489.81,11,,,2,,,,,1,,,,,,,,No Preference
+32,,,,,,,Software & Apps,455.55,8,,,4,,,,,6,,,,,,,,No Preference
+29,,,,,,,Mobile Accessories,266.61,3,,,1,,,,,8,,,,,,,,Standard
+50,,,,,,,Travel & Leisure (Flights,460.88,5,,,4,,,,,4,,,,,,,,Standard
+42,,,,,,,Health Supplements,361.40,2,,,5,,,,,5,,,,,,,,No Preference
+47,,,,,,,Baby Products,51.86,4,,,5,,,,,6,,,,,,,,No Preference
+27,,,,,,,Office Supplies,310.16,5,,,3,,,,,4,,,,,,,,Standard
+40,,,,,,,Packages),300.73,8,,,2,,,,,9,,,,,,,,No Preference
+28,,,,,,,Packages),356.87,12,,,4,,,,,9,,,,,,,,Standard
+28,,,,,,,Clothing,82.37,6,,,1,,,,,4,,,,,,,,Standard
+29,,,,,,,Clothing,372.60,3,,,5,,,,,6,,,,,,,,Express
+29,,,,,,,Animal Feed,78.32,9,,,4,,,,,10,,,,,,,,Standard
+32,,,,,,,Baby Products,71.72,12,,,5,,,,,5,,,,,,,,Express
+39,,,,,,,Luxury Goods,241.10,12,,,5,,,,,2,,,,,,,,No Preference
+22,,,,,,,Travel & Leisure (Flights,96.86,9,,,5,,,,,10,,,,,,,,Standard
+48,,,,,,,Food & Beverages,276.25,11,,,1,,,,,4,,,,,,,,Express
+29,,,,,,,Office Supplies,318.45,10,,,1,,,,,4,,,,,,,,No Preference
+41,,,,,,,Animal Feed,117.03,6,,,2,,,,,9,,,,,,,,Standard
+50,,,,,,,Toys & Games,490.41,7,,,5,,,,,10,,,,,,,,Standard
+48,,,,,,,Health Supplements,476.42,7,,,1,,,,,2,,,,,,,,Standard
+29,,,,,,,Beauty & Personal Care,392.27,5,,,5,,,,,2,,,,,,,,No Preference
+36,,,,,,,Hotels,207.24,9,,,2,,,,,6,,,,,,,,No Preference
+43,,,,,,,Gardening & Outdoors,141.63,3,,,1,,,,,8,,,,,,,,Express
+30,,,,,,,Home Appliances,244.47,5,,,4,,,,,5,,,,,,,,No Preference
+24,,,,,,,Gardening & Outdoors,251.63,9,,,1,,,,,2,,,,,,,,Express
+30,,,,,,,Toys & Games,431.78,12,,,3,,,,,8,,,,,,,,No Preference
+37,,,,,,,Jewelry & Accessories,303.09,2,,,5,,,,,9,,,,,,,,No Preference
+40,,,,,,,Travel & Leisure (Flights,341.24,9,,,5,,,,,3,,,,,,,,Standard
+30,,,,,,,Electronics,211.39,10,,,5,,,,,1,,,,,,,,Express
+39,,,,,,,Electronics,379.21,9,,,5,,,,,1,,,,,,,,No Preference
+46,,,,,,,Mobile Accessories,309.53,8,,,1,,,,,6,,,,,,,,Standard
+48,,,,,,,Books,359.45,6,,,1,,,,,8,,,,,,,,Standard
+20,,,,,,,Hotels,479.62,8,,,1,,,,,3,,,,,,,,Express
+34,,,,,,,Electronics,208.60,2,,,1,,,,,5,,,,,,,,Standard
+50,,,,,,,Software & Apps,180.21,2,,,5,,,,,1,,,,,,,,Express
+25,,,,,,,Electronics,197.90,3,,,1,,,,,8,,,,,,,,Standard
+49,,,,,,,Home Appliances,362.30,7,,,2,,,,,4,,,,,,,,Standard
+25,,,,,,,Health Supplements,159.53,11,,,4,,,,,3,,,,,,,,Express
+40,,,,,,,Jewelry & Accessories,149.52,9,,,5,,,,,6,,,,,,,,No Preference
+19,,,,,,,Toys & Games,206.32,5,,,3,,,,,4,,,,,,,,Express
+40,,,,,,,Baby Products,308.58,11,,,5,,,,,7,,,,,,,,Express
+22,,,,,,,Groceries,91.34,5,,,1,,,,,1,,,,,,,,Express
+25,,,,,,,Luxury Goods,455.44,7,,,2,,,,,3,,,,,,,,No Preference
+32,,,,,,,Baby Products,468.16,8,,,5,,,,,5,,,,,,,,Standard
+44,,,,,,,Mobile Accessories,463.67,5,,,4,,,,,4,,,,,,,,Standard
+50,,,,,,,Gardening & Outdoors,69.78,9,,,3,,,,,6,,,,,,,,No Preference
+26,,,,,,,Food & Beverages,453.37,10,,,1,,,,,6,,,,,,,,Express
+21,,,,,,,Baby Products,106.15,12,,,4,,,,,5,,,,,,,,Standard
+21,,,,,,,Health Care,378.47,6,,,2,,,,,10,,,,,,,,Express

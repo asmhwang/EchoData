@@ -1,40 +1,3 @@
-"""
-ShatteredSynth — Irreversible Synthetic Data Generator
-=======================================================
-
-APPROACH: "Shattered Statistics" Pipeline
-Instead of learning a single reversible generative model (like a Gaussian Copula),
-we decompose the original data into isolated statistical fragments that are
-intentionally destroyed after use. No single model artifact can reconstruct
-the original data.
-
-HOW IT WORKS (3-phase pipeline):
-
-Phase 1 — SHATTER: Decompose into independent statistical fragments
-  - Per-column marginal distributions (fitted independently)
-  - Pairwise correlation matrix (only stores r-values, not rows)
-  - Conditional bucket statistics (binned aggregates, not raw values)
-  - Categorical frequency tables with Laplace noise
-
-Phase 2 — DESTROY: Cryptographic destruction of reversibility
-  - Add calibrated noise to all learned statistics (differential privacy inspired)
-  - Quantize continuous parameters to reduce precision
-  - Shuffle the correlation structure with bounded perturbation
-  - Hash-salt and discard the mapping between original indices and fragments
-
-Phase 3 — REASSEMBLE: Generate synthetic rows from fragments
-  - Sample marginals independently
-  - Use noisy Cholesky-based correlation induction (not the original copula)
-  - Apply categorical constraints from noisy frequency tables
-  - Post-hoc validation against aggregate statistical tests
-
-WHY THIS IS IRREVERSIBLE:
-  - No single model encodes the full joint distribution
-  - Every statistic has calibrated noise added (epsilon-DP style)
-  - Original data is never stored; only noisy fragments remain
-  - Even with all fragments, reconstruction is provably lossy
-"""
-
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -214,6 +177,7 @@ def compute_noisy_correlations(df, numeric_cols, epsilon=1.0):
     
     # Use Spearman (rank-based = more robust, less tied to exact values)
     corr = subset.corr(method="spearman").values
+    corr.setflags(write=1)
     
     # Add calibrated noise to each off-diagonal element
     n = corr.shape[0]
@@ -485,7 +449,7 @@ class ShatteredSynth:
         Phase 1+2: Decompose data into noisy fragments and destroy reversibility.
         After this call, the original df is not retained.
         """
-        print(f"⚡ ShatteredSynth — Irreversible Synthetic Data Engine")
+        print(f"EchoData — Irreversible Synthetic Data Engine")
         print(f"  Dataset: {df.shape[0]} rows × {df.shape[1]} columns")
         print(f"  Privacy budget (ε): {self.epsilon}")
         print()
@@ -497,38 +461,23 @@ class ShatteredSynth:
         self.numeric_cols = [c for c, t in self.col_types.items() if t == "numeric"]
         self.cat_cols = [c for c, t in self.col_types.items() if t == "categorical"]
         
-        print(f"  Phase 1 — SHATTER")
-        print(f"    Numeric columns: {len(self.numeric_cols)}")
-        print(f"    Categorical columns: {len(self.cat_cols)}")
-        
         # Step 2: Fit noisy marginals (independently per column)
         for col in df.columns:
             self.profiles[col] = fit_marginal(df[col], self.col_types[col], self.epsilon)
-        print(f"    Marginal profiles fitted: {len(self.profiles)}")
         
         # Step 3: Compute noisy correlations
         self.correlation_matrix = compute_noisy_correlations(
             df, self.numeric_cols, self.epsilon
         )
-        print(f"    Correlation matrix: {self.correlation_matrix.shape[0]}×{self.correlation_matrix.shape[1]}")
         
         # Step 4: Compute noisy conditional buckets
         self.conditionals = compute_conditional_buckets(df, self.col_types, self.epsilon)
-        print(f"    Conditional statistics: {len(self.conditionals)} pairs")
-        
         # Phase 2 — DESTROY: Generate a destruction certificate
         print()
-        print(f"  Phase 2 — DESTROY")
         destruction_salt = hashlib.sha256(np.random.bytes(32)).hexdigest()
         self._destruction_hash = hashlib.sha256(
             f"{destruction_salt}:{df.shape}:{list(df.columns)}".encode()
         ).hexdigest()[:16]
-        print(f"    Destruction certificate: {self._destruction_hash}")
-        print(f"    ✓ Original data is NOT stored in this object")
-        print(f"    ✓ All statistics have ε={self.epsilon} Laplace noise applied")
-        print(f"    ✓ Correlations quantized to nearest 0.05")
-        print(f"    ✓ Small-group statistics suppressed (n<3)")
-        print()
     
     def generate(self, n=None, multiplier=1):
         """
@@ -544,9 +493,6 @@ class ShatteredSynth:
         if n is None:
             n = 1000  # Default
         
-        print(f"  Phase 3 — REASSEMBLE")
-        print(f"    Generating {n} synthetic rows...")
-        
         # Step 1: Sample each column independently from noisy marginals
         columns = {}
         for col in self.column_order:
@@ -559,12 +505,10 @@ class ShatteredSynth:
             synthetic = induce_correlations(
                 synthetic, self.numeric_cols, self.correlation_matrix
             )
-            print(f"    ✓ Correlation structure induced")
         
         # Step 3: Apply conditional adjustments
         if self.conditionals:
             synthetic = apply_conditional_adjustments(synthetic, self.conditionals)
-            print(f"    ✓ Conditional relationships applied")
         
         # Final cleanup: restore dtypes
         for col in self.column_order:
@@ -573,7 +517,7 @@ class ShatteredSynth:
                 if non_null.any():
                     synthetic.loc[non_null, col] = synthetic.loc[non_null, col].astype(float).round().astype(int)
         
-        print(f"    ✓ Done! Generated {len(synthetic)} rows × {len(synthetic.columns)} columns")
+        print(f"Done")
         print()
         
         return synthetic

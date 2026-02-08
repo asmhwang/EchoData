@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EchoData — Synthetic Data Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════
+   RESET & VARIABLES
+   ═══════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:         #08090C;
+  --bg-card:    #0F1117;
+  --bg-card-2:  #141620;
+  --bg-input:   #1A1D2A;
+  --border:     #252839;
+  --border-lit: #3A3E55;
+  --accent:     #C4A1FF;
+  --accent-dim: #8B6CC1;
+  --accent-glow: rgba(196,161,255,0.12);
+  --success:    #5DFFA0;
+  --success-dim: #2D8F55;
+  --warn:       #FFD166;
+  --error:      #FF7070;
+  --text:       #E4E7F1;
+  --text-2:     #9499B3;
+  --text-3:     #5A5F78;
+  --radius:     12px;
+  --radius-sm:  8px;
+}
+
+html { font-size: 15px; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background grain texture */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ═══════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════ */
+.shell {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Top bar ─── */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0 20px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.logo-mark {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 1.65rem;
+  background: linear-gradient(135deg, var(--accent), #7EE8FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo-sub {
+  font-size: 0.72rem;
+  color: var(--text-3);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ── Steps indicator ─── */
+.steps-indicator {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.step-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: all 0.4s ease;
+}
+.step-dot.active {
+  width: 28px;
+  border-radius: 4px;
+  background: var(--accent);
+}
+.step-dot.done {
+  background: var(--success);
+}
+
+/* ═══════════════════════════════════════════
+   CARDS
+   ═══════════════════════════════════════════ */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  margin-bottom: 24px;
+  animation: cardIn 0.5s ease both;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-dim), transparent);
+  opacity: 0.4;
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-step {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.card-desc {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.55;
+  margin-bottom: 24px;
+}
+
+/* ═══════════════════════════════════════════
+   FORM ELEMENTS
+   ═══════════════════════════════════════════ */
+
+/* File drop zone */
+.drop-zone {
+  border: 2px dashed var(--border-lit);
+  border-radius: var(--radius);
+  padding: 48px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.drop-zone:hover, .drop-zone.drag-over {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+}
+.drop-zone-icon {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.drop-zone-text {
+  color: var(--text-2);
+  font-size: 0.92rem;
+}
+.drop-zone-text strong {
+  color: var(--accent);
+  cursor: pointer;
+}
+.drop-zone input[type="file"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* File info badge */
+.file-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+.file-badge .icon { color: var(--success); font-size: 1.1rem; }
+.file-badge .name { color: var(--text); font-weight: 500; }
+.file-badge .meta { color: var(--text-3); }
+
+/* Inputs & sliders */
+.form-group { margin-bottom: 20px; }
+.form-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-2);
+  margin-bottom: 8px;
+  letter-spacing: 0.03em;
+}
+.form-hint {
+  font-size: 0.78rem;
+  color: var(--text-3);
+  margin-bottom: 8px;
+}
+
+input[type="number"], select {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.92rem;
+  padding: 10px 14px;
+  width: 180px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+input[type="number"]:focus, select:focus {
+  border-color: var(--accent);
+}
+
+select {
+  width: 100%;
+  max-width: 340px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%239499B3' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+/* Range slider */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(196,161,255,0.35);
+  transition: transform 0.15s;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+.slider-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--accent);
+  min-width: 40px;
+  text-align: right;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #0D0E16;
+}
+.btn-primary:hover { background: #D4B5FF; transform: translateY(-1px); }
+.btn-primary:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-2);
+  border: 1px solid var(--border);
+}
+.btn-ghost:hover { border-color: var(--text-2); color: var(--text); }
+
+.btn-success {
+  background: var(--success);
+  color: #0D0E16;
+}
+.btn-success:hover { background: #7AFFB8; }
+
+.btn-row { display: flex; gap: 12px; margin-top: 8px; }
+
+/* ═══════════════════════════════════════════
+   COLUMN PILLS (preview)
+   ═══════════════════════════════════════════ */
+.col-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+.col-pill {
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+}
+.col-pill.numeric { border-color: #5a7fff44; color: #7B9AFF; }
+.col-pill.categorical { border-color: #ff9f5a33; color: #FFB87A; }
+
+/* ═══════════════════════════════════════════
+   LOG AREA
+   ═══════════════════════════════════════════ */
+.log-box {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--text-3);
+  max-height: 260px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+.log-box .log-ok { color: var(--success); }
+.log-box .log-warn { color: var(--warn); }
+.log-box .log-err { color: var(--error); }
+
+/* ═══════════════════════════════════════════
+   STATS TABLE
+   ═══════════════════════════════════════════ */
+.stats-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.82rem;
+  margin-top: 12px;
+}
+.stats-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-3);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.stats-table td {
+  padding: 8px 12px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+  border-bottom: 1px solid var(--border);
+}
+.stats-table tr:last-child td { border-bottom: none; }
+.stats-table .col-name { color: var(--text); font-weight: 500; }
+.stats-table .good { color: var(--success); }
+.stats-table .ok { color: var(--warn); }
+.stats-table .bad { color: var(--error); }
+
+/* ═══════════════════════════════════════════
+   RESULTS
+   ═══════════════════════════════════════════ */
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0;
+}
+.result-box {
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  text-align: center;
+}
+.result-box .label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 4px;
+}
+.result-box .value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.result-box.original .value { color: var(--accent); }
+.result-box.synthetic .value { color: var(--success); }
+
+.verdict-banner {
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-top: 8px;
+}
+.verdict-banner.success { background: rgba(93,255,160,0.08); color: var(--success); border: 1px solid rgba(93,255,160,0.2); }
+.verdict-banner.warning { background: rgba(255,209,102,0.08); color: var(--warn); border: 1px solid rgba(255,209,102,0.2); }
+.verdict-banner.error   { background: rgba(255,112,112,0.08); color: var(--error); border: 1px solid rgba(255,112,112,0.2); }
+
+/* Feature importance bars */
+.feat-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.feat-bar-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-2);
+  min-width: 140px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.feat-bar-track {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.feat-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+.feat-bar-fill.original { background: var(--accent); }
+.feat-bar-fill.synthetic { background: var(--success); }
+.feat-bar-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  min-width: 42px;
+}
+
+/* Spinner */
+.spinner {
+  display: inline-block;
+  width: 18px; height: 18px;
+  border: 2.5px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Hidden */
+.hidden { display: none !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-lit); border-radius: 3px; }
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+@media (max-width: 600px) {
+  .shell { padding: 0 14px; }
+  .card { padding: 22px; }
+  .result-grid { grid-template-columns: 1fr; }
+  header { flex-direction: column; gap: 12px; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<div class="shell">
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <span class="logo-mark">EchoData</span>
+      <span class="logo-sub">Synthetic Data Studio</span>
+    </div>
+    <div class="steps-indicator">
+      <div class="step-dot active" id="dot-1"></div>
+      <div class="step-dot" id="dot-2"></div>
+      <div class="step-dot" id="dot-3"></div>
+      <div class="step-dot" id="dot-4"></div>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <div id="content"></div>
+
+  <div style="height:80px"></div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+const state = {
+  session: null,
+  filename: null,
+  rows: 0,
+  cols: 0,
+  columns: [],
+  numericCount: 0,
+  categoricalCount: 0,
+  synthDone: false,
+  synthStats: [],
+};
+
+const $ = sel => document.querySelector(sel);
+const $content = () => document.getElementById('content');
+
+// ═══════════════════════════════════════════
+// STEP DOTS
+// ═══════════════════════════════════════════
+function setStep(n) {
+  for (let i = 1; i <= 4; i++) {
+    const dot = document.getElementById(`dot-${i}`);
+    dot.className = 'step-dot';
+    if (i < n) dot.classList.add('done');
+    if (i === n) dot.classList.add('active');
+  }
+}
+
+// ═══════════════════════════════════════════
+// STEP 1: Upload
+// ═══════════════════════════════════════════
+function renderStep1() {
+  setStep(1);
+  $content().innerHTML = `
+    <div class="card">
+      <div class="card-step">Step 1</div>
+      <div class="card-title">Load Your Dataset</div>
+      <div class="card-desc">Drop a CSV file below or click to browse. EchoData auto-detects column types and works with any tabular data.</div>
+      <div class="drop-zone" id="drop-zone">
+        <input type="file" accept=".csv" id="file-input">
+        <div class="drop-zone-icon">⬆</div>
+        <div class="drop-zone-text">Drag & drop your CSV here, or <strong>browse</strong></div>
+      </div>
+      <div id="file-info"></div>
+      <div id="col-preview"></div>
+      <div class="btn-row" style="justify-content:flex-end; margin-top:20px;">
+        <button class="btn btn-primary" id="btn-next1" disabled onclick="renderStep2()">Continue →</button>
+      </div>
+    </div>
+  `;
+
+  const dz = document.getElementById('drop-zone');
+  const fi = document.getElementById('file-input');
+
+  dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-over'); });
+  dz.addEventListener('dragleave', () => dz.classList.remove('drag-over'));
+  dz.addEventListener('drop', e => {
+    e.preventDefault();
+    dz.classList.remove('drag-over');
+    if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+  });
+  fi.addEventListener('change', () => { if (fi.files.length) handleFile(fi.files[0]); });
+}
+
+async function handleFile(file) {
+  if (!file.name.toLowerCase().endsWith('.csv')) {
+    alert('Please select a CSV file.');
+    return;
+  }
+
+  const form = new FormData();
+  form.append('file', file);
+
+  document.getElementById('file-info').innerHTML = `
+    <div class="file-badge"><span class="spinner"></span> <span class="name">Uploading ${file.name}…</span></div>
+  `;
+
+  try {
+    const res = await fetch('/upload', { method: 'POST', body: form });
+    const data = await res.json();
+    if (data.error) { alert(data.error); return; }
+
+    state.session = data.session;
+    state.filename = data.filename;
+    state.rows = data.rows;
+    state.cols = data.cols;
+    state.columns = data.columns;
+    state.numericCount = data.numeric_count;
+    state.categoricalCount = data.categorical_count;
+
+    document.getElementById('file-info').innerHTML = `
+      <div class="file-badge">
+        <span class="icon">✓</span>
+        <span class="name">${data.filename}</span>
+        <span class="meta">${data.rows.toLocaleString()} rows × ${data.cols} columns</span>
+        <span class="meta" style="color:var(--accent)">${data.numeric_count} numeric</span>
+        <span class="meta" style="color:#FFB87A">${data.categorical_count} categorical</span>
+      </div>
+    `;
+
+    let pills = '<div class="col-pills">';
+    data.columns.forEach(c => {
+      pills += `<span class="col-pill ${c.type}">${c.name}</span>`;
+    });
+    pills += '</div>';
+    document.getElementById('col-preview').innerHTML = pills;
+
+    document.getElementById('btn-next1').disabled = false;
+
+  } catch (e) {
+    alert('Upload failed: ' + e.message);
+  }
+}
+
+// ═══════════════════════════════════════════
+// STEP 2: Configure & Synthesize
+// ═══════════════════════════════════════════
+function renderStep2() {
+  setStep(2);
+  const defaultRows = Math.min(state.rows, 1000);
+  $content().innerHTML += `
+    <div class="card" id="card-step2">
+      <div class="card-step">Step 2</div>
+      <div class="card-title">Configure Synthesis</div>
+      <div class="card-desc">Adjust the privacy budget and output size. The synthesis engine decomposes your data into noisy statistical fragments — no original rows are retained.</div>
+
+      <div class="form-group">
+        <label class="form-label">Privacy Budget (ε)</label>
+        <div class="form-hint">Lower = more private but noisier. 1.0 is recommended for most use cases.</div>
+        <div class="slider-row">
+          <input type="range" id="epsilon" min="0.1" max="10" step="0.1" value="1.0"
+                 oninput="document.getElementById('eps-val').textContent=this.value">
+          <span class="slider-val" id="eps-val">1.0</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Synthetic Rows</label>
+        <div class="form-hint">Original has ${state.rows.toLocaleString()} rows.</div>
+        <input type="number" id="num-rows" value="${defaultRows}" min="10" max="100000">
+      </div>
+
+      <div class="btn-row" style="justify-content:flex-end;">
+        <button class="btn btn-primary" id="btn-synth" onclick="runSynthesis()">
+          ▶&ensp;Generate Synthetic Data
+        </button>
+      </div>
+
+      <div id="synth-log" class="hidden" style="margin-top:20px;"></div>
+    </div>
+  `;
+}
+
+async function runSynthesis() {
+  const btn = document.getElementById('btn-synth');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>&ensp;Generating…';
+
+  const logDiv = document.getElementById('synth-log');
+  logDiv.classList.remove('hidden');
+  logDiv.innerHTML = '<div class="log-box" id="synth-log-box">Starting synthesis engine…\n</div>';
+
+  const epsilon = parseFloat(document.getElementById('epsilon').value);
+  const numRows = parseInt(document.getElementById('num-rows').value);
+
+  try {
+    const res = await fetch('/synthesize', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ session: state.session, epsilon, num_rows: numRows }),
+    });
+    const data = await res.json();
+
+    if (data.error) {
+      document.getElementById('synth-log-box').innerHTML += `<span class="log-err">✗ ${data.error}</span>\n`;
+      btn.disabled = false;
+      btn.innerHTML = '▶&ensp;Retry';
+      return;
+    }
+
+    const box = document.getElementById('synth-log-box');
+    data.logs.forEach(l => box.innerHTML += l + '\n');
+    box.innerHTML += `<span class="log-ok">✓ Synthesis complete — ${data.synth_rows} rows generated</span>\n`;
+    data.report.guarantees.forEach(g => box.innerHTML += `  • ${g}\n`);
+    box.innerHTML += `  Certificate: ${data.report.destruction_certificate}\n`;
+    box.scrollTop = box.scrollHeight;
+
+    state.synthDone = true;
+    state.synthStats = data.stats;
+
+    btn.innerHTML = '✓&ensp;Done';
+    btn.classList.remove('btn-primary');
+    btn.classList.add('btn-ghost');
+
+    renderPostSynthesis(data);
+
+  } catch (e) {
+    document.getElementById('synth-log-box').innerHTML += `<span class="log-err">✗ ${e.message}</span>\n`;
+    btn.disabled = false;
+    btn.innerHTML = '▶&ensp;Retry';
+  }
+}
+
+function renderPostSynthesis(data) {
+  setStep(3);
+
+  // Stats table card
+  if (data.stats.length > 0) {
+    let rows = data.stats.filter(s => s.delta_pct !== null).map(s => {
+      const cls = s.delta_pct < 10 ? 'good' : s.delta_pct < 25 ? 'ok' : 'bad';
+      return `<tr>
+        <td class="col-name">${s.column}</td>
+        <td>${s.orig_mean}</td>
+        <td>${s.synth_mean}</td>
+        <td>${s.orig_std}</td>
+        <td>${s.synth_std}</td>
+        <td class="${cls}">${s.delta_pct}%</td>
+      </tr>`;
+    }).join('');
+
+    $content().innerHTML += `
+      <div class="card">
+        <div class="card-title">Quick Comparison</div>
+        <div class="card-desc">Summary statistics for numeric columns — original vs synthetic.</div>
+        <table class="stats-table">
+          <thead><tr><th>Column</th><th>Orig Mean</th><th>Synth Mean</th><th>Orig Std</th><th>Synth Std</th><th>Δ%</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  // Download + Compare prompt
+  $content().innerHTML += `
+    <div class="card" id="card-compare-prompt">
+      <div class="card-step">Step 3</div>
+      <div class="card-title">What's Next?</div>
+      <div class="card-desc">Download your synthetic dataset, or train ML models on both datasets to verify the synthetic data preserves predictive patterns.</div>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="renderStep3()">Compare with ML →</button>
+        <a class="btn btn-success" href="/download/${state.session}" download>↓&ensp;Download CSV</a>
+        <button class="btn btn-ghost" onclick="alert('Synthetic data saved. You can download it anytime.')">I'm Done</button>
+      </div>
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════
+// STEP 3: Target Selection
+// ═══════════════════════════════════════════
+function renderStep3() {
+  setStep(4);
+
+  let opts = state.columns.map(c =>
+    `<option value="${c.name}">${c.name} (${c.type})</option>`
+  ).join('');
+
+  $content().innerHTML += `
+    <div class="card" id="card-step3">
+      <div class="card-step">Step 4</div>
+      <div class="card-title">Select Target Column</div>
+      <div class="card-desc">Choose which column the models should predict. All other columns will be used as features. The app auto-detects whether to use regression or classification.</div>
+
+      <div class="form-group">
+        <label class="form-label">Target Column</label>
+        <select id="target-col">${opts}</select>
+      </div>
+
+      <div class="btn-row" style="justify-content:flex-end;">
+        <button class="btn btn-primary" id="btn-compare" onclick="runComparison()">
+          ▶&ensp;Train & Compare
+        </button>
+      </div>
+
+      <div id="compare-log" class="hidden" style="margin-top:20px;"></div>
+    </div>
+  `;
+}
+
+async function runComparison() {
+  const btn = document.getElementById('btn-compare');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>&ensp;Training models…';
+
+  const logDiv = document.getElementById('compare-log');
+  logDiv.classList.remove('hidden');
+  logDiv.innerHTML = '<div class="log-box" id="compare-log-box">Training models on both datasets…\n</div>';
+
+  const target = document.getElementById('target-col').value;
+
+  try {
+    const res = await fetch('/compare', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ session: state.session, target }),
+    });
+    const data = await res.json();
+
+    if (data.error) {
+      document.getElementById('compare-log-box').innerHTML += `<span class="log-err">✗ ${data.error}</span>\n`;
+      btn.disabled = false;
+      btn.innerHTML = '▶&ensp;Retry';
+      return;
+    }
+
+    const box = document.getElementById('compare-log-box');
+    data.logs.forEach(l => {
+      if (l.startsWith('═')) box.innerHTML += `<span class="log-ok">${l}</span>\n`;
+      else box.innerHTML += l + '\n';
+    });
+    box.scrollTop = box.scrollHeight;
+
+    btn.innerHTML = '✓&ensp;Done';
+    btn.classList.remove('btn-primary');
+    btn.classList.add('btn-ghost');
+
+    renderResults(data);
+
+  } catch (e) {
+    document.getElementById('compare-log-box').innerHTML += `<span class="log-err">✗ ${e.message}</span>\n`;
+    btn.disabled = false;
+    btn.innerHTML = '▶&ensp;Retry';
+  }
+}
+
+// ═══════════════════════════════════════════
+// RESULTS
+// ═══════════════════════════════════════════
+function renderResults(data) {
+  // Store for later use
+  state.featureMeta = data.feature_meta || [];
+  state.taskType = data.task_type;
+
+  const metrics = Object.keys(data.original.metrics);
+  let metricCards = '';
+
+  metrics.forEach(m => {
+    const v1 = data.original.metrics[m];
+    const v2 = data.synthetic.metrics[m];
+    metricCards += `
+      <div class="result-box original">
+        <div class="label">Original — ${m}</div>
+        <div class="value">${v1}</div>
+      </div>
+      <div class="result-box synthetic">
+        <div class="label">Synthetic — ${m}</div>
+        <div class="value">${v2}</div>
+      </div>
+    `;
+  });
+
+  // Feature importance bars
+  const maxImp = Math.max(
+    ...data.original.features.map(f => f.importance),
+    ...data.synthetic.features.map(f => f.importance),
+    0.01
+  );
+
+  let featBars = '';
+  const allNames = [...new Set([
+    ...data.original.features.map(f => f.name),
+    ...data.synthetic.features.map(f => f.name),
+  ])].slice(0, 8);
+
+  allNames.forEach(name => {
+    const o = data.original.features.find(f => f.name === name);
+    const s = data.synthetic.features.find(f => f.name === name);
+    const ov = o ? o.importance : 0;
+    const sv = s ? s.importance : 0;
+    featBars += `
+      <div class="feat-bar-row">
+        <span class="feat-bar-name">${name}</span>
+        <div class="feat-bar-track">
+          <div class="feat-bar-fill original" style="width:${(ov/maxImp*100).toFixed(1)}%"></div>
+        </div>
+        <div class="feat-bar-track">
+          <div class="feat-bar-fill synthetic" style="width:${(sv/maxImp*100).toFixed(1)}%"></div>
+        </div>
+        <span class="feat-bar-val">${(ov*100).toFixed(1)}%</span>
+      </div>
+    `;
+  });
+
+  $content().innerHTML += `
+    <div class="card">
+      <div class="card-title">Comparison Results</div>
+      <div class="card-desc">Task: ${data.task_type} — Target: ${document.getElementById('target-col').value}</div>
+      <div class="result-grid">${metricCards}</div>
+      <div class="verdict-banner ${data.verdict.level}">${data.verdict.text}</div>
+      <div style="margin-top:24px;">
+        <div class="form-label" style="margin-bottom:12px">Feature Importance — <span style="color:var(--accent)">Original</span> vs <span style="color:var(--success)">Synthetic</span></div>
+        ${featBars}
+      </div>
+    </div>
+  `;
+
+  // ── Sample Cases Card ──
+  renderSampleCases(data.sample_cases || []);
+
+  // ── Custom Prediction Card ──
+  renderPredictionForm();
+}
+
+// ═══════════════════════════════════════════
+// SAMPLE CASES
+// ═══════════════════════════════════════════
+function renderSampleCases(cases) {
+  if (!cases || cases.length === 0) return;
+
+  const featureNames = Object.keys(cases[0].inputs);
+
+  // Build header
+  let headerCells = featureNames.map(n =>
+    `<th>${n}</th>`
+  ).join('');
+  headerCells += `<th style="color:var(--accent)">Pred (Original)</th>`;
+  headerCells += `<th style="color:var(--success)">Pred (Synthetic)</th>`;
+  headerCells += `<th>Δ</th>`;
+
+  // Build rows
+  let rows = cases.map(c => {
+    let cells = featureNames.map(n => {
+      const v = c.inputs[n];
+      return `<td>${typeof v === 'number' ? v : v}</td>`;
+    }).join('');
+    const diffCls = c.diff < 20 ? 'good' : c.diff < 50 ? 'ok' : 'bad';
+    cells += `<td style="color:var(--accent); font-weight:600">${c.pred_original}</td>`;
+    cells += `<td style="color:var(--success); font-weight:600">${c.pred_synthetic}</td>`;
+    cells += `<td class="${diffCls}">${c.diff}</td>`;
+    return `<tr>${cells}</tr>`;
+  }).join('');
+
+  $content().innerHTML += `
+    <div class="card">
+      <div class="card-title">Sample Predictions</div>
+      <div class="card-desc">Randomly generated test cases predicted by both models. Click "Regenerate" for new random cases.</div>
+      <div style="overflow-x:auto;">
+        <table class="stats-table" id="sample-cases-table">
+          <thead><tr>${headerCells}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <div class="btn-row" style="margin-top:16px;">
+        <button class="btn btn-ghost" id="btn-regen" onclick="regenerateCases()">↻&ensp;Regenerate Cases</button>
+        <a class="btn btn-success" href="/download/${state.session}" download>↓&ensp;Download Synthetic CSV</a>
+      </div>
+    </div>
+  `;
+}
+
+async function regenerateCases() {
+  const btn = document.getElementById('btn-regen');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>&ensp;Generating…';
+
+  try {
+    const res = await fetch('/random_cases', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ session: state.session, n: 5 }),
+    });
+    const data = await res.json();
+    if (data.error) { alert(data.error); return; }
+
+    const cases = data.cases;
+    const featureNames = Object.keys(cases[0].inputs);
+    const tbody = document.querySelector('#sample-cases-table tbody');
+
+    let rows = cases.map(c => {
+      let cells = featureNames.map(n => {
+        return `<td>${c.inputs[n]}</td>`;
+      }).join('');
+      const diffCls = c.diff < 20 ? 'good' : c.diff < 50 ? 'ok' : 'bad';
+      cells += `<td style="color:var(--accent); font-weight:600">${c.pred_original}</td>`;
+      cells += `<td style="color:var(--success); font-weight:600">${c.pred_synthetic}</td>`;
+      cells += `<td class="${diffCls}">${c.diff}</td>`;
+      return `<tr>${cells}</tr>`;
+    }).join('');
+
+    tbody.innerHTML = rows;
+  } catch (e) {
+    alert('Error: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '↻&ensp;Regenerate Cases';
+  }
+}
+
+// ═══════════════════════════════════════════
+// CUSTOM PREDICTION FORM
+// ═══════════════════════════════════════════
+function renderPredictionForm() {
+  if (!state.featureMeta || state.featureMeta.length === 0) return;
+
+  let formFields = '';
+  state.featureMeta.forEach(fm => {
+    if (fm.type === 'numeric') {
+      formFields += `
+        <div class="form-group" style="flex:1; min-width:180px;">
+          <label class="form-label">${fm.name}</label>
+          <div class="form-hint">Range: ${fm.min} – ${fm.max}</div>
+          <input type="number" id="input-${fm.name}" step="any"
+                 value="${fm.median}" placeholder="${fm.median}"
+                 style="width:100%">
+        </div>
+      `;
+    } else {
+      let options = (fm.categories || []).map(c =>
+        `<option value="${c}">${c}</option>`
+      ).join('');
+      formFields += `
+        <div class="form-group" style="flex:1; min-width:180px;">
+          <label class="form-label">${fm.name}</label>
+          <select id="input-${fm.name}" style="width:100%; max-width:none;">
+            ${options}
+          </select>
+        </div>
+      `;
+    }
+  });
+
+  $content().innerHTML += `
+    <div class="card">
+      <div class="card-title">Try Your Own Input</div>
+      <div class="card-desc">Enter custom feature values and see how both models predict.</div>
+      <div style="display:flex; flex-wrap:wrap; gap:12px;">
+        ${formFields}
+      </div>
+      <div class="btn-row" style="justify-content:flex-end; margin-top:16px;">
+        <button class="btn btn-primary" id="btn-predict" onclick="runCustomPrediction()">
+          ▶&ensp;Predict
+        </button>
+      </div>
+      <div id="custom-prediction-result" class="hidden" style="margin-top:20px;"></div>
+    </div>
+  `;
+}
+
+async function runCustomPrediction() {
+  const btn = document.getElementById('btn-predict');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>&ensp;Predicting…';
+
+  // Collect inputs
+  const inputs = {};
+  state.featureMeta.forEach(fm => {
+    const el = document.getElementById(`input-${fm.name}`);
+    if (fm.type === 'numeric') {
+      inputs[fm.name] = parseFloat(el.value) || fm.median;
+    } else {
+      inputs[fm.name] = el.value;
+    }
+  });
+
+  try {
+    const res = await fetch('/predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ session: state.session, inputs }),
+    });
+    const data = await res.json();
+
+    if (data.error) {
+      alert(data.error);
+      return;
+    }
+
+    const diff = data.diff;
+    const diffCls = diff < 20 ? 'success' : diff < 50 ? 'warning' : 'error';
+
+    const resultDiv = document.getElementById('custom-prediction-result');
+    resultDiv.classList.remove('hidden');
+    resultDiv.innerHTML = `
+      <div class="result-grid">
+        <div class="result-box original">
+          <div class="label">Original Model</div>
+          <div class="value">${data.pred_original}</div>
+        </div>
+        <div class="result-box synthetic">
+          <div class="label">Synthetic Model</div>
+          <div class="value">${data.pred_synthetic}</div>
+        </div>
+      </div>
+      <div class="verdict-banner ${diffCls}" style="margin-top:12px; text-align:center;">
+        Difference: <strong>${diff}</strong>
+      </div>
+    `;
+  } catch (e) {
+    alert('Error: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '▶&ensp;Predict';
+  }
+}
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+renderStep1();
+</script>
+</body>
+</html>

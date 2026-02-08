@@ -1,0 +1,1001 @@
+Age,Purchase_Category,Purchase_Amount,Frequency_of_Purchase,Product_Rating,Customer_Satisfaction,Shipping_Preference
+20.0,Health Care,194.38236444865137,1.0,4,2.0,Express
+36.0,Beauty & Personal Care,125.88801772103778,8.0,1,1.0,Express
+20.0,Jewelry & Accessories,306.9539153128775,4.0,4,5.0,Express
+49.0,Groceries,434.27062318970286,10.0,3,8.0,No Preference
+31.0,Jewelry & Accessories,512.6745803980871,-3.0,5,3.0,No Preference
+17.0,Mobile Accessories,257.95116291143796,14.0,5,3.0,No Preference
+30.0,Sports & Outdoors,259.27697317735885,1.0,5,8.0,No Preference
+46.0,Software & Apps,414.9411414265544,10.0,2,5.0,Express
+23.0,Travel & Leisure (Flights,174.65414307951326,1.0,5,9.0,No Preference
+35.0,Animal Feed,153.52067185856816,4.0,3,4.0,No Preference
+30.0,Health Supplements,204.07572404698405,4.0,1,1.0,No Preference
+41.0,Books,288.0940263660749,6.0,1,8.0,No Preference
+37.0,Arts & Crafts,133.4935214846389,6.0,1,10.0,No Preference
+36.0,Toys & Games,127.96591320737102,8.0,5,4.0,Express
+26.0,Packages),296.25847593395486,8.0,5,6.0,Standard
+44.0,Home Appliances,283.1860106959401,7.0,4,8.0,No Preference
+49.0,Clothing,336.46983319662127,4.0,1,3.0,Standard
+25.0,Arts & Crafts,39.20247779498385,6.0,4,9.0,Standard
+32.0,Mobile Accessories,399.7576426030687,8.0,5,4.0,No Preference
+50.0,Luxury Goods,189.29988102918074,8.0,3,4.0,Standard
+27.0,Mobile Accessories,350.72231005301444,0.0,5,3.0,Standard
+40.0,Baby Products,69.98858552804388,8.0,2,10.0,Express
+39.0,Sports & Outdoors,221.45240445333383,4.0,2,7.0,Express
+41.0,Travel & Leisure (Flights,257.6405424759741,6.0,4,9.0,No Preference
+34.0,Home Appliances,494.6677921534938,9.0,5,8.0,Express
+48.0,Books,337.7903530478486,7.0,5,7.0,Express
+18.0,Travel & Leisure (Flights,183.48109642623334,7.0,2,7.0,Express
+18.0,Groceries,145.10223985274203,3.0,2,8.0,No Preference
+36.0,Electronics,349.0134186077996,10.0,2,8.0,Express
+41.0,Food & Beverages,175.09230559584677,2.0,3,6.0,Express
+17.0,Gardening & Outdoors,136.9706935842501,5.0,2,4.0,Express
+32.0,Animal Feed,161.26646619209944,8.0,5,7.0,No Preference
+30.0,Sports & Outdoors,289.87849128963046,10.0,4,6.0,Express
+22.0,Beauty & Personal Care,309.16123959893014,7.0,3,4.0,Express
+32.0,Health Care,396.4352367372694,9.0,4,10.0,Standard
+25.0,Food & Beverages,257.8816955702455,6.0,5,10.0,Standard
+34.0,Packages),353.05061323421467,9.0,2,9.0,Express
+49.0,Software & Apps,124.66556930957508,4.0,4,6.0,Standard
+26.0,Baby Products,347.4772108896949,0.0,3,8.0,Standard
+39.0,Mobile Accessories,192.73768977531412,4.0,2,6.0,Standard
+18.0,Arts & Crafts,198.27866307523718,8.0,5,10.0,Express
+34.0,Furniture,317.7670738667874,12.0,3,6.0,No Preference
+39.0,Clothing,214.33531175673966,7.0,4,3.0,Standard
+27.0,Luxury Goods,226.57303980929964,1.0,4,9.0,Standard
+45.0,Toys & Games,267.00378653876396,7.0,4,9.0,Express
+22.0,Arts & Crafts,299.1640150612035,1.0,5,4.0,Standard
+35.0,Home Appliances,359.6255054926125,9.0,1,8.0,Express
+34.0,Books,77.45375683934168,15.0,5,6.0,Express
+48.0,Animal Feed,367.994315963717,6.0,4,3.0,No Preference
+32.0,Hotels,222.59250226295137,9.0,4,8.0,Standard
+37.0,Hotels,190.4047240834659,5.0,2,6.0,No Preference
+47.0,Books,474.5175532777061,12.0,2,7.0,No Preference
+41.0,Travel & Leisure (Flights,227.98364213957828,-2.0,5,7.0,Standard
+39.0,Food & Beverages,290.06948045825607,9.0,4,2.0,Express
+33.0,Sports & Outdoors,144.52903853776652,9.0,4,10.0,Express
+42.0,Packages),368.6062728823399,9.0,5,5.0,No Preference
+44.0,Jewelry & Accessories,244.46211585018403,5.0,2,10.0,No Preference
+36.0,Groceries,280.28145721582007,10.0,2,3.0,Standard
+41.0,Animal Feed,497.68984694539927,12.0,5,6.0,Standard
+36.0,Clothing,61.62831427604418,12.0,4,3.0,No Preference
+28.0,Health Supplements,173.33517410582212,5.0,5,5.0,Express
+29.0,Books,356.3715459477814,3.0,2,10.0,Express
+22.0,Home Appliances,303.76483639046955,7.0,5,5.0,Standard
+42.0,Luxury Goods,184.17602978219085,4.0,3,1.0,Express
+29.0,Arts & Crafts,279.4330486683767,10.0,2,10.0,Standard
+18.0,Furniture,238.3390323220669,4.0,4,9.0,Express
+21.0,Baby Products,392.3206210872514,9.0,1,1.0,Standard
+37.0,Travel & Leisure (Flights,368.4103209644919,5.0,3,8.0,No Preference
+32.0,Jewelry & Accessories,506.3073086399864,3.0,1,1.0,Express
+43.0,Furniture,246.74048527026304,-1.0,5,7.0,Standard
+20.0,Packages),235.61023046824414,11.0,4,9.0,Express
+43.0,Home Appliances,376.89985475602896,3.0,3,8.0,No Preference
+49.0,Animal Feed,170.86179197779475,9.0,2,7.0,No Preference
+34.0,Sports & Outdoors,262.83158387704816,12.0,2,5.0,No Preference
+28.0,Electronics,102.48289146802053,4.0,3,2.0,Standard
+30.0,Home Appliances,490.9944891067479,7.0,3,8.0,Standard
+30.0,Beauty & Personal Care,140.8800271445322,1.0,3,4.0,No Preference
+23.0,Mobile Accessories,277.6201491126767,9.0,5,5.0,Standard
+50.0,Beauty & Personal Care,275.56676381818875,5.0,1,6.0,Standard
+38.0,Software & Apps,236.06638646383567,11.0,2,7.0,Standard
+34.0,Food & Beverages,270.0537148678004,1.0,2,3.0,Standard
+34.0,Furniture,337.53949921149405,3.0,1,1.0,Express
+26.0,Software & Apps,381.04771547700807,-1.0,5,2.0,Standard
+46.0,Sports & Outdoors,216.35257442049792,4.0,2,5.0,Standard
+22.0,Health Supplements,311.7642414043253,14.0,2,6.0,No Preference
+42.0,Toys & Games,198.95047397860841,8.0,5,4.0,No Preference
+32.0,Baby Products,438.17832764198266,10.0,1,5.0,No Preference
+19.0,Health Supplements,150.87718051197322,7.0,5,10.0,Standard
+35.0,Home Appliances,162.46337869811165,6.0,4,3.0,No Preference
+16.0,Sports & Outdoors,269.2382665092882,13.0,5,5.0,No Preference
+41.0,Travel & Leisure (Flights,496.6873428570981,10.0,4,3.0,Express
+47.0,Software & Apps,508.1357167579484,8.0,1,7.0,No Preference
+32.0,Sports & Outdoors,392.8528945540895,11.0,1,1.0,No Preference
+31.0,Clothing,187.63727088616506,9.0,2,1.0,No Preference
+44.0,Sports & Outdoors,369.90144664061233,2.0,3,2.0,Express
+48.0,Groceries,205.9549848758549,8.0,4,8.0,No Preference
+26.0,Clothing,494.29009224190713,6.0,5,3.0,Standard
+25.0,Toys & Games,393.1403989110347,6.0,3,6.0,Standard
+32.0,Home Appliances,361.0653983343026,2.0,5,2.0,Standard
+29.0,Home Appliances,43.96448910674796,0.0,3,1.0,Standard
+51.0,Food & Beverages,469.37208238110213,8.0,3,4.0,Express
+49.0,Sports & Outdoors,253.472591382266,6.0,1,1.0,No Preference
+35.0,Groceries,255.35623449564375,7.0,3,6.0,No Preference
+46.0,Sports & Outdoors,298.3811750226199,8.0,5,9.0,No Preference
+45.0,Furniture,305.0262584987364,4.0,4,8.0,No Preference
+22.0,Clothing,292.3461954072782,8.0,2,9.0,No Preference
+34.0,Books,295.06548633344687,16.0,4,3.0,No Preference
+21.0,Baby Products,63.73626734530832,7.0,3,10.0,Standard
+30.0,Food & Beverages,314.49948184173786,7.0,5,2.0,Standard
+52.0,Baby Products,102.87666214746142,5.0,1,1.0,Standard
+40.0,Mobile Accessories,345.51635470821776,14.0,1,8.0,Express
+49.0,Packages),286.56861118937354,5.0,2,5.0,No Preference
+26.0,Home Appliances,209.23137499650935,10.0,4,3.0,No Preference
+36.0,Hotels,140.22308354634637,3.0,4,1.0,Standard
+44.0,Software & Apps,336.109596176174,8.0,3,4.0,No Preference
+39.0,Jewelry & Accessories,475.8593353601142,4.0,5,7.0,No Preference
+29.0,Animal Feed,168.17565209499546,7.0,3,7.0,Standard
+22.0,Packages),262.40652654668605,7.0,1,1.0,Express
+20.0,Luxury Goods,175.3051423335583,11.0,2,6.0,Express
+37.0,Office Supplies,297.6665129085354,9.0,2,7.0,No Preference
+33.0,Travel & Leisure (Flights,401.1357412034978,6.0,5,6.0,Express
+21.0,Electronics,433.01129013851215,7.0,1,8.0,Express
+30.0,Packages),151.81067538023535,6.0,3,7.0,Standard
+35.0,Furniture,422.29117247093694,6.0,1,3.0,Express
+27.0,Electronics,351.822823373545,7.0,3,10.0,Standard
+35.0,Gardening & Outdoors,340.2019690150291,7.0,1,5.0,No Preference
+35.0,Travel & Leisure (Flights,389.34519575689365,6.0,5,2.0,Standard
+32.0,Home Appliances,430.62978383938935,0.0,4,1.0,Standard
+50.0,Mobile Accessories,62.45457113501452,3.0,3,1.0,Standard
+33.0,Toys & Games,289.36667377810284,8.0,4,8.0,Standard
+24.0,Electronics,283.90550942275934,4.0,3,6.0,Express
+39.0,Toys & Games,290.8210823649654,6.0,3,10.0,Express
+29.0,Clothing,223.90143159352078,9.0,4,6.0,Express
+45.0,Books,215.87062324108493,4.0,5,8.0,Express
+44.0,Beauty & Personal Care,257.7601684418422,11.0,2,9.0,Express
+23.0,Furniture,45.26614277854075,6.0,4,2.0,No Preference
+25.0,Home Appliances,262.05071627789425,6.0,2,6.0,No Preference
+44.0,Mobile Accessories,222.50229663935312,6.0,1,8.0,Standard
+38.0,Software & Apps,311.5886342769032,7.0,1,3.0,Express
+42.0,Luxury Goods,182.55954109462874,10.0,2,5.0,Standard
+30.0,Sports & Outdoors,147.09063291494073,8.0,4,1.0,Express
+25.0,Furniture,318.05337943878624,14.0,1,5.0,No Preference
+24.0,Home Appliances,317.28410876982116,2.0,4,5.0,No Preference
+40.0,Food & Beverages,190.4287303696538,7.0,4,3.0,Express
+22.0,Office Supplies,358.2999016728542,10.0,1,4.0,No Preference
+35.0,Furniture,153.75548519639858,13.0,2,1.0,No Preference
+25.0,Animal Feed,65.02806897953631,11.0,4,10.0,No Preference
+25.0,Packages),400.8302550468591,6.0,1,8.0,No Preference
+42.0,Software & Apps,461.6108782631055,3.0,2,3.0,Express
+24.0,Travel & Leisure (Flights,262.0519810699017,13.0,4,9.0,No Preference
+25.0,Hotels,215.17598714492573,7.0,4,1.0,Standard
+28.0,Beauty & Personal Care,279.1795531453205,1.0,3,10.0,No Preference
+49.0,Travel & Leisure (Flights,116.21470313047244,6.0,2,1.0,Express
+36.0,Food & Beverages,488.1120452201903,3.0,1,2.0,No Preference
+50.0,Groceries,353.02925031972006,8.0,2,8.0,Standard
+23.0,Software & Apps,354.88628846981453,4.0,5,10.0,Express
+48.0,Gardening & Outdoors,156.11041248018515,6.0,1,3.0,No Preference
+29.0,Luxury Goods,158.55686886770636,9.0,1,7.0,Express
+43.0,Electronics,379.4807208757428,-2.0,1,8.0,Standard
+47.0,Arts & Crafts,486.23247779498377,3.0,4,2.0,Standard
+48.0,Software & Apps,266.9106047505005,1.0,5,1.0,No Preference
+31.0,Health Supplements,389.4290462646858,3.0,5,6.0,Express
+28.0,Health Supplements,327.16846384040593,6.0,3,6.0,Express
+39.0,Hotels,316.5748532934746,8.0,4,4.0,No Preference
+29.0,Health Supplements,285.4151491044873,3.0,1,6.0,No Preference
+50.0,Baby Products,214.12424785409428,11.0,5,7.0,Express
+30.0,Sports & Outdoors,298.91813652217195,2.0,5,6.0,Standard
+24.0,Mobile Accessories,59.608337612542634,6.0,2,5.0,Express
+32.0,Home Appliances,280.6135659668515,8.0,1,10.0,Standard
+29.0,Office Supplies,174.3085836327055,2.0,1,8.0,Express
+39.0,Mobile Accessories,435.36966754427215,10.0,4,9.0,Standard
+42.0,Groceries,340.67223272729586,14.0,2,3.0,No Preference
+39.0,Electronics,319.31635146267934,3.0,5,1.0,Standard
+18.0,Sports & Outdoors,200.0326556612424,6.0,5,3.0,Express
+35.0,Office Supplies,494.11096283075784,7.0,1,2.0,No Preference
+48.0,Sports & Outdoors,237.54987183900226,5.0,4,7.0,Standard
+18.0,Sports & Outdoors,200.18456800275308,8.0,4,10.0,Standard
+37.0,Electronics,365.52587744541586,6.0,2,9.0,Standard
+33.0,Beauty & Personal Care,489.4924741649248,9.0,2,2.0,Express
+48.0,Office Supplies,237.27309018857008,9.0,3,8.0,Express
+44.0,Animal Feed,308.7748006826356,3.0,4,8.0,No Preference
+32.0,Gardening & Outdoors,412.34785414751036,8.0,5,3.0,Express
+38.0,Animal Feed,81.11768851727545,6.0,4,8.0,Express
+38.0,Travel & Leisure (Flights,307.4179676045376,10.0,3,8.0,Express
+35.0,Health Supplements,301.8268722950362,5.0,1,2.0,Standard
+27.0,Jewelry & Accessories,69.92801523444338,7.0,2,10.0,Express
+37.0,Jewelry & Accessories,214.55189660909826,-3.0,5,9.0,No Preference
+41.0,Sports & Outdoors,240.93811080940534,9.0,1,1.0,No Preference
+50.0,Health Supplements,46.07666470233703,3.0,5,8.0,Express
+30.0,Travel & Leisure (Flights,419.07055776343356,1.0,1,7.0,No Preference
+47.0,Gardening & Outdoors,288.2223063454254,6.0,3,6.0,No Preference
+34.0,Electronics,201.83925135840994,9.0,3,4.0,Express
+23.0,Sports & Outdoors,310.19887464640885,6.0,1,10.0,Express
+28.0,Clothing,489.74038968453846,8.0,1,10.0,No Preference
+40.0,Gardening & Outdoors,402.9813267952088,2.0,3,6.0,Express
+49.0,Travel & Leisure (Flights,38.121831986199524,3.0,2,5.0,Standard
+29.0,Baby Products,344.32844481980214,7.0,5,2.0,Standard
+33.0,Animal Feed,263.3911243942552,5.0,1,8.0,Express
+20.0,Jewelry & Accessories,378.0137341410284,5.0,4,7.0,Standard
+50.0,Home Appliances,168.42998336328708,9.0,1,5.0,No Preference
+32.0,Baby Products,415.6230201781463,11.0,1,8.0,No Preference
+36.0,Travel & Leisure (Flights,208.58940807262277,8.0,1,9.0,Standard
+42.0,Health Supplements,193.552867905263,0.0,4,8.0,Standard
+30.0,Mobile Accessories,442.6693617538218,10.0,5,7.0,Express
+24.0,Electronics,117.22182643309165,10.0,1,6.0,Express
+24.0,Clothing,321.1079247364339,3.0,3,5.0,Standard
+50.0,Books,201.28838415432867,12.0,2,2.0,Express
+33.0,Gardening & Outdoors,312.4346881752747,2.0,4,2.0,No Preference
+20.0,Clothing,247.95415274754401,8.0,3,1.0,No Preference
+23.0,Baby Products,165.63026106359132,10.0,3,7.0,Express
+42.0,Health Care,283.6008463160505,9.0,4,6.0,No Preference
+20.0,Office Supplies,243.36513413636297,11.0,5,1.0,No Preference
+36.0,Books,302.0971927183639,14.0,2,7.0,Standard
+19.0,Health Supplements,352.06946977226016,9.0,3,9.0,Standard
+31.0,Home Appliances,365.88377522667815,4.0,3,7.0,Express
+27.0,Food & Beverages,323.8637138906678,10.0,3,1.0,No Preference
+48.0,Arts & Crafts,421.90056248329745,6.0,1,8.0,No Preference
+50.0,Toys & Games,250.7496081578306,8.0,1,6.0,No Preference
+36.0,Animal Feed,321.7433426841634,7.0,5,10.0,Standard
+18.0,Software & Apps,180.086730274049,6.0,4,7.0,Standard
+20.0,Software & Apps,379.9773910927322,8.0,1,2.0,Standard
+41.0,Baby Products,166.3865197868231,13.0,2,9.0,Express
+52.0,Beauty & Personal Care,270.76711186240743,9.0,1,1.0,Express
+37.0,Toys & Games,356.9960720195619,7.0,2,10.0,No Preference
+34.0,Home Appliances,382.0527585383203,13.0,4,3.0,Standard
+22.0,Jewelry & Accessories,263.5277632011663,-1.0,1,9.0,Standard
+48.0,Hotels,208.59720028505438,-1.0,5,2.0,Express
+41.0,Health Supplements,481.01906754137246,9.0,4,1.0,Express
+34.0,Gardening & Outdoors,322.053780947855,12.0,2,4.0,No Preference
+25.0,Books,277.2140742305759,8.0,2,7.0,Express
+22.0,Luxury Goods,234.75565373896313,8.0,3,3.0,Standard
+40.0,Luxury Goods,356.27346264484856,7.0,4,1.0,No Preference
+41.0,Arts & Crafts,151.3425965106042,5.0,1,6.0,No Preference
+36.0,Toys & Games,337.67030383504846,6.0,4,5.0,Standard
+33.0,Travel & Leisure (Flights,206.29801345816793,13.0,1,2.0,Standard
+45.0,Software & Apps,345.4353560991573,5.0,3,3.0,No Preference
+30.0,Luxury Goods,261.1519636573364,7.0,2,1.0,Standard
+18.0,Office Supplies,94.29792775391402,5.0,3,2.0,No Preference
+34.0,Travel & Leisure (Flights,230.1951697749626,8.0,5,7.0,Standard
+19.0,Health Supplements,179.13804596449242,11.0,3,9.0,No Preference
+37.0,Jewelry & Accessories,388.2703442024616,9.0,5,9.0,No Preference
+27.0,Mobile Accessories,251.4062528062096,5.0,3,6.0,Standard
+19.0,Clothing,245.11973117655134,11.0,4,2.0,No Preference
+41.0,Beauty & Personal Care,334.6834953667093,6.0,4,10.0,Standard
+28.0,Electronics,389.1261689567862,4.0,1,6.0,No Preference
+41.0,Jewelry & Accessories,303.53968579955006,6.0,3,7.0,Standard
+45.0,Home Appliances,128.75804542013375,2.0,5,9.0,No Preference
+40.0,Office Supplies,283.89439910145995,4.0,4,8.0,Standard
+47.0,Books,309.79106028877743,7.0,3,3.0,Express
+42.0,Toys & Games,267.8533293469196,12.0,4,4.0,No Preference
+25.0,Furniture,320.6284060273672,9.0,5,8.0,Standard
+20.0,Luxury Goods,228.4502642510657,11.0,1,7.0,No Preference
+47.0,Office Supplies,272.58602610804166,3.0,4,3.0,Standard
+46.0,Mobile Accessories,400.3093480055619,3.0,3,6.0,No Preference
+23.0,Health Care,313.5419651267299,8.0,2,1.0,Standard
+32.0,Furniture,316.7870679283059,3.0,1,2.0,Standard
+20.0,Food & Beverages,233.17524577196104,9.0,3,6.0,Express
+34.0,Health Care,149.55904557480133,-1.0,1,2.0,Standard
+27.0,Groceries,370.7612444179257,10.0,5,9.0,Standard
+48.0,Hotels,190.55671608342251,1.0,4,9.0,Standard
+42.0,Health Supplements,326.9566415408229,7.0,1,8.0,Express
+16.0,Travel & Leisure (Flights,159.27411028844887,6.0,5,9.0,Express
+42.0,Jewelry & Accessories,373.7037948709358,4.0,3,1.0,No Preference
+39.0,Software & Apps,308.1593948220666,10.0,2,3.0,Express
+39.0,Electronics,268.27979645911535,4.0,4,2.0,Standard
+37.0,Toys & Games,343.01799455912214,7.0,1,2.0,Express
+39.0,Office Supplies,439.3555112125995,9.0,2,3.0,Express
+28.0,Clothing,370.86112956730244,2.0,3,8.0,No Preference
+22.0,Sports & Outdoors,313.6465287450658,7.0,3,6.0,Standard
+23.0,Packages),240.9191104591898,5.0,1,6.0,No Preference
+28.0,Books,404.7283075459069,10.0,2,1.0,No Preference
+37.0,Jewelry & Accessories,216.82986750930948,-1.0,1,5.0,No Preference
+53.0,Health Care,340.8445021420958,4.0,1,6.0,Express
+41.0,Office Supplies,275.97838642046247,5.0,5,3.0,No Preference
+39.0,Baby Products,201.8158941298946,6.0,5,3.0,No Preference
+39.0,Jewelry & Accessories,223.2564682041522,6.0,1,6.0,Express
+48.0,Animal Feed,197.95912627394367,3.0,4,2.0,No Preference
+15.0,Travel & Leisure (Flights,242.58540929857068,4.0,5,1.0,No Preference
+39.0,Health Care,308.2788801770487,2.0,2,6.0,No Preference
+19.0,Electronics,284.83624996096125,5.0,5,2.0,Standard
+30.0,,67.85111603607288,7.0,1,9.0,Standard
+51.0,Electronics,277.31395101467973,3.0,1,2.0,No Preference
+34.0,Office Supplies,130.6811645217069,10.0,3,7.0,Express
+39.0,Jewelry & Accessories,68.46812710276953,3.0,1,3.0,Express
+39.0,Beauty & Personal Care,222.30211535834567,6.0,5,2.0,No Preference
+20.0,Animal Feed,324.29203195200756,6.0,1,6.0,No Preference
+20.0,Food & Beverages,235.8344922509927,9.0,3,7.0,Standard
+30.0,Home Appliances,466.0019113768061,6.0,3,8.0,Standard
+40.0,Food & Beverages,259.1926497227127,8.0,1,3.0,No Preference
+29.0,Hotels,253.28024360552996,9.0,4,7.0,No Preference
+27.0,Clothing,150.08523231546914,3.0,3,5.0,Express
+48.0,Animal Feed,329.99189126233307,8.0,5,10.0,No Preference
+24.0,Software & Apps,352.7030787126963,5.0,1,7.0,Standard
+35.0,Office Supplies,186.28954773450943,9.0,4,9.0,Express
+27.0,Hotels,185.97198864672606,6.0,5,3.0,Standard
+18.0,Baby Products,356.41557124865426,11.0,4,3.0,No Preference
+26.0,Packages),203.36055299043213,5.0,4,8.0,Standard
+40.0,Packages),276.38340225568686,9.0,2,9.0,No Preference
+50.0,Groceries,211.15464455498903,2.0,3,10.0,Express
+45.0,Electronics,458.7643879105957,6.0,4,9.0,Standard
+25.0,Baby Products,277.2547240704339,5.0,2,9.0,Express
+41.0,Animal Feed,127.05235613286922,6.0,5,9.0,Express
+24.0,Books,294.9277299731247,6.0,1,5.0,Express
+35.0,Sports & Outdoors,281.6358503326534,3.0,5,2.0,Express
+44.0,Health Care,278.7939317389687,1.0,3,7.0,Standard
+50.0,Furniture,305.8064289993828,7.0,2,9.0,No Preference
+51.0,Health Supplements,477.26363154695775,5.0,2,4.0,Standard
+38.0,Sports & Outdoors,165.69009095552542,5.0,3,1.0,Standard
+35.0,Health Care,312.2967787117259,9.0,2,5.0,Express
+43.0,Health Care,315.4076729665203,2.0,3,8.0,No Preference
+27.0,Health Care,227.21018137735743,7.0,2,9.0,Express
+48.0,Baby Products,159.80927315847887,7.0,3,8.0,Express
+46.0,Groceries,227.12985889940424,9.0,1,2.0,Express
+33.0,Books,318.2723077206738,6.0,5,1.0,Express
+41.0,Gardening & Outdoors,78.55514958293979,6.0,1,5.0,No Preference
+37.0,Books,344.43483505131076,10.0,5,8.0,No Preference
+30.0,Furniture,411.13583915581347,5.0,1,9.0,No Preference
+49.0,Sports & Outdoors,363.8416806850134,4.0,1,6.0,No Preference
+39.0,Sports & Outdoors,261.7280072337494,7.0,1,8.0,Standard
+32.0,Food & Beverages,244.98439383228458,11.0,5,8.0,Express
+31.0,Travel & Leisure (Flights,353.6335422765454,5.0,5,9.0,Express
+50.0,Groceries,181.51195549188742,4.0,1,2.0,Standard
+47.0,Travel & Leisure (Flights,207.92635339378606,12.0,3,9.0,No Preference
+44.0,Mobile Accessories,260.7446021474765,2.0,4,10.0,No Preference
+35.0,Software & Apps,300.1475254973148,10.0,1,7.0,No Preference
+49.0,Home Appliances,189.58884688738215,10.0,2,4.0,No Preference
+46.0,Food & Beverages,398.48451075097967,7.0,1,1.0,Standard
+17.0,Software & Apps,290.0667730353058,3.0,4,9.0,No Preference
+30.0,Sports & Outdoors,407.20042346482614,8.0,4,9.0,No Preference
+47.0,Toys & Games,347.70149851773203,2.0,4,7.0,No Preference
+20.0,Baby Products,302.9740714211978,6.0,3,5.0,Standard
+24.0,Office Supplies,81.76652619092002,3.0,5,1.0,Standard
+34.0,Clothing,353.8677283117004,7.0,4,1.0,Standard
+50.0,Beauty & Personal Care,139.15980997681203,7.0,5,5.0,Standard
+34.0,Health Supplements,357.1459736712121,5.0,4,6.0,Express
+50.0,Packages),327.99703395479503,5.0,2,2.0,No Preference
+35.0,Health Supplements,236.1413345079722,6.0,5,7.0,Standard
+18.0,Travel & Leisure (Flights,254.46097185315716,7.0,5,5.0,Express
+36.0,Home Appliances,410.4913897345367,7.0,1,6.0,Standard
+36.0,Packages),315.52435049185044,7.0,5,6.0,Express
+39.0,Luxury Goods,53.70455508485702,3.0,5,7.0,Standard
+19.0,Animal Feed,418.2351920617556,8.0,2,10.0,Standard
+35.0,Health Care,395.2385382907451,9.0,2,,No Preference
+24.0,Health Care,276.3487651399895,4.0,3,9.0,Standard
+20.0,Jewelry & Accessories,205.28760516267928,4.0,3,7.0,No Preference
+33.0,Animal Feed,110.44353208436483,12.0,2,10.0,No Preference
+34.0,Food & Beverages,282.2445685681124,6.0,5,5.0,Standard
+28.0,Electronics,303.9581057369071,4.0,2,10.0,Standard
+25.0,Electronics,311.7304770447514,11.0,3,1.0,No Preference
+44.0,Luxury Goods,384.6694095829429,4.0,2,6.0,Standard
+17.0,Gardening & Outdoors,428.6337694621046,11.0,1,7.0,Standard
+48.0,Mobile Accessories,239.27552645441733,4.0,4,4.0,No Preference
+24.0,Food & Beverages,81.89339267195506,6.0,3,3.0,Standard
+52.0,Beauty & Personal Care,246.71518020347315,10.0,2,3.0,Express
+48.0,Gardening & Outdoors,221.39633638422555,11.0,3,4.0,Standard
+49.0,Software & Apps,278.94398726818565,2.0,5,1.0,Standard
+40.0,Hotels,248.99457602308578,3.0,4,9.0,No Preference
+49.0,Luxury Goods,423.3314894989504,6.0,4,8.0,Standard
+23.0,Jewelry & Accessories,157.51623820508794,6.0,2,7.0,Express
+27.0,Books,244.98960408200557,8.0,5,2.0,Standard
+42.0,Software & Apps,457.5927639758105,2.0,5,9.0,No Preference
+31.0,Furniture,332.25862426541335,7.0,3,7.0,Standard
+49.0,Home Appliances,317.4345243283418,11.0,5,7.0,Express
+39.0,Sports & Outdoors,405.55599619599184,5.0,3,7.0,No Preference
+33.0,Office Supplies,401.22291814568496,13.0,4,2.0,Express
+43.0,Furniture,241.13394959433643,11.0,3,3.0,Express
+19.0,Software & Apps,124.94096745388129,9.0,1,1.0,No Preference
+34.0,Office Supplies,346.4049740144262,7.0,3,6.0,Express
+39.0,Travel & Leisure (Flights,165.1158452928975,9.0,3,3.0,No Preference
+48.0,Jewelry & Accessories,428.0300780897728,9.0,5,8.0,Express
+38.0,Baby Products,315.85531916868547,0.0,5,5.0,Standard
+27.0,Home Appliances,254.7383540344828,9.0,4,2.0,Standard
+28.0,Office Supplies,370.6583870306363,7.0,2,4.0,Standard
+33.0,Health Supplements,294.58039319901366,5.0,3,9.0,Express
+30.0,Beauty & Personal Care,51.90477572143682,7.0,1,9.0,No Preference
+29.0,Sports & Outdoors,209.07097745726188,6.0,1,9.0,Standard
+40.0,Sports & Outdoors,306.75402985163237,9.0,5,6.0,No Preference
+39.0,Gardening & Outdoors,240.13506397843793,6.0,2,1.0,No Preference
+36.0,Gardening & Outdoors,329.60475639994524,11.0,3,7.0,No Preference
+49.0,Toys & Games,243.248924033577,5.0,4,10.0,Standard
+43.0,Arts & Crafts,371.77366127342356,9.0,1,6.0,No Preference
+32.0,Toys & Games,162.89400937682447,2.0,5,1.0,No Preference
+36.0,Gardening & Outdoors,301.93375185019084,3.0,1,4.0,No Preference
+33.0,Travel & Leisure (Flights,319.3292624294548,3.0,1,3.0,No Preference
+47.0,Software & Apps,251.9169998227139,8.0,5,4.0,Standard
+27.0,Travel & Leisure (Flights,133.89188761333324,5.0,1,2.0,Express
+31.0,Sports & Outdoors,247.50389355172646,6.0,4,10.0,No Preference
+40.0,Furniture,224.54838988790885,7.0,1,9.0,Express
+21.0,Electronics,288.8317666151083,6.0,1,2.0,Express
+48.0,Sports & Outdoors,172.02614716414604,-2.0,5,8.0,Standard
+43.0,Arts & Crafts,290.66656606728463,2.0,2,7.0,Standard
+19.0,Home Appliances,446.33771560271094,12.0,2,8.0,Express
+17.0,Mobile Accessories,224.52539326713554,13.0,4,6.0,No Preference
+30.0,Packages),232.5535724176321,3.0,5,8.0,Standard
+22.0,Animal Feed,74.1833745493118,11.0,2,7.0,Standard
+19.0,Arts & Crafts,276.45751218431155,7.0,3,4.0,Standard
+19.0,Electronics,161.04986517890805,11.0,4,4.0,Express
+39.0,Health Supplements,204.2053016414359,10.0,4,2.0,No Preference
+50.0,Beauty & Personal Care,288.2306965573622,2.0,5,6.0,Standard
+33.0,Health Care,310.3631201075243,5.0,1,2.0,Standard
+46.0,Beauty & Personal Care,77.85131053830364,-1.0,5,8.0,Standard
+36.0,Electronics,209.48390625565398,5.0,4,5.0,No Preference
+22.0,Packages),291.9690304621,6.0,2,10.0,Standard
+41.0,Gardening & Outdoors,270.4788239259704,7.0,1,1.0,Express
+48.0,Office Supplies,147.72538182814375,8.0,4,4.0,Standard
+22.0,Clothing,166.58336611526474,3.0,1,1.0,Express
+42.0,Gardening & Outdoors,252.25406769832577,5.0,1,9.0,Standard
+22.0,Health Supplements,233.03912866772376,3.0,5,7.0,No Preference
+39.0,Jewelry & Accessories,177.4164371380377,7.0,5,6.0,No Preference
+20.0,Health Care,194.28874494901055,11.0,3,4.0,No Preference
+28.0,Software & Apps,149.80359200284536,5.0,5,1.0,Standard
+31.0,Clothing,177.68358223305526,4.0,2,6.0,No Preference
+51.0,Baby Products,259.50950016577167,2.0,3,7.0,Express
+48.0,Animal Feed,350.50293048995445,6.0,4,2.0,Express
+23.0,Home Appliances,356.01745178200804,7.0,4,10.0,No Preference
+19.0,Home Appliances,469.19383700957604,6.0,1,2.0,No Preference
+49.0,Toys & Games,443.5612691482032,2.0,3,2.0,No Preference
+47.0,Toys & Games,219.29897154338374,-2.0,3,9.0,Standard
+29.0,Luxury Goods,323.58385827092695,6.0,2,1.0,No Preference
+31.0,Health Care,421.0074660996353,6.0,5,6.0,No Preference
+25.0,Mobile Accessories,350.1502730446073,10.0,2,7.0,Express
+18.0,Home Appliances,328.2856438484381,10.0,4,2.0,Express
+35.0,Luxury Goods,369.42306923808025,5.0,1,9.0,No Preference
+38.0,Office Supplies,93.26692232350094,6.0,5,2.0,Standard
+47.0,Sports & Outdoors,168.10138405763718,3.0,5,8.0,No Preference
+27.0,Groceries,288.59995816589054,5.0,2,1.0,Express
+40.0,Mobile Accessories,352.3776240252221,8.0,1,6.0,Standard
+16.0,Sports & Outdoors,409.33328417784764,10.0,4,5.0,No Preference
+44.0,Software & Apps,349.7392775834552,8.0,4,2.0,Express
+47.0,Furniture,463.99402298179416,2.0,3,5.0,Standard
+50.0,Jewelry & Accessories,280.5476086812437,4.0,2,6.0,No Preference
+19.0,Beauty & Personal Care,235.26723158653,4.0,4,10.0,Standard
+28.0,Luxury Goods,150.803188018407,2.0,5,6.0,Standard
+28.0,Health Supplements,288.7476035694664,1.0,4,1.0,No Preference
+18.0,Software & Apps,336.59866802755187,3.0,3,10.0,No Preference
+51.0,Packages),305.5681953368953,7.0,1,3.0,Standard
+50.0,Health Supplements,222.300515583176,4.0,1,2.0,No Preference
+45.0,Mobile Accessories,312.8237961457673,7.0,1,6.0,Express
+47.0,Sports & Outdoors,267.68366331378945,7.0,4,7.0,No Preference
+34.0,Mobile Accessories,166.25088196694463,9.0,2,5.0,No Preference
+50.0,Books,326.8528713373713,6.0,1,3.0,Standard
+32.0,Software & Apps,334.8090915697512,8.0,5,2.0,Express
+42.0,Electronics,215.4413908181106,6.0,5,6.0,Express
+40.0,Travel & Leisure (Flights,135.03930615797574,5.0,1,7.0,Standard
+20.0,Jewelry & Accessories,340.2968187932139,6.0,3,9.0,No Preference
+40.0,Gardening & Outdoors,236.31971056743348,9.0,4,6.0,Express
+52.0,Jewelry & Accessories,449.6972401420429,2.0,3,3.0,Standard
+38.0,Food & Beverages,415.3047794882226,3.0,2,6.0,No Preference
+28.0,Travel & Leisure (Flights,423.4383074572295,11.0,4,5.0,Express
+37.0,Mobile Accessories,93.77680668312517,7.0,5,9.0,No Preference
+29.0,Jewelry & Accessories,325.8861360718539,0.0,5,3.0,Express
+24.0,Hotels,59.906874933400715,11.0,2,8.0,Express
+28.0,Hotels,293.7854218180902,4.0,5,3.0,Standard
+21.0,Hotels,152.56946684325885,4.0,4,4.0,Express
+28.0,Toys & Games,331.5030656953818,3.0,1,10.0,Express
+49.0,Software & Apps,420.2475783898045,10.0,2,8.0,No Preference
+35.0,Clothing,443.1690237803938,4.0,5,5.0,Standard
+31.0,Travel & Leisure (Flights,290.569772900835,10.0,4,7.0,No Preference
+44.0,Electronics,187.73325978904813,2.0,1,6.0,Standard
+42.0,Sports & Outdoors,352.5507644817591,5.0,1,2.0,Express
+19.0,Software & Apps,270.77233410397025,7.0,3,8.0,Standard
+49.0,Arts & Crafts,120.91655196932616,3.0,5,2.0,No Preference
+30.0,Mobile Accessories,423.406910442562,7.0,2,5.0,Standard
+25.0,Furniture,310.25435303981243,7.0,2,8.0,Express
+20.0,Sports & Outdoors,169.6261510895558,12.0,1,5.0,No Preference
+41.0,Health Supplements,278.29579549378445,5.0,2,4.0,Standard
+36.0,Books,330.9527836267281,9.0,4,8.0,No Preference
+35.0,Animal Feed,369.89205123129284,6.0,5,7.0,Standard
+22.0,Travel & Leisure (Flights,189.8865823015924,2.0,2,9.0,No Preference
+52.0,Beauty & Personal Care,347.2387957820463,3.0,1,10.0,Standard
+33.0,Jewelry & Accessories,216.63782090772543,10.0,2,2.0,No Preference
+17.0,Mobile Accessories,291.5223817188337,8.0,4,1.0,No Preference
+43.0,Gardening & Outdoors,257.4084073982041,1.0,3,9.0,Express
+32.0,Books,172.3919748601871,7.0,1,7.0,No Preference
+51.0,Health Care,76.42932455137037,1.0,5,1.0,Standard
+28.0,Health Supplements,216.911192554829,8.0,1,1.0,No Preference
+33.0,Books,335.93915257926733,5.0,2,8.0,Standard
+41.0,Packages),377.2139841934586,3.0,2,9.0,Standard
+44.0,Arts & Crafts,250.73255507554643,9.0,1,8.0,No Preference
+32.0,Mobile Accessories,309.62779649207107,7.0,3,3.0,No Preference
+33.0,Home Appliances,306.2692466956364,8.0,4,6.0,Standard
+18.0,Groceries,442.91945277233106,1.0,4,2.0,Standard
+27.0,Books,276.47713386226314,8.0,3,8.0,Express
+51.0,Food & Beverages,56.81438191403238,4.0,3,6.0,Standard
+20.0,Luxury Goods,278.5041952596483,7.0,2,3.0,Standard
+49.0,Arts & Crafts,266.60904943980177,9.0,3,7.0,No Preference
+38.0,Gardening & Outdoors,220.4463161976146,1.0,5,1.0,No Preference
+39.0,Clothing,100.83536900257297,11.0,3,6.0,No Preference
+31.0,Home Appliances,415.6791882272672,6.0,4,1.0,No Preference
+38.0,Jewelry & Accessories,311.81609834249196,3.0,5,4.0,No Preference
+30.0,Jewelry & Accessories,339.77134745719627,0.0,4,4.0,Standard
+19.0,Hotels,427.02438721628096,7.0,4,4.0,Standard
+35.0,Health Supplements,468.6947213876024,6.0,4,2.0,Express
+48.0,Home Appliances,299.42672974197865,4.0,4,2.0,No Preference
+49.0,Software & Apps,411.83505030182494,3.0,5,8.0,Standard
+43.0,Baby Products,253.01116009638906,11.0,4,2.0,Express
+19.0,Sports & Outdoors,152.6473022668428,8.0,1,1.0,Standard
+31.0,Hotels,293.2061740419575,1.0,1,7.0,No Preference
+48.0,Books,434.6309992348557,7.0,4,4.0,No Preference
+30.0,Furniture,374.681420294399,14.0,2,8.0,No Preference
+47.0,Beauty & Personal Care,486.76214488328776,4.0,3,9.0,No Preference
+29.0,Packages),162.27812228796597,10.0,2,3.0,Express
+37.0,Clothing,265.0350328081218,10.0,4,2.0,No Preference
+50.0,Health Supplements,92.96828768915124,5.0,2,2.0,No Preference
+45.0,Health Supplements,209.4225792248684,1.0,5,5.0,Standard
+48.0,Jewelry & Accessories,148.35824928138337,2.0,5,9.0,Express
+37.0,Hotels,219.8065284501146,7.0,4,4.0,Standard
+31.0,Packages),454.6212687351606,6.0,2,7.0,Standard
+44.0,Jewelry & Accessories,378.35307729902615,1.0,4,5.0,Standard
+18.0,Electronics,293.3846061038332,6.0,5,7.0,No Preference
+42.0,Health Care,261.02231587880624,2.0,5,8.0,Standard
+50.0,Mobile Accessories,97.32862151557977,8.0,3,7.0,Standard
+28.0,Office Supplies,247.0130846243457,7.0,2,4.0,Express
+23.0,Hotels,347.2042748712172,11.0,4,10.0,No Preference
+41.0,Sports & Outdoors,279.5790048882883,2.0,1,1.0,Standard
+40.0,Office Supplies,502.0104989941536,6.0,1,1.0,No Preference
+33.0,Jewelry & Accessories,222.31639855055332,2.0,2,10.0,Standard
+17.0,Luxury Goods,333.2421912087842,5.0,4,7.0,No Preference
+18.0,Books,371.54656581660095,4.0,3,7.0,No Preference
+29.0,Mobile Accessories,446.05274802113047,3.0,4,8.0,Express
+19.0,Groceries,299.6212128610107,11.0,2,1.0,Standard
+19.0,Food & Beverages,325.190596387954,7.0,5,4.0,Standard
+17.0,Software & Apps,399.54605317782375,10.0,4,4.0,No Preference
+29.0,Books,440.74974727577705,11.0,4,3.0,No Preference
+37.0,Software & Apps,233.41627715605708,2.0,1,3.0,Standard
+33.0,Animal Feed,332.4141254190947,6.0,5,5.0,Express
+19.0,Furniture,396.8817369465668,9.0,2,1.0,Express
+29.0,Luxury Goods,381.3690203891779,11.0,4,5.0,Standard
+20.0,Food & Beverages,329.9065030102414,2.0,2,3.0,Standard
+44.0,Jewelry & Accessories,306.9421538580066,7.0,2,7.0,Express
+28.0,Groceries,37.330750382553234,4.0,1,10.0,Standard
+40.0,Books,406.31072311517664,3.0,2,2.0,Standard
+46.0,Sports & Outdoors,207.296571357155,9.0,2,9.0,No Preference
+27.0,Toys & Games,329.71382452190653,10.0,4,2.0,Express
+21.0,Home Appliances,188.675599968464,7.0,2,9.0,Standard
+48.0,Animal Feed,185.90658505154266,15.0,4,3.0,Express
+51.0,Software & Apps,277.10476074031106,6.0,1,10.0,Express
+26.0,Office Supplies,278.58440887024506,3.0,2,4.0,No Preference
+33.0,Health Supplements,451.6924576362676,5.0,4,2.0,Express
+32.0,Baby Products,99.20840844411521,10.0,4,9.0,Express
+37.0,Animal Feed,273.5438090277833,7.0,1,1.0,No Preference
+30.0,Luxury Goods,329.4231478421493,7.0,3,1.0,No Preference
+38.0,Furniture,274.9175618627138,10.0,3,7.0,No Preference
+46.0,Clothing,282.2324819800317,10.0,1,4.0,Standard
+40.0,Health Supplements,418.5371723530775,9.0,2,7.0,No Preference
+19.0,Home Appliances,411.9782702075306,6.0,3,5.0,Standard
+32.0,Groceries,301.79136781692216,6.0,5,1.0,No Preference
+38.0,Food & Beverages,222.35002806056883,13.0,4,9.0,Express
+33.0,Groceries,230.0743115500561,6.0,2,3.0,No Preference
+36.0,Sports & Outdoors,301.25294608482386,7.0,3,8.0,No Preference
+26.0,Jewelry & Accessories,92.93709546790903,4.0,3,1.0,Standard
+49.0,Luxury Goods,166.7674795635439,11.0,4,10.0,Standard
+36.0,Toys & Games,296.5072464201096,4.0,5,3.0,No Preference
+20.0,Luxury Goods,386.04935761996563,5.0,1,10.0,No Preference
+22.0,Gardening & Outdoors,400.52240136529235,2.0,4,9.0,No Preference
+18.0,Health Supplements,273.57935927775,8.0,4,10.0,Express
+41.0,Groceries,236.24924864307843,16.0,2,7.0,Express
+31.0,Mobile Accessories,238.965732777525,2.0,5,10.0,Standard
+38.0,Food & Beverages,346.9330835555926,11.0,3,1.0,Express
+20.0,Toys & Games,262.5626311888583,8.0,1,4.0,Express
+43.0,Electronics,245.10714794846362,8.0,1,5.0,No Preference
+26.0,Food & Beverages,457.0271290742262,10.0,5,6.0,Express
+19.0,Health Supplements,158.05621000622878,4.0,4,1.0,Express
+42.0,Beauty & Personal Care,122.9461169313875,6.0,5,9.0,No Preference
+38.0,Hotels,270.230574632424,7.0,3,10.0,No Preference
+21.0,Travel & Leisure (Flights,323.2987164939217,6.0,2,7.0,No Preference
+29.0,Travel & Leisure (Flights,279.08624988482046,7.0,1,7.0,No Preference
+34.0,Health Supplements,190.38081116355414,6.0,4,6.0,Express
+33.0,Gardening & Outdoors,114.71537670908558,3.0,3,1.0,Standard
+39.0,Arts & Crafts,125.93836449452114,10.0,4,4.0,Express
+50.0,Health Supplements,132.64974742027968,10.0,5,1.0,Express
+37.0,Health Care,325.8734263178013,3.0,1,2.0,Standard
+46.0,Home Appliances,311.87557876078904,2.0,3,10.0,Standard
+20.0,Software & Apps,132.3448990650805,7.0,5,6.0,No Preference
+40.0,Software & Apps,380.57025172009014,7.0,4,2.0,No Preference
+21.0,Hotels,195.27620636259846,8.0,3,1.0,Standard
+27.0,Mobile Accessories,285.6296441887242,3.0,5,7.0,No Preference
+37.0,Animal Feed,220.9911689129011,10.0,5,6.0,No Preference
+47.0,Clothing,206.48319468131024,7.0,1,4.0,Express
+28.0,Home Appliances,101.20542546928955,2.0,3,3.0,Standard
+39.0,Packages),319.9983684932901,7.0,1,8.0,No Preference
+32.0,Electronics,361.3695548191155,4.0,3,7.0,Standard
+43.0,Office Supplies,70.2030553043458,2.0,2,6.0,Express
+37.0,Arts & Crafts,87.96021009003458,4.0,5,4.0,No Preference
+28.0,Gardening & Outdoors,452.7553947506093,8.0,3,3.0,No Preference
+36.0,Luxury Goods,382.8330590661411,9.0,4,2.0,Express
+25.0,Gardening & Outdoors,410.27583710195245,4.0,4,6.0,No Preference
+39.0,Arts & Crafts,57.997791708996544,7.0,1,2.0,No Preference
+34.0,Travel & Leisure (Flights,460.32889361124217,0.0,4,6.0,Standard
+27.0,Books,381.42814274023715,8.0,5,9.0,Express
+36.0,Electronics,148.92411205131958,3.0,5,3.0,No Preference
+51.0,Beauty & Personal Care,246.06069659702706,9.0,1,4.0,No Preference
+33.0,Office Supplies,153.73090225951063,10.0,3,3.0,No Preference
+43.0,Food & Beverages,499.44599350231096,4.0,1,5.0,Express
+44.0,Luxury Goods,133.56267674567357,7.0,3,5.0,No Preference
+44.0,Gardening & Outdoors,57.977930592845794,5.0,4,6.0,Standard
+26.0,Hotels,204.80186671729922,8.0,4,7.0,Express
+46.0,Home Appliances,253.6037306741048,7.0,5,1.0,No Preference
+35.0,Groceries,268.11023842395696,3.0,5,9.0,Express
+46.0,Mobile Accessories,312.29745268788474,9.0,4,2.0,Express
+25.0,Sports & Outdoors,228.0947846202621,8.0,2,2.0,Express
+18.0,Toys & Games,101.81476315270224,4.0,3,7.0,No Preference
+42.0,Electronics,173.81358523344596,0.0,3,3.0,Standard
+25.0,Software & Apps,254.5627816637795,6.0,4,9.0,Express
+51.0,Food & Beverages,403.6543987967017,11.0,3,1.0,Express
+48.0,Baby Products,187.1886982536219,4.0,4,2.0,No Preference
+23.0,Food & Beverages,433.39743007189657,5.0,5,8.0,Express
+20.0,Food & Beverages,232.92703606503653,7.0,3,2.0,No Preference
+37.0,Office Supplies,314.67413692957894,5.0,2,3.0,No Preference
+43.0,Electronics,175.93773916098576,3.0,5,9.0,Standard
+44.0,Arts & Crafts,169.48395518887713,4.0,1,9.0,Express
+41.0,Luxury Goods,184.2935657178748,4.0,4,1.0,Standard
+42.0,Health Supplements,491.64061386094727,8.0,2,9.0,Standard
+43.0,Baby Products,335.869166343729,4.0,1,4.0,Express
+35.0,Hotels,269.1208919296587,5.0,3,5.0,Standard
+37.0,Jewelry & Accessories,326.9619994850053,1.0,5,8.0,Standard
+33.0,Sports & Outdoors,157.4408811539338,6.0,4,8.0,No Preference
+51.0,Toys & Games,323.99536760413196,5.0,1,1.0,Standard
+50.0,Books,128.10886597782584,2.0,1,5.0,Standard
+50.0,Electronics,269.31160173557987,6.0,4,1.0,Express
+23.0,Health Care,338.39332517366006,8.0,2,10.0,Standard
+25.0,Clothing,254.75873197183608,6.0,3,8.0,Express
+37.0,Luxury Goods,151.98258368882924,11.0,3,9.0,No Preference
+45.0,Mobile Accessories,228.71351052982033,8.0,2,10.0,No Preference
+33.0,Sports & Outdoors,185.4434217429957,3.0,3,1.0,Standard
+32.0,Luxury Goods,453.1640179607719,10.0,1,7.0,No Preference
+46.0,Baby Products,329.1468449156597,4.0,3,7.0,No Preference
+33.0,Home Appliances,391.8295204899431,1.0,4,6.0,Standard
+39.0,Sports & Outdoors,516.8595968187423,10.0,4,8.0,No Preference
+48.0,Arts & Crafts,288.5543255024771,10.0,4,2.0,No Preference
+28.0,Health Supplements,343.2052151360608,7.0,1,2.0,Standard
+37.0,Luxury Goods,433.76253013712346,4.0,4,1.0,Standard
+32.0,Hotels,288.40308612489866,2.0,3,10.0,Express
+39.0,Health Care,91.80163477593592,9.0,4,6.0,Standard
+34.0,Mobile Accessories,203.64647250776855,2.0,5,3.0,Standard
+33.0,Software & Apps,367.3317101327696,9.0,1,3.0,Express
+27.0,Food & Beverages,183.91644367990466,9.0,5,1.0,Express
+25.0,Software & Apps,304.01729368052565,7.0,5,6.0,No Preference
+35.0,Travel & Leisure (Flights,368.1574723870315,3.0,4,10.0,No Preference
+21.0,Baby Products,211.13628571960118,13.0,1,3.0,Standard
+50.0,Hotels,476.8939328927828,4.0,1,6.0,Standard
+19.0,Software & Apps,78.93851830011933,6.0,2,1.0,Express
+35.0,Baby Products,437.9195166239566,12.0,2,2.0,Express
+40.0,Baby Products,175.0422080617509,4.0,1,5.0,Standard
+39.0,Health Care,379.31228319900765,8.0,4,3.0,Express
+22.0,Groceries,349.16221045834413,9.0,4,1.0,Standard
+23.0,Toys & Games,210.63782693375924,9.0,2,3.0,No Preference
+31.0,Mobile Accessories,449.778258940505,9.0,5,1.0,Express
+26.0,Sports & Outdoors,277.3376025520439,6.0,5,1.0,No Preference
+27.0,Animal Feed,174.64342133634779,11.0,2,8.0,Express
+46.0,Furniture,305.5523492888638,11.0,1,3.0,Express
+28.0,Health Supplements,455.92748974649203,1.0,5,8.0,Standard
+24.0,Beauty & Personal Care,57.706172467169985,6.0,4,3.0,Standard
+29.0,Baby Products,338.9239544203376,7.0,3,10.0,Standard
+20.0,Office Supplies,239.57454602639262,6.0,3,5.0,No Preference
+19.0,Furniture,145.3580648890914,6.0,2,7.0,No Preference
+51.0,Health Supplements,277.75712026847395,7.0,1,9.0,Standard
+19.0,Sports & Outdoors,407.574042279852,11.0,1,9.0,Express
+17.0,Gardening & Outdoors,183.12222143287667,7.0,3,9.0,Standard
+42.0,Animal Feed,197.72522446646457,7.0,3,2.0,No Preference
+27.0,Furniture,271.33004784407024,10.0,4,8.0,Standard
+28.0,Electronics,374.98864351500447,4.0,2,5.0,Express
+24.0,Home Appliances,357.83616228946073,8.0,5,10.0,Standard
+42.0,Gardening & Outdoors,133.56527566270395,4.0,4,9.0,Standard
+48.0,Clothing,278.6870290263938,4.0,2,7.0,Express
+40.0,Food & Beverages,202.4045397224627,12.0,4,1.0,Standard
+50.0,Furniture,310.0916062823559,9.0,3,6.0,Standard
+37.0,Jewelry & Accessories,373.3870071748472,7.0,5,9.0,Express
+39.0,Baby Products,251.97712535399177,2.0,1,6.0,No Preference
+32.0,Gardening & Outdoors,364.68015542064654,10.0,3,5.0,Express
+42.0,Jewelry & Accessories,225.11058860245583,-2.0,3,6.0,No Preference
+27.0,Mobile Accessories,231.5172582480886,6.0,5,8.0,No Preference
+42.0,Electronics,489.1920396226187,7.0,4,7.0,Express
+33.0,Electronics,216.35399157970437,6.0,1,2.0,No Preference
+25.0,Toys & Games,312.6820683372482,7.0,5,9.0,Express
+38.0,Electronics,304.4699135937982,7.0,3,5.0,Express
+18.0,Sports & Outdoors,347.3987514975097,5.0,3,7.0,Express
+23.0,Food & Beverages,158.19708060379975,9.0,5,8.0,Express
+30.0,Books,92.64537225789816,8.0,5,1.0,No Preference
+20.0,Health Care,305.7965077558937,7.0,5,8.0,Express
+45.0,Mobile Accessories,474.81080140264805,2.0,3,4.0,No Preference
+31.0,Gardening & Outdoors,235.49894718586648,6.0,5,7.0,Standard
+37.0,Beauty & Personal Care,231.28325978027826,6.0,4,5.0,Express
+24.0,Packages),400.7640966427978,9.0,1,8.0,No Preference
+46.0,Sports & Outdoors,231.03023865362596,3.0,1,6.0,Standard
+23.0,Baby Products,324.45978333925154,3.0,5,1.0,Standard
+49.0,Home Appliances,133.9579603297541,7.0,4,3.0,Standard
+49.0,Animal Feed,336.91060243226366,8.0,3,2.0,Express
+24.0,Furniture,94.62413870879001,9.0,3,4.0,No Preference
+50.0,Hotels,225.94656129421017,2.0,2,3.0,Standard
+18.0,Furniture,142.59219726071015,6.0,5,8.0,Express
+48.0,Groceries,352.41422890591116,8.0,4,9.0,Standard
+32.0,Clothing,207.82848306877608,12.0,2,9.0,No Preference
+36.0,Home Appliances,55.21573241268247,4.0,4,3.0,Standard
+22.0,Gardening & Outdoors,207.3355076898082,9.0,3,6.0,No Preference
+36.0,Packages),284.6952751723203,12.0,2,6.0,No Preference
+28.0,Packages),503.67030429139766,4.0,5,1.0,Express
+38.0,Packages),254.39597963347916,5.0,3,6.0,Standard
+40.0,Arts & Crafts,301.0594968315453,3.0,3,1.0,Express
+21.0,Groceries,495.70073471487024,5.0,5,7.0,Express
+45.0,Baby Products,85.24576144090045,6.0,1,3.0,Standard
+33.0,Food & Beverages,343.9895757503441,3.0,4,10.0,No Preference
+36.0,Books,168.74651915374142,7.0,4,6.0,Standard
+22.0,Beauty & Personal Care,162.1172640481074,6.0,5,9.0,No Preference
+23.0,Books,225.46252484997382,3.0,1,9.0,Express
+19.0,Electronics,372.7512520226396,2.0,3,1.0,No Preference
+33.0,Health Supplements,342.61328398347456,4.0,1,5.0,No Preference
+26.0,Electronics,276.22196085430335,7.0,5,1.0,Standard
+20.0,Gardening & Outdoors,246.45786670020877,1.0,1,10.0,No Preference
+27.0,Sports & Outdoors,293.5736280501126,4.0,4,5.0,No Preference
+30.0,Baby Products,123.2073964239296,6.0,3,7.0,Standard
+46.0,Groceries,139.47647692483784,6.0,1,7.0,No Preference
+39.0,Home Appliances,407.39468660537034,0.0,5,2.0,No Preference
+31.0,Animal Feed,307.1314546432958,7.0,5,9.0,No Preference
+19.0,Software & Apps,352.30680469917127,13.0,2,2.0,Express
+34.0,Animal Feed,164.39116395187452,5.0,4,1.0,Standard
+50.0,Home Appliances,374.19220093977094,8.0,2,1.0,Standard
+40.0,Packages),211.6333382092927,3.0,5,8.0,Standard
+32.0,Office Supplies,351.09048216712984,12.0,4,7.0,No Preference
+48.0,Sports & Outdoors,109.60047469678864,8.0,1,5.0,Express
+42.0,Sports & Outdoors,345.51622684535664,4.0,3,1.0,No Preference
+49.0,Animal Feed,133.778396634255,2.0,3,4.0,Standard
+38.0,Beauty & Personal Care,486.913459028935,4.0,5,6.0,Express
+31.0,Health Supplements,407.46584188647137,7.0,4,9.0,Express
+29.0,Groceries,327.10202277027315,8.0,5,3.0,No Preference
+46.0,Animal Feed,413.52301691455494,9.0,1,9.0,No Preference
+40.0,Baby Products,304.0469906593358,10.0,1,6.0,Express
+35.0,Electronics,251.40639075813294,9.0,3,8.0,No Preference
+50.0,Health Supplements,91.74654412222814,6.0,3,4.0,Express
+26.0,Arts & Crafts,225.77393894930415,8.0,4,8.0,Express
+45.0,Baby Products,266.71013463091055,2.0,1,8.0,Express
+23.0,Hotels,381.91475504887467,0.0,3,5.0,No Preference
+50.0,Office Supplies,340.38133285476135,12.0,2,2.0,Express
+32.0,Home Appliances,44.36949927964393,6.0,5,8.0,Standard
+49.0,Arts & Crafts,372.9832255832357,4.0,4,3.0,Express
+35.0,Sports & Outdoors,209.09809275965273,4.0,1,5.0,No Preference
+45.0,Mobile Accessories,147.06085489182064,5.0,4,7.0,No Preference
+22.0,Home Appliances,97.06154068049604,6.0,5,3.0,Standard
+48.0,Electronics,232.9723149174078,-1.0,5,3.0,No Preference
+48.0,Packages),489.1078856334269,4.0,2,4.0,Standard
+25.0,Gardening & Outdoors,336.04084835163746,13.0,4,1.0,Express
+27.0,Furniture,101.81162027238992,7.0,5,10.0,Standard
+45.0,Health Care,298.1981054139718,5.0,4,6.0,Express
+48.0,Electronics,310.8039129924407,4.0,2,4.0,No Preference
+34.0,Home Appliances,119.82501270613727,9.0,3,9.0,No Preference
+34.0,Health Care,229.47145579534524,7.0,1,8.0,No Preference
+33.0,Animal Feed,387.5080153177197,11.0,4,5.0,No Preference
+33.0,Office Supplies,368.23737122119496,8.0,3,9.0,Express
+28.0,Health Supplements,253.55148184114256,5.0,5,7.0,No Preference
+40.0,Luxury Goods,242.19854889774874,4.0,4,1.0,Standard
+48.0,Groceries,389.11207131447895,4.0,4,1.0,Standard
+41.0,Software & Apps,310.66198580094203,7.0,5,3.0,Express
+35.0,Health Supplements,413.00740689205327,8.0,4,2.0,No Preference
+31.0,Gardening & Outdoors,393.2697322049887,8.0,3,6.0,No Preference
+38.0,Food & Beverages,308.6660304122525,8.0,1,6.0,No Preference
+32.0,Travel & Leisure (Flights,198.6917571180125,3.0,4,9.0,Standard
+23.0,Software & Apps,140.05278326247722,3.0,3,2.0,No Preference
+32.0,Books,299.3966748272626,6.0,5,2.0,Express
+18.0,Books,475.1365614818426,10.0,4,6.0,Standard
+41.0,Luxury Goods,478.35429151115966,2.0,1,1.0,Standard
+51.0,Arts & Crafts,133.93432895226803,5.0,1,10.0,Standard
+18.0,Software & Apps,297.8677122682801,7.0,5,3.0,No Preference
+34.0,Food & Beverages,369.9211212271588,7.0,4,5.0,Standard
+30.0,Health Care,225.75618656259556,10.0,2,5.0,Express
+27.0,Animal Feed,386.19191685221676,13.0,2,4.0,Express
+21.0,Baby Products,422.73786412677657,15.0,2,6.0,Express
+36.0,Groceries,342.1110020833204,12.0,4,4.0,Express
+29.0,Groceries,290.8154749050416,2.0,5,4.0,No Preference
+36.0,Animal Feed,319.45473139342135,10.0,1,7.0,No Preference
+48.0,Jewelry & Accessories,198.38146571300146,1.0,5,9.0,No Preference
+49.0,Software & Apps,280.02101494688407,6.0,3,3.0,No Preference
+34.0,Home Appliances,164.86192065310487,12.0,1,6.0,No Preference
+26.0,Hotels,160.43700737847644,3.0,4,8.0,Standard
+19.0,Animal Feed,198.94301535526827,5.0,2,7.0,Standard
+43.0,Home Appliances,183.76066332031567,9.0,1,9.0,Express
+50.0,Electronics,351.40818678161384,6.0,4,8.0,Express
+38.0,Health Supplements,92.90278400245494,7.0,2,9.0,Express
+25.0,Health Supplements,344.9908868474331,14.0,3,2.0,No Preference
+42.0,Food & Beverages,63.320396124016625,8.0,2,5.0,No Preference
+35.0,Sports & Outdoors,284.73245789479927,1.0,5,6.0,Standard
+40.0,Packages),149.6648423732074,4.0,1,9.0,No Preference
+44.0,Food & Beverages,170.18128185732917,11.0,2,6.0,No Preference
+18.0,Groceries,474.0065188284799,5.0,5,7.0,No Preference
+31.0,Baby Products,336.59778213708535,7.0,4,2.0,No Preference
+36.0,Animal Feed,329.829234121597,9.0,3,10.0,Standard
+43.0,Toys & Games,276.24133678544456,3.0,5,3.0,Standard
+53.0,Clothing,385.12288753279074,3.0,2,10.0,Standard
+37.0,Software & Apps,246.94545400590388,5.0,1,1.0,Standard
+21.0,Groceries,211.3608283526478,11.0,1,7.0,Standard
+40.0,Home Appliances,47.891488180742456,9.0,5,1.0,No Preference
+47.0,Furniture,209.95149034091108,9.0,3,5.0,No Preference
+24.0,Electronics,210.24697059075274,12.0,4,7.0,No Preference
+32.0,Furniture,22.062611762521783,7.0,1,2.0,Express
+36.0,Beauty & Personal Care,400.3188945543757,9.0,2,5.0,Express
+30.0,Animal Feed,396.3142971591003,8.0,2,6.0,Standard
+27.0,Electronics,386.07920454563396,7.0,3,1.0,No Preference
+37.0,Electronics,262.22118227448937,0.0,1,5.0,Standard
+29.0,Packages),297.36543419858083,6.0,4,3.0,Standard
+52.0,Jewelry & Accessories,309.28218515986794,4.0,3,6.0,Standard
+37.0,Electronics,377.3675582643133,6.0,2,8.0,Standard
+32.0,Travel & Leisure (Flights,263.44499935468764,3.0,4,7.0,Standard
+40.0,Software & Apps,288.36479027836754,2.0,5,1.0,Standard
+46.0,Gardening & Outdoors,135.96495692260265,5.0,3,3.0,Express
+45.0,Arts & Crafts,299.74583218115504,7.0,4,1.0,No Preference
+38.0,Home Appliances,291.17573227718725,2.0,2,9.0,Express
+32.0,Beauty & Personal Care,439.58573800997056,6.0,1,5.0,No Preference
+30.0,Food & Beverages,218.56201333915894,7.0,5,10.0,No Preference
+28.0,Hotels,322.56145256709743,7.0,1,2.0,Express
+44.0,Baby Products,169.69837915275102,7.0,5,6.0,Express
+30.0,Luxury Goods,338.4873931872189,4.0,4,5.0,No Preference
+49.0,Clothing,393.6123262674457,2.0,1,8.0,Standard
+27.0,Gardening & Outdoors,201.8709620396296,15.0,1,6.0,No Preference
+31.0,Beauty & Personal Care,453.8121977891956,2.0,2,10.0,Standard
+26.0,Packages),208.67107443712496,4.0,3,4.0,Express
+35.0,Packages),208.292900163614,5.0,2,2.0,Express
+49.0,Food & Beverages,418.8379585685042,8.0,5,2.0,Standard
+39.0,Mobile Accessories,276.94778507146486,5.0,5,6.0,No Preference
+26.0,Home Appliances,297.55810359310215,1.0,1,6.0,Standard
+25.0,Health Care,420.6209568633383,12.0,3,2.0,No Preference
+40.0,Mobile Accessories,397.8990972946375,6.0,3,6.0,Express
+18.0,Travel & Leisure (Flights,324.3169013204913,9.0,3,8.0,Express
+35.0,Luxury Goods,256.1075024563065,9.0,4,4.0,Standard
+24.0,Software & Apps,199.34996883300573,4.0,1,4.0,No Preference
+37.0,Food & Beverages,151.90698904574506,6.0,1,8.0,No Preference
+23.0,Gardening & Outdoors,241.56126712025,1.0,5,4.0,No Preference
+37.0,Jewelry & Accessories,429.7385879887871,3.0,5,5.0,Express
+49.0,Sports & Outdoors,427.319893343833,7.0,3,2.0,Standard
+34.0,Animal Feed,288.4374445471142,11.0,4,3.0,No Preference
+27.0,Gardening & Outdoors,57.977930592845794,8.0,4,3.0,Standard
+22.0,Beauty & Personal Care,155.65946062639168,7.0,5,3.0,Express
+35.0,Health Care,126.59279518549718,7.0,3,6.0,No Preference
+47.0,Animal Feed,141.15385523829204,12.0,1,3.0,Express
+21.0,Health Care,517.1750966602776,7.0,2,6.0,Express
+37.0,Home Appliances,47.23278198059781,7.0,3,8.0,Express
+37.0,Software & Apps,294.37400915872934,3.0,4,5.0,Standard
+26.0,Baby Products,411.92734248046185,8.0,1,1.0,No Preference
+49.0,Furniture,186.94429010101726,3.0,5,2.0,Standard
+45.0,Packages),97.00929167884091,1.0,5,2.0,No Preference
+49.0,Clothing,142.06928147956532,1.0,3,1.0,No Preference
+50.0,Hotels,119.90723938674202,6.0,2,10.0,Standard
+36.0,Baby Products,74.98751065124283,6.0,4,7.0,Standard
+41.0,Health Care,338.5271515486302,10.0,4,9.0,Express
+31.0,Baby Products,360.7395684616578,6.0,1,4.0,No Preference
+20.0,Jewelry & Accessories,142.95779550279363,-3.0,5,3.0,Standard
+48.0,Packages),126.9542635000985,9.0,4,2.0,Express
+32.0,Electronics,241.01347969457174,9.0,5,1.0,Express
+28.0,Furniture,326.855906479326,8.0,4,5.0,Express
+34.0,Mobile Accessories,496.2380348754617,4.0,2,8.0,Express
+49.0,Toys & Games,381.7612045115087,5.0,4,2.0,Express
+49.0,Beauty & Personal Care,40.13715505618373,5.0,5,3.0,No Preference
+22.0,Arts & Crafts,289.44866637033306,1.0,1,2.0,Standard
+39.0,Office Supplies,262.19645197102534,5.0,3,4.0,No Preference
+38.0,Mobile Accessories,247.23724550369394,4.0,4,8.0,No Preference
+47.0,Hotels,223.5538402104098,-1.0,5,7.0,No Preference
+24.0,Home Appliances,142.85344720787666,11.0,4,8.0,No Preference
+37.0,Travel & Leisure (Flights,307.48689472366186,7.0,2,5.0,No Preference
+31.0,Home Appliances,218.8757099888437,7.0,1,8.0,No Preference
+44.0,Books,325.7899854766738,8.0,3,5.0,No Preference
+39.0,Gardening & Outdoors,370.5596836443285,8.0,3,4.0,Express
+38.0,Hotels,415.90724160904585,5.0,2,9.0,No Preference
+27.0,Beauty & Personal Care,122.29388738463388,9.0,1,3.0,Express
+19.0,Home Appliances,312.1940904839987,7.0,1,9.0,No Preference
+47.0,Software & Apps,220.779223751058,5.0,5,4.0,Express
+50.0,Clothing,431.11095086506043,4.0,3,3.0,Express
+36.0,Furniture,292.49399720356894,7.0,4,8.0,Standard
+31.0,Luxury Goods,418.8895265687536,-2.0,5,4.0,Standard
+32.0,Health Care,342.09908367063076,10.0,2,9.0,No Preference
+48.0,Animal Feed,421.8010350464979,8.0,4,2.0,Express
+48.0,Gardening & Outdoors,177.50402522195012,10.0,1,3.0,Express
+53.0,Jewelry & Accessories,419.24742673222664,4.0,1,1.0,Express
+30.0,Travel & Leisure (Flights,70.23159374416868,6.0,1,4.0,Standard
+23.0,Packages),198.48180109459295,3.0,3,1.0,No Preference
+27.0,Mobile Accessories,273.703949595924,9.0,4,3.0,Express
+28.0,Furniture,371.0585728121916,6.0,1,5.0,No Preference
+29.0,Health Care,303.1753005113193,11.0,1,9.0,Standard
+38.0,Hotels,239.98580233904434,1.0,2,10.0,No Preference
+35.0,Clothing,301.08694280495456,7.0,2,10.0,Express
+19.0,Packages),203.4248112736668,13.0,4,3.0,No Preference
+50.0,Luxury Goods,177.46683028542293,10.0,2,1.0,No Preference
+18.0,Travel & Leisure (Flights,418.8797715151313,5.0,5,2.0,Standard
+48.0,Health Care,83.98657592632522,9.0,3,8.0,Express
+35.0,Beauty & Personal Care,365.3651402066373,10.0,4,1.0,Standard
+38.0,Jewelry & Accessories,218.54313923702395,7.0,2,2.0,No Preference
+32.0,Home Appliances,168.31134618104213,3.0,5,1.0,No Preference
+18.0,Luxury Goods,217.44619530243082,9.0,5,5.0,Express
+38.0,Software & Apps,228.06897921866582,9.0,1,6.0,Express
+26.0,Luxury Goods,286.54780277452005,7.0,3,6.0,Express
+44.0,Hotels,75.97904751133882,2.0,1,6.0,Standard
+18.0,Sports & Outdoors,249.37544370055076,11.0,3,10.0,Express
+28.0,Hotels,207.8203803185227,8.0,1,2.0,Standard
+49.0,Software & Apps,274.84919826161047,7.0,1,4.0,Standard
+22.0,Furniture,406.2634950337813,12.0,5,9.0,Standard
+43.0,Baby Products,66.72029265419404,6.0,2,9.0,Standard
+41.0,Arts & Crafts,215.94886877505522,11.0,4,3.0,Express
+43.0,Electronics,164.82299054828056,4.0,3,8.0,Standard
+24.0,Furniture,230.51000505816725,5.0,3,7.0,No Preference
+48.0,Groceries,495.549420569223,3.0,3,2.0,No Preference
+18.0,Office Supplies,247.84240327671347,2.0,1,3.0,No Preference
+35.0,Groceries,351.8446516869991,11.0,2,10.0,Standard
+36.0,Home Appliances,249.47752721258377,2.0,2,6.0,No Preference
+34.0,Food & Beverages,289.31442709780504,9.0,5,10.0,No Preference
+27.0,Animal Feed,214.47182142100584,1.0,1,1.0,Standard
+18.0,Books,160.62534673007352,0.0,5,8.0,Standard
+37.0,Gardening & Outdoors,202.92149081482344,5.0,1,9.0,Express
+23.0,Toys & Games,74.52901348381337,9.0,5,8.0,Standard
+24.0,Beauty & Personal Care,213.77888759499197,2.0,5,7.0,Express
+47.0,Electronics,282.4890574516295,4.0,4,8.0,Express
+33.0,Clothing,459.30933134624814,7.0,1,9.0,Express
+33.0,Groceries,153.6695265140639,0.0,1,2.0,Standard
+32.0,Luxury Goods,313.7807466302745,9.0,5,2.0,No Preference
+17.0,Gardening & Outdoors,138.27510803424272,5.0,1,5.0,Express
+34.0,Electronics,237.0059951690986,5.0,5,3.0,No Preference
+39.0,Office Supplies,173.46962668379268,10.0,1,7.0,No Preference
+41.0,Luxury Goods,237.89999626528072,11.0,2,7.0,Standard
+49.0,Office Supplies,386.6986737511773,1.0,1,9.0,No Preference
+50.0,Home Appliances,358.3838262928997,14.0,2,8.0,Express
+48.0,Office Supplies,470.972359683802,8.0,4,3.0,Standard
+49.0,Travel & Leisure (Flights,484.0324594113097,7.0,2,6.0,Standard
+20.0,Health Supplements,219.2168872050581,7.0,1,6.0,Standard
+35.0,Travel & Leisure (Flights,113.52031295614947,-1.0,1,1.0,Standard
+27.0,Luxury Goods,370.98174315334506,13.0,2,2.0,No Preference
+46.0,Baby Products,410.93521387577914,6.0,5,2.0,Standard
+18.0,Sports & Outdoors,229.11870453775518,8.0,2,10.0,Express
+30.0,Furniture,246.15357079712336,7.0,1,2.0,Standard
+43.0,Sports & Outdoors,257.82549735782806,1.0,4,1.0,Express
+29.0,Packages),296.10970410485663,10.0,5,5.0,No Preference
+28.0,Packages),345.07679008977675,7.0,5,5.0,No Preference
+33.0,Sports & Outdoors,390.1893012609079,4.0,3,8.0,No Preference
+27.0,Animal Feed,274.5864872532853,7.0,2,7.0,No Preference
+40.0,Home Appliances,182.90476653145993,7.0,5,10.0,Express
+33.0,Books,322.9647664081398,6.0,4,7.0,Express
+33.0,Beauty & Personal Care,260.0934971444052,7.0,1,5.0,Standard
+34.0,Sports & Outdoors,475.84063825542864,2.0,3,1.0,Standard
+34.0,Beauty & Personal Care,70.99826465500732,8.0,5,6.0,Express
+20.0,Mobile Accessories,245.94373132450787,7.0,4,8.0,No Preference
+38.0,Food & Beverages,217.04166020197954,6.0,3,7.0,No Preference
+48.0,Sports & Outdoors,312.4708721046653,4.0,5,4.0,Express
+31.0,Furniture,437.5276211142385,4.0,5,10.0,Standard
+27.0,Books,205.93020418828215,5.0,3,9.0,Express
+27.0,Groceries,124.28064255902373,4.0,1,1.0,No Preference
+26.0,Electronics,320.62536144590194,4.0,4,4.0,Standard
+30.0,Sports & Outdoors,423.95476849151146,10.0,5,7.0,No Preference
+31.0,Packages),217.19700581212163,3.0,5,6.0,No Preference
+40.0,Gardening & Outdoors,256.760265378677,4.0,4,8.0,Standard
+25.0,Toys & Games,209.50041046470395,7.0,3,4.0,No Preference
+16.0,Gardening & Outdoors,400.65586401669816,6.0,4,4.0,No Preference
+33.0,Books,144.9544004017376,8.0,2,8.0,No Preference
+30.0,Arts & Crafts,246.0665221832963,10.0,3,3.0,No Preference
+38.0,Packages),205.91341446643892,3.0,4,10.0,Standard
+41.0,Arts & Crafts,396.0774832606186,5.0,5,2.0,Standard
+44.0,Food & Beverages,338.11310745703696,12.0,1,9.0,No Preference
+18.0,Furniture,325.79748110000435,10.0,3,3.0,No Preference
+20.0,Toys & Games,199.920552792744,4.0,2,2.0,No Preference
+27.0,Health Supplements,208.85806937012111,5.0,5,3.0,Standard
+47.0,Clothing,404.0687525925215,5.0,2,6.0,No Preference
+27.0,Baby Products,429.61369337636273,10.0,1,7.0,Express
+35.0,Animal Feed,326.30124769615827,8.0,3,3.0,No Preference
+40.0,Health Supplements,227.72483246441067,6.0,5,7.0,No Preference
+20.0,Home Appliances,178.2615439347161,5.0,1,6.0,Express
+29.0,Hotels,174.09253043062267,4.0,3,2.0,Express
+17.0,Furniture,318.18501364520023,8.0,4,3.0,No Preference
+20.0,Software & Apps,192.61537372254335,8.0,1,1.0,Express
+29.0,Health Care,202.21847769004196,4.0,5,6.0,Standard
+39.0,Baby Products,134.1671050443951,11.0,4,10.0,Express
+24.0,Sports & Outdoors,283.01832575554045,6.0,4,5.0,Standard
+28.0,Groceries,149.00754885886187,5.0,3,3.0,Standard
+49.0,Toys & Games,158.0345980938312,12.0,4,4.0,Express
+31.0,Groceries,265.37710890825423,4.0,1,7.0,No Preference
+26.0,Books,230.28744901487042,4.0,2,10.0,Standard
+31.0,Books,238.37404740007935,10.0,5,9.0,Standard
+24.0,Health Care,291.8185239108845,8.0,1,2.0,No Preference
+22.0,Mobile Accessories,348.2367320124804,8.0,2,1.0,No Preference
+18.0,Home Appliances,342.16893084916217,4.0,3,9.0,No Preference
+22.0,Travel & Leisure (Flights,336.9112530319667,5.0,2,10.0,Standard
+44.0,Gardening & Outdoors,408.8643943080616,5.0,2,7.0,Standard
+43.0,Furniture,159.61653807949034,12.0,5,3.0,Standard
+24.0,Gardening & Outdoors,391.2274692068886,10.0,3,6.0,No Preference
+38.0,Home Appliances,188.93599950312463,5.0,5,2.0,Standard
+21.0,Baby Products,316.18853337529015,10.0,2,2.0,Express
+37.0,Electronics,40.33294748885437,0.0,4,9.0,Standard
+27.0,Office Supplies,313.5594773640063,6.0,3,10.0,Standard
+34.0,Food & Beverages,352.12422583892055,5.0,2,1.0,Express
+44.0,Electronics,307.92587148616815,8.0,2,3.0,Express
+31.0,Mobile Accessories,483.6328599542594,8.0,4,10.0,Standard
+27.0,Electronics,273.446682691421,8.0,1,3.0,Express
+26.0,Gardening & Outdoors,389.88030316523646,6.0,1,3.0,Standard
+19.0,Groceries,306.6559624246798,8.0,2,7.0,Express
+38.0,Sports & Outdoors,393.9992143548292,7.0,5,4.0,No Preference
+49.0,Luxury Goods,256.12723305545154,9.0,3,1.0,No Preference
+44.0,Electronics,241.16024858811056,8.0,3,10.0,No Preference
+27.0,Toys & Games,262.0975846134028,2.0,4,4.0,Express
+38.0,Office Supplies,316.7449779988526,8.0,3,6.0,Standard
+45.0,Food & Beverages,240.25096448640787,4.0,1,2.0,No Preference
+39.0,Sports & Outdoors,402.7223045259556,9.0,1,9.0,No Preference
+46.0,Animal Feed,262.79704871200954,7.0,4,9.0,Express
+25.0,Gardening & Outdoors,256.08875885005165,7.0,1,4.0,Express
+38.0,Luxury Goods,261.2601504349577,6.0,2,10.0,Standard
+26.0,Food & Beverages,400.9627007937903,7.0,4,6.0,Standard
+32.0,Travel & Leisure (Flights,171.59127983145115,1.0,2,9.0,Standard
+50.0,Hotels,334.1064979534816,0.0,2,8.0,Standard

@@ -1,4 +1,4 @@
-# EchoData — Synthetic Data for Data protectoin
+# EchoData — Synthetic Data for Data Protection
 
 A cross-platform web GUI for generating privacy-preserving synthetic data and comparing it against the original using machine learning.
 

@@ -1,4 +1,4 @@
-# ◈ EchoData — Synthetic Data Studio
+# EchoData — Synthetic Data for Data protectoin
 
 A cross-platform web GUI for generating privacy-preserving synthetic data and comparing it against the original using machine learning.
 
@@ -24,11 +24,3 @@ Then open **http://localhost:5111** if it doesn't open automatically.
 2. **Configure** — Adjust the privacy budget (ε) and number of synthetic rows.
 3. **Generate** — The ShatteredSynth engine decomposes your data into noisy statistical fragments and reassembles synthetic rows.
 4. **Compare** — Train Random Forest models on both datasets to verify predictive patterns are preserved.
-
-## Features
-
-- **Works with any CSV** — no hardcoded column names
-- **Privacy controls** — adjustable ε (differential privacy budget)
-- **Auto ML comparison** — pick any target column; auto-selects regression or classification
-- **Download** — get the synthetic CSV at any point
-- **No tkinter needed** — runs in your browser via Flask
